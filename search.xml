@@ -13,6 +13,63 @@
 </font>]]></content>
   </entry>
   <entry>
+    <title>LeetCode674.最长连续递增序列</title>
+    <url>/2021/01/24/LeetCode674-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>给定一个未经排序的整数数组，找到最长且 <strong>连续递增的子序列</strong>，并返回该序列的长度。</p>
+<a id="more"></a>
+
+
+
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>思路：贪心</p>
+<p>说明：连续说明不能跳越的得到数字。</p>
+<p>证明：</p>
+<ul>
+<li><p>最优子结构：</p>
+<p>假设存在一个最长的连续递增子序列，则其可能的性质：</p>
+<p>如果往此序列的左边或者右边加上符合条件的元素，它仍然还是最长的连续递增子序列，</p>
+<p>这暗示我们求出子序列的首和尾坐标就可以得到长度，为什么是首和尾？</p>
+<p>因为能够称为最长的连续递增子序列，说明首元素的左边一个元素必定不满足递增条件，也就是要比首元素大，尾元素也能从相应的规则里获知。</p>
+<p>从首尾元素的特殊以及连续子序列不能跳跃我们就能把整个数组分成若干个序列，每次记录首尾坐标和长度等信息，如果大于上一次记录的就替代，否则丢弃，最终就可以得到最长的连续递增子序列。</p>
+</li>
+<li><p>贪心准则：如果下一个元素满足条件就加入子序列中，并更新长度。</p>
+</li>
+</ul>
+<p>代码：（题目只要长度，就只记录了长度信息）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">findLengthOfLCIS</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> len=nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">if</span>(len==<span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> res=<span class="number">1</span>,temp=<span class="number">1</span>;<span class="comment">//初始情况下，首尾元素重叠，也就是只有1个长度的子序列。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;len<span class="number">-1</span>;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&gt;nums[i])&#123;</span><br><span class="line">                temp++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&lt;nums[i])&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp&gt;res)</span><br><span class="line">                res=temp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>LeetCode刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《陶哲轩实分析》读书笔记</title>
+    <url>/2021/01/24/%E3%80%8A%E9%99%B6%E5%93%B2%E8%BD%A9%E5%AE%9E%E5%88%86%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>假期阅读，为复习微积分等课程做准备。</p>
+<a id="more"></a>
+
+
+
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>[toc]</p>
+<h3 id="第二章-自然数"><a href="#第二章-自然数" class="headerlink" title="第二章 自然数"></a>第二章 自然数</h3><h4 id="Peano公理"><a href="#Peano公理" class="headerlink" title="Peano公理"></a>Peano公理</h4><ul>
+<li>0是一个自然数。</li>
+<li>若n是自然数，则n++也是自然数。</li>
+<li>0不是任何自然数的后继。</li>
+<li>不同的自然数具有不同的后继者。</li>
+<li>若P(n)是关于自然数的一个性质，若P(0)是真的，并且假设P(n)是真的情况下P(n++)也是真的，那么对于每一个自然数P(n)都是真的。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于人之间关系的一些想法</title>
     <url>/2021/01/24/%E5%85%B3%E4%BA%8E%E4%BA%BA%E4%B9%8B%E9%97%B4%E5%85%B3%E7%B3%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>一些辗转反侧的痛苦</p>
@@ -80,7 +137,8 @@
         <category>胡思乱想</category>
       </categories>
       <tags>
-        <tag>人 思考</tag>
+        <tag>人</tag>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
