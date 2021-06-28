@@ -749,6 +749,9 @@
 <li><p>Excel调换某行、某几行的位置：</p>
 <p>选择内容并且十字准心出现后按shift拖动调换</p>
 </li>
+<li><p>“hexo s”命令未出现错误 “hexo d”命令部署博客失败：</p>
+<p><img src="/2021/06/02/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/image-20210628202801200.png" alt="image-20210628202801200"></p>
+</li>
 <li><p>未完待续</p>
 </li>
 </ul>
@@ -1697,8 +1700,8 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
         <category>胡思乱想</category>
       </categories>
       <tags>
-        <tag>思考</tag>
         <tag>人</tag>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
