@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!--pjax：防止跳转页面音乐暂停-->
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/maomi-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/maomi-16x16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://zhY396.github.io').hostname,
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"hide","padding":18,"offset":12,"onmobile":true},
+    copycode: {"enable":true,"show_result":true,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="引言软件测试双语课程复习">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软件测试复习">
+<meta property="og:url" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/index.html">
+<meta property="og:site_name" content="Hui">
+<meta property="og:description" content="引言软件测试双语课程复习">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628162708964.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628170059982.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172108276.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172323203.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172410628.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172504917.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172631973.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172849851.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171850562.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173133109.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171943331.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173523039.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173736527.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173835503.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174154295.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174219711.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174331393.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174745217.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174936959.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175705411.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175831278.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175943121.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628180038432.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628181053256.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200428042.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200659134.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201325000.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201352265.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/35.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200834263.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200907278.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200939857.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201003792.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201018077.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628195155177.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194910298.png">
+<meta property="og:image" content="https://images0.cnblogs.com/i/638228/201407/301735568216391.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628182245900.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190912318.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190932006.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628191009953.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192111950.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192148651.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193048475.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193425661.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193853008.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194033207.png">
+<meta property="article:published_time" content="2021-06-28T03:14:48.000Z">
+<meta property="article:modified_time" content="2021-06-28T12:14:22.115Z">
+<meta property="article:author" content="Hui">
+<meta property="article:tag" content="软件测试">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628162708964.png">
+
+<link rel="canonical" href="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>软件测试复习 | Hui</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  
+  <!-- 爆炸效果 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/firework.js"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hui</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Hui">
+      <meta itemprop="description" content="Hui的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hui">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          软件测试复习
+        </h1>
+
+        <div class="post-meta">
+			
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-06-28 11:14:48 / 修改时间：20:14:22" itemprop="dateCreated datePublished" datetime="2021-06-28T11:14:48+08:00">2021-06-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index">
+                    <span itemprop="name">学习记录</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>835</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>软件测试双语课程复习</p>
+<a id="more"></a>
+<p>[TOC]</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h3><ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628162708964.png" alt="image-20210628162708964" style="zoom: 20%;"></li>
+<li>Bug程序：<ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628170059982.png" alt="image-20210628170059982"></li>
+</ul>
+</li>
+</ul>
+<h3 id="测试名词"><a href="#测试名词" class="headerlink" title="测试名词"></a>测试名词</h3><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172108276.png" alt="image-20210628172108276" style="zoom: 20%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172323203.png" alt="image-20210628172323203" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172410628.png" alt="image-20210628172410628" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172504917.png" alt="image-20210628172504917" style="zoom: 15%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172631973.png" alt="image-20210628172631973" style="zoom:25%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172849851.png" alt="image-20210628172849851" style="zoom:25%;"></p>
+<ul>
+<li><p>测试层次和分类</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171850562.png" alt="image-20210628171850562" style="zoom: 20%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173133109.png" alt="image-20210628173133109" style="zoom:25%;"></p>
+</li>
+</ul>
+<ul>
+<li><p>alpha and beta</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171943331.png" alt="image-20210628171943331" style="zoom: 30%;"></p>
+</li>
+</ul>
+<h3 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h3><ul>
+<li>随机测试Gtest、Randoop、Monkey</li>
+<li>组合测试PICT</li>
+<li>Web功能测试Selenium IDE、WebDriver、PICT+Selenium</li>
+<li>Web性能测试JMeter</li>
+</ul>
+<h3 id="Evaluate-test-adequacy"><a href="#Evaluate-test-adequacy" class="headerlink" title="Evaluate test adequacy"></a>Evaluate test adequacy</h3><ul>
+<li><p>CFG</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173523039.png" alt="image-20210628173523039" style="zoom:50%;"></p>
+</li>
+<li><p>结构测试</p>
+<ul>
+<li><p>语句覆盖：覆盖结点</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173736527.png" alt="image-20210628173736527" style="zoom:50%;"></p>
+</li>
+<li><p>分支覆盖：覆盖边，强于语句覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173835503.png" alt="image-20210628173835503"></p>
+</li>
+<li><p>executable</p>
+</li>
+</ul>
+</li>
+<li><p>逻辑测试</p>
+<ul>
+<li><p>判定覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174154295.png" alt="image-20210628174154295"></p>
+</li>
+<li><p>条件覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174219711.png" alt="image-20210628174219711" style="zoom:33%;"></p>
+</li>
+<li><p>条件组合覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174331393.png" alt="image-20210628174331393"></p>
+</li>
+<li><p>MCDC覆盖：独立影响最终布尔值的单个布尔表达式数量/总布尔表达式数量</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174745217.png" alt="image-20210628174745217"></p>
+</li>
+<li><p>强弱关系</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174936959.png" alt="image-20210628174936959" style="zoom: 25%;"></p>
+</li>
+</ul>
+</li>
+<li><p>路径测试</p>
+<ul>
+<li><p>路径覆盖：</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175705411.png" alt="image-20210628175705411"></p>
+</li>
+<li><p>等价类划分解决循环</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175831278.png" alt="image-20210628175831278" style="zoom:25%;"></p>
+</li>
+<li><p>基本路径测试</p>
+<p>注意生成基本路径的时候，新的路径要相对前面的基本路径独立</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175943121.png" alt="image-20210628175943121" style="zoom:25%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628180038432.png" alt="image-20210628180038432" style="zoom:25%;"></p>
+</li>
+</ul>
+</li>
+<li><p>数据流测试</p>
+<ul>
+<li>du-path:从定义a到使用v的一条清晰的路径</li>
+<li>例子</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628181053256.png" alt="image-20210628181053256"></p>
+</li>
+</ul>
+<h3 id="Mutation-Testing"><a href="#Mutation-Testing" class="headerlink" title="Mutation Testing"></a>Mutation Testing</h3><ul>
+<li><p>定义</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200428042.png" alt="定义"></p>
+</li>
+<li><p>Mutate</p>
+<ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200659134.png" alt="image-20210628200659134"></li>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201325000.png" alt="image-20210628201325000" style="zoom:20%;"></li>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201352265.png" alt="image-20210628201352265" style="zoom:20%;"></li>
+</ul>
+</li>
+<li><p>基于故障的变异测试（降低开销）中的变异体强弱关系</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/35.png" alt="35" style="zoom:33%;"></p>
+</li>
+<li><p>过程：</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200834263.png" alt="image-20210628200834263" style="zoom: 25%;"></p>
+</li>
+<li><p>等价变异体</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200907278.png" alt="image-20210628200907278" style="zoom: 25%;"></p>
+</li>
+<li><p>变异得分</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200939857.png" alt="image-20210628200939857" style="zoom:25%;"></p>
+</li>
+<li><p>原理</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201003792.png" alt="image-20210628201003792" style="zoom:25%;"></p>
+</li>
+<li><p>总结</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201018077.png" alt="image-20210628201018077" style="zoom:25%;"></p>
+</li>
+</ul>
+<h3 id="模糊知识点"><a href="#模糊知识点" class="headerlink" title="模糊知识点"></a>模糊知识点</h3><ul>
+<li><p>决策表（Model-based Testing)</p>
+<ul>
+<li><p>步骤</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628195155177.png" alt="image-20210628195155177" style="zoom:33%;"></p>
+</li>
+<li><p>例子</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194910298.png" alt="image-20210628194910298"></p>
+</li>
+</ul>
+</li>
+<li><p>功能测试（Black-box Testing）方法：探索式测试</p>
+<p><img src="https://images0.cnblogs.com/i/638228/201407/301735568216391.png" alt="img" style="zoom: 50%;"></p>
+</li>
+<li><p>Performance Tesing</p>
+<ul>
+<li><p>基准测试：</p>
+<p>将新系统的性能与一个已知的参考标准进行比较。如果新系<br>究的性能弱于已知的参考标准,那么新系统就被认为不合格。</p>
+</li>
+<li><p>配置测试</p>
+<p>确认系统在不同的配置条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
+</li>
+<li><p>负载测试</p>
+<p>确认系统在不同的正常负载条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
+</li>
+<li><p>压力测试</p>
+<p>确认系统在异常或超岀极限的条件下性能的可接受性。例如<br>资源减少至最低限度以下、超过预期的用户同时访问等等。</p>
+</li>
+<li><p>竞争测试</p>
+<p>确认系统是否能处理多个并发用户对同一资源的竞争性请求。</p>
+</li>
+</ul>
+</li>
+<li><p>Cyclomatic Complexity: CC=#V-#E+2</p>
+</li>
+</ul>
+<h3 id="慕课习题"><a href="#慕课习题" class="headerlink" title="慕课习题"></a>慕课习题</h3><ul>
+<li>等价类划分</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628182245900.png" alt="image-20210628182245900"></p>
+<ul>
+<li>测试基础基本知识检测</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190912318.png" alt="image-20210628190912318" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190932006.png" alt="image-20210628190932006" style="zoom: 33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628191009953.png" alt="image-20210628191009953" style="zoom: 50%;"></p>
+<ul>
+<li><p>测试充分性单元测试</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192111950.png" alt="image-20210628192111950" style="zoom: 33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192148651.png" alt="image-20210628192148651" style="zoom:33%;"></p>
+</li>
+<li><p>期末测试</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193048475.png" alt="image-20210628193048475" style="zoom:50%;"></p>
+</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193425661.png" alt="image-20210628193425661" style="zoom: 45%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193853008.png" alt="image-20210628193853008" style="zoom:35%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194033207.png" alt="image-20210628194033207" style="zoom:33%;"></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Hui
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://zhy396.github.io/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/" title="软件测试复习">https://zhy396.github.io/2021/06/28/软件测试复习/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/" rel="tag"># 软件测试</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/06/27/%E7%AE%A1%E7%90%86%E5%AD%A6%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/" rel="prev" title="管理学原理复习">
+      <i class="fa fa-chevron-left"></i> 管理学原理复习
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/06/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0/" rel="next" title="数据库系统复习">
+      数据库系统复习 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内容"><span class="nav-number">2.</span> <span class="nav-text">内容</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Bug"><span class="nav-number">2.1.</span> <span class="nav-text">Bug</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试名词"><span class="nav-number">2.2.</span> <span class="nav-text">测试名词</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试工具"><span class="nav-number">2.3.</span> <span class="nav-text">测试工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Evaluate-test-adequacy"><span class="nav-number">2.4.</span> <span class="nav-text">Evaluate test adequacy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mutation-Testing"><span class="nav-number">2.5.</span> <span class="nav-text">Mutation Testing</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#模糊知识点"><span class="nav-number">2.6.</span> <span class="nav-text">模糊知识点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#慕课习题"><span class="nav-number">2.7.</span> <span class="nav-text">慕课习题</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Hui"
+      src="/images/avatar.jpeg">
+  <p class="site-author-name" itemprop="name">Hui</p>
+  <div class="site-description" itemprop="description">Hui的博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/zhY396" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;zhY396" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:zhy396@foxmail.com" title="E-Mail → mailto:zhy396@foxmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1422955304&auto=0&height=66"></iframe>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hui</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">22k</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      element.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: 'c10dbbdc673ed8578499',
+      clientSecret: '3b07a6a6d160bf2bde20c2090c26db61d38f06ca',
+      repo: 'zhY396.github.io',
+      owner: 'zhY396',
+      admin: ['zhY396'],
+      id: 'a7760b6111e89c58748a4ad1d6dc4880',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+    </div>
+</body>
+</html>
