@@ -564,7 +564,6 @@
 ]]></content>
       <categories>
         <category>学习记录</category>
-        <category>复习</category>
       </categories>
       <tags>
         <tag>人工智能</tag>
@@ -785,6 +784,259 @@ SQL实现：Foreign Key
       </categories>
       <tags>
         <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件测试复习</title>
+    <url>/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>软件测试双语课程复习</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h3><ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628162708964.png" alt="image-20210628162708964" style="zoom: 20%;"></li>
+<li>Bug程序：<ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628170059982.png" alt="image-20210628170059982" style="zoom: 33%;"></li>
+</ul>
+</li>
+</ul>
+<h3 id="测试名词"><a href="#测试名词" class="headerlink" title="测试名词"></a>测试名词</h3><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172108276.png" alt="image-20210628172108276" style="zoom: 20%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172323203.png" alt="image-20210628172323203" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172410628.png" alt="image-20210628172410628" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172504917.png" alt="image-20210628172504917" style="zoom: 15%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172631973.png" alt="image-20210628172631973" style="zoom:25%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172849851.png" alt="image-20210628172849851" style="zoom:25%;"></p>
+<ul>
+<li><p>测试层次和分类</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171850562.png" alt="image-20210628171850562" style="zoom: 20%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630094316545.png" alt="image-20210630094316545" style="zoom: 33%;"></p>
+</li>
+</ul>
+<ul>
+<li><p>alpha and beta</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171943331.png" alt="image-20210628171943331" style="zoom: 30%;"></p>
+</li>
+</ul>
+<h3 id="输入域测试"><a href="#输入域测试" class="headerlink" title="输入域测试"></a>输入域测试</h3><ul>
+<li><p>等价类划分标准</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630085839080.png" alt="image-20210630085839080" style="zoom: 25%;"></p>
+</li>
+<li><p>三角形等价类例子</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090317814.png" alt="image-20210630090317814" style="zoom: 25%;"></p>
+</li>
+<li><p>边界值分析例子</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090408145.png" alt="image-20210630090408145" style="zoom: 25%;"></p>
+</li>
+<li><p>边界值分析要考虑的值[min,max]</p>
+<p>min- min min+ nom  max- max max+</p>
+</li>
+<li><p>random tesing 的问题</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090701463.png" alt="image-20210630090701463" style="zoom:25%;"></p>
+</li>
+<li><p>模糊测试</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090754335.png" alt="image-20210630090754335" style="zoom:25%;"></p>
+</li>
+<li><p>随机测试错误的分布情况</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090912433.png" alt="image-20210630090912433" style="zoom:25%;"></p>
+</li>
+<li><p>adaptive random testing</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091212188.png" alt="image-20210630091212188" style="zoom:25%;"></p>
+<p>Distance</p>
+<p>sampling:enlarged input domain</p>
+</li>
+<li><p>不连续输入域的随机测试,anti-random testing</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091612288.png" alt="image-20210630091612288" style="zoom:25%;"></p>
+</li>
+</ul>
+<p>​             example:</p>
+<p>​                <img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091657319.png" alt="image-20210630091657319" style="zoom:25%;"></p>
+<p>​            Hamming distance:The number of inconsistent characters</p>
+<h3 id="combinational-testing"><a href="#combinational-testing" class="headerlink" title="combinational testing"></a>combinational testing</h3><ul>
+<li><p>Solve the problem that the input domain testing does not consider the input output relationship</p>
+</li>
+<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630092134141.png" alt="image-20210630092134141" style="zoom:25%;"></p>
+</li>
+<li><p>All combination:All test input pairs must occur at least once</p>
+</li>
+<li><p>Pair-wise testing:All test inputs are paired in pairs, and each pair of data appears at least once</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093108024.png" alt="image-20210630093108024" style="zoom:20%;"></p>
+</li>
+<li><p>T-way combination testing:T paired test inputs occur at least once</p>
+<p>the more the T,the more the number of combination</p>
+<p>if T=all input ,T-way combination = all combination</p>
+</li>
+<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093027700.png" alt="image-20210630093027700" style="zoom:25%;"></p>
+</li>
+<li><p>Consider the special cases of input domain</p>
+<p>Default options of input domain:</p>
+<p>One default option:</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093436411.png" alt="image-20210630093436411" style="zoom:25%;"> </p>
+<p>two defalut options:</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093548534.png" alt="image-20210630093548534" style="zoom:25%;"></p>
+</li>
+<li><p>constraint in Testing</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093805383.png" alt="image-20210630093805383" style="zoom: 33%;"></p>
+</li>
+<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093931646.png" alt="image-20210630093931646" style="zoom:25%;"></p>
+</li>
+</ul>
+<h3 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h3><ul>
+<li>随机测试Gtest、Randoop、Monkey</li>
+<li>组合测试PICT</li>
+<li>Web功能测试Selenium IDE、WebDriver、PICT+Selenium</li>
+<li>Web性能测试JMeter</li>
+</ul>
+<h3 id="Evaluate-test-adequacy"><a href="#Evaluate-test-adequacy" class="headerlink" title="Evaluate test adequacy"></a>Evaluate test adequacy</h3><ul>
+<li><p>CFG</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173523039.png" alt="image-20210628173523039" style="zoom:50%;"></p>
+</li>
+<li><p>结构测试</p>
+<ul>
+<li><p>语句覆盖：覆盖结点</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173736527.png" alt="image-20210628173736527" style="zoom:50%;"></p>
+</li>
+<li><p>分支覆盖：覆盖边，强于语句覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173835503.png" alt="image-20210628173835503"></p>
+</li>
+<li><p>executable</p>
+</li>
+</ul>
+</li>
+<li><p>逻辑测试</p>
+<ul>
+<li><p>判定覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174154295.png" alt="image-20210628174154295"></p>
+</li>
+<li><p>条件覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174219711.png" alt="image-20210628174219711" style="zoom:33%;"></p>
+</li>
+<li><p>条件组合覆盖</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174331393.png" alt="image-20210628174331393"></p>
+</li>
+<li><p>MCDC覆盖：独立影响最终布尔值的单个布尔表达式数量/总布尔表达式数量</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174745217.png" alt="image-20210628174745217"></p>
+</li>
+<li><p>强弱关系</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174936959.png" alt="image-20210628174936959" style="zoom: 25%;"></p>
+</li>
+</ul>
+</li>
+<li><p>路径测试</p>
+<ul>
+<li><p>路径覆盖：</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175705411.png" alt="image-20210628175705411"></p>
+</li>
+<li><p>等价类划分解决循环</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175831278.png" alt="image-20210628175831278" style="zoom:25%;"></p>
+</li>
+<li><p>基本路径测试</p>
+<p>注意生成基本路径的时候，新的路径要相对前面的基本路径独立</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175943121.png" alt="image-20210628175943121" style="zoom:25%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628180038432.png" alt="image-20210628180038432" style="zoom:25%;"></p>
+</li>
+</ul>
+</li>
+<li><p>数据流测试</p>
+<ul>
+<li>du-path:从定义a到使用v的一条清晰的路径</li>
+<li>例子</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628181053256.png" alt="image-20210628181053256"></p>
+</li>
+</ul>
+<h3 id="Mutation-Testing"><a href="#Mutation-Testing" class="headerlink" title="Mutation Testing"></a>Mutation Testing</h3><ul>
+<li><p>定义</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200428042.png" alt="定义"></p>
+</li>
+<li><p>Mutate</p>
+<ul>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200659134.png" alt="image-20210628200659134"></li>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201325000.png" alt="image-20210628201325000" style="zoom:20%;"></li>
+<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201352265.png" alt="image-20210628201352265" style="zoom:20%;"></li>
+</ul>
+</li>
+<li><p>基于故障的变异测试（降低开销）中的变异体强弱关系</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/35.png" alt="35" style="zoom: 25%;"></p>
+</li>
+<li><p>过程：</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200834263.png" alt="image-20210628200834263" style="zoom: 25%;"></p>
+</li>
+<li><p>等价变异体</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200907278.png" alt="image-20210628200907278" style="zoom: 25%;"></p>
+</li>
+<li><p>变异得分</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200939857.png" alt="image-20210628200939857" style="zoom:25%;"></p>
+</li>
+<li><p>原理</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201003792.png" alt="image-20210628201003792" style="zoom:25%;"></p>
+</li>
+<li><p>总结</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201018077.png" alt="image-20210628201018077" style="zoom:25%;"></p>
+</li>
+</ul>
+<h3 id="模糊知识点"><a href="#模糊知识点" class="headerlink" title="模糊知识点"></a>模糊知识点</h3><ul>
+<li><p>决策表（Model-based Testing)</p>
+<ul>
+<li><p>步骤</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628195155177.png" alt="image-20210628195155177" style="zoom:33%;"></p>
+</li>
+<li><p>例子</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194910298.png" alt="image-20210628194910298"></p>
+</li>
+</ul>
+</li>
+<li><p>功能测试（Black-box Testing）方法：探索式测试</p>
+<p><img src="https://images0.cnblogs.com/i/638228/201407/301735568216391.png" alt="img" style="zoom: 50%;"></p>
+</li>
+<li><p>Performance Tesing</p>
+<ul>
+<li><p>基准测试：</p>
+<p>将新系统的性能与一个已知的参考标准进行比较。如果新系<br>究的性能弱于已知的参考标准,那么新系统就被认为不合格。</p>
+</li>
+<li><p>配置测试</p>
+<p>确认系统在不同的配置条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
+</li>
+<li><p>负载测试</p>
+<p>确认系统在不同的正常负载条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
+</li>
+<li><p>压力测试</p>
+<p>确认系统在异常或超岀极限的条件下性能的可接受性。例如<br>资源减少至最低限度以下、超过预期的用户同时访问等等。</p>
+</li>
+<li><p>竞争测试</p>
+<p>确认系统是否能处理多个并发用户对同一资源的竞争性请求。</p>
+</li>
+</ul>
+</li>
+<li><p>Cyclomatic Complexity: CC=#V-#E+2</p>
+</li>
+</ul>
+<h3 id="慕课习题"><a href="#慕课习题" class="headerlink" title="慕课习题"></a>慕课习题</h3><ul>
+<li>等价类划分</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628182245900.png" alt="image-20210628182245900"></p>
+<ul>
+<li>测试基础基本知识检测</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190912318.png" alt="image-20210628190912318" style="zoom:33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190932006.png" alt="image-20210628190932006" style="zoom: 33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628191009953.png" alt="image-20210628191009953" style="zoom: 50%;"></p>
+<ul>
+<li><p>测试充分性单元测试</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192111950.png" alt="image-20210628192111950" style="zoom: 33%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192148651.png" alt="image-20210628192148651" style="zoom:33%;"></p>
+</li>
+<li><p>期末测试</p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193048475.png" alt="image-20210628193048475" style="zoom:50%;"></p>
+</li>
+</ul>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193425661.png" alt="image-20210628193425661" style="zoom: 45%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193853008.png" alt="image-20210628193853008" style="zoom:35%;"></p>
+<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194033207.png" alt="image-20210628194033207" style="zoom:33%;"></p>
+<p>[toc]</p>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>软件测试</tag>
       </tags>
   </entry>
   <entry>
@@ -1085,10 +1337,248 @@ SQL实现：Foreign Key
 ]]></content>
       <categories>
         <category>学习记录</category>
-        <category>复习</category>
       </categories>
       <tags>
         <tag>管理学原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>市场营销复习</title>
+    <url>/2021/06/25/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>市场营销课程复习总结知识点</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="市场营销基础"><a href="#市场营销基础" class="headerlink" title="市场营销基础"></a>市场营销基础</h3><ul>
+<li>市场：卖主、买主和双方交易规则的集合</li>
+<li>市场营销：以满足人民日益增长的美好生活需要为目的，通过市场变潜在交换为现实交换的一系列活动和过程</li>
+<li>营销观点转变<ul>
+<li>传统观点：重生产轻营销</li>
+<li>营销观点：重需求</li>
+<li>客户观点：重客户</li>
+<li>整体营销观点：针对个人客户的需求</li>
+</ul>
+</li>
+<li>顾客让渡价值：顾客总价值-顾客总成本</li>
+</ul>
+<h3 id="市场营销环境分析"><a href="#市场营销环境分析" class="headerlink" title="市场营销环境分析"></a>市场营销环境分析</h3><ul>
+<li>宏观环境：PEST分析 政治、经济、社会、技术</li>
+<li><p>微观环境：波特五力模型：行业竞争状态取决于下面的竞争势力</p>
+<ul>
+<li><p>供应商的议价能力</p>
+</li>
+<li><p>购买者的议价能力</p>
+</li>
+<li><p>新进入者的威胁</p>
+</li>
+<li><p>替代品的威胁</p>
+</li>
+<li><p>同行业竞争者的竞争程度</p>
+</li>
+</ul>
+</li>
+<li>SWOT分析，即基于内外部竞争环境和竞争条件下的态势分析，就是将与研究对象密切相关的各种主要内部<strong>优势、劣势和外部的机会和威胁</strong>等，通过调查列举出来，并依照<a href="https://baike.baidu.com/item/矩阵/18069">矩阵</a>形式排列，然后用系统分析的思想，把各种因素相互匹配起来加以分析，从中得出一系列相应的结论，而结论通常带有一定的决策性。</li>
+<li><p>消费者购买影响因素</p>
+<ul>
+<li>文化、亚文化</li>
+<li>社会：参照、家庭、社会角色</li>
+<li>个人因素：年龄性别、职业和经济状况、生活方式和自我观念</li>
+<li>心理因素：动机、知觉、学习、信念和态度</li>
+</ul>
+</li>
+<li>知觉的定义：<strong>感觉器官与大脑</strong>对<strong>刺激</strong>做出<strong>解释、分析和整合</strong>的创造性过程</li>
+<li><p>态度的定义：<strong>一个人</strong>对某些事物或观念<strong>长期</strong>持有的<strong>好与坏的评价</strong>和由此导向的<strong>行为倾向</strong></p>
+</li>
+<li><p>消费者购买决策过程</p>
+<ul>
+<li>引起需求</li>
+<li>收集信息</li>
+<li>评价方案</li>
+<li>决定购买</li>
+<li>购后感觉和行为</li>
+</ul>
+</li>
+</ul>
+<h3 id="市场定位战略"><a href="#市场定位战略" class="headerlink" title="市场定位战略"></a>市场定位战略</h3><ul>
+<li>STP：目标营销战略<ul>
+<li>市场细分</li>
+<li>选择目标市场</li>
+<li>市场定位</li>
+</ul>
+</li>
+<li>市场细分<ul>
+<li>定义：就是指企业按照某种标准将市场上的顾客划分成若干个顾客群，每一个顾客群构成一个子市场，不同子市场之间，需求存在着明显的差别。</li>
+<li>维度：<ul>
+<li>消费者市场：<ul>
+<li>地理细分</li>
+<li>人口细分</li>
+<li>心理细分</li>
+<li>行为细分</li>
+</ul>
+</li>
+<li>产业市场：<ul>
+<li>最终用户</li>
+<li>顾客规模</li>
+<li>顾客位置</li>
+<li>采购方式</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>有效标志：<ul>
+<li>可区分性：概念上区分</li>
+<li>可测量性：购买力和市场大小</li>
+<li>可进入性</li>
+<li>可营利性</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>目标市场：<ul>
+<li>定义：企业投其所好，为之服务的具有相似性的的顾客群</li>
+</ul>
+</li>
+<li><p>市场定位：</p>
+<ul>
+<li>定义：企业针对<strong>潜在顾客的心理</strong>进行<strong>营销设计，创立产品、品牌</strong>或企业在目标顾客心目中的某种形象或个性特征，保留深刻印象和独特位置，<strong>从而取得竞争优势</strong>。</li>
+</ul>
+</li>
+<li><p>波特竞争战略</p>
+<ul>
+<li><p><strong>总成本领先战略</strong></p>
+<p>降低成本</p>
+</li>
+<li><p><strong>差别化战略（differentiation）</strong></p>
+<p>服务差别化</p>
+</li>
+<li><p><strong>专一化战略（focus）</strong></p>
+<p>主攻某个特殊的顾客群</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="产品策略"><a href="#产品策略" class="headerlink" title="产品策略"></a>产品策略</h3><ul>
+<li>产品一般可以分为五个层次：<ul>
+<li>核心产品：是指产品能够提供给消费者的基本效用或益处，是消费者真正想要购买的基本效用或益处。</li>
+<li>基本产品：是产品在市场上出现时的具体物质形态，主要表现在品质、特征、式样、商标、包装等方面，是核心利益的物质载体。</li>
+<li>期望产品：就是顾客在购买产品前对所购产品的质量、使用方便程度、特点等方面的期望值。</li>
+<li>附加产品：是指由产品的生产者或经营者提供的购买者有需求的产品层次，主要是帮助用户更好地使用核心利益和服务。</li>
+<li>潜在产品：是在延伸产品层次之外，由企业提供能满足顾客潜在需求的产品层次，它主要是产品的一种增值服务。</li>
+</ul>
+</li>
+<li>产品生命周期：<ul>
+<li>导入期：新产品投入市场</li>
+<li>成长期：导入期的销售取得成功</li>
+<li>成熟期：市场需求趋于饱和</li>
+<li>衰退期：新产品和替代品的出现</li>
+</ul>
+</li>
+<li>产品组合：企业生产或销售的产品线（大类）和产品品种（小类）的组合。<ul>
+<li>宽度：产品线的多少</li>
+<li>长度：产品品种的多少</li>
+<li>深度：产品线内每种产品的规格、品种的多少</li>
+</ul>
+</li>
+</ul>
+<h3 id="价格策略"><a href="#价格策略" class="headerlink" title="价格策略"></a>价格策略</h3><ul>
+<li>定价影响因素：<ul>
+<li>定价目标</li>
+<li>定价成本</li>
+<li>市场需求</li>
+<li>竞争者的产品和价格</li>
+<li>企业整体营销战略和外部因素</li>
+</ul>
+</li>
+<li><p>定价方法：</p>
+<ul>
+<li>成本导向定价：以成本为依据</li>
+<li>需求导向定价法：市场需求和顾客感觉价值</li>
+<li>竞争导向定价法</li>
+</ul>
+</li>
+<li><p>定价策略</p>
+<ul>
+<li><p>新产品定价策略</p>
+<ul>
+<li><p>撇脂：最初阶段高价格</p>
+<ul>
+<li>需求缺乏弹性</li>
+<li>单位成本增加不抵消高价带来的利益</li>
+<li>独家经营，无竞争者</li>
+<li>高档产品的印象</li>
+</ul>
+</li>
+<li><p>渗透：最初阶段低价格</p>
+<ul>
+<li><p>需求敏感，低价刺激消费</p>
+</li>
+<li><p>成本随着经营降低</p>
+</li>
+<li><p>低价不会引起实际和潜在的竞争</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="传播策略"><a href="#传播策略" class="headerlink" title="传播策略"></a>传播策略</h3><ul>
+<li><p>促销组合：</p>
+<ul>
+<li><p>定义：根据企业需要，对广告、销售促进、人员推销、直复营销与公共关系等各种方式的适当选择和综合编配</p>
+</li>
+<li><p>构成：</p>
+<p>广告、销售促进、人员推销、直复营销与公共关系</p>
+</li>
+<li><p>影响因素：</p>
+<ul>
+<li>产品类型：消费者产品、产业产品</li>
+<li>推式和拉式策略</li>
+<li>促销目标</li>
+<li>产品生命周期阶段</li>
+<li>经济前景</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>广告分类：</p>
+<ul>
+<li>传统广告</li>
+<li>程序化广告：实时更新广告，精准投放</li>
+</ul>
+</li>
+<li><p>销售促进：</p>
+<ul>
+<li><p>除了人员推销、广告、宣传以外的刺激消费者购买和经销商销售的各种营销活动。</p>
+</li>
+<li><p>分类：</p>
+<p>​    1、一级SP：制造商对批发商的促俏；制造商对零售商的促销；制造商对消费者的促销；批发商对零售商的促销；批发商对消费者的促销；零售商对消费者的促销。一级SP的特点：单层次促销。</p>
+<p>​    2、二级SP：制造商对批发商对零售商的促销；制造商对零售商对消费者的促销；制造商对批发商对消费者的促销；批发商对零售商对消费者的促销。二级SP的特点：双层次促销。</p>
+<p>​    3、三级SP：制造商对批发商对零售商对消费者的促销。三级SP的特点：三层次促销。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="渠道策略"><a href="#渠道策略" class="headerlink" title="渠道策略"></a>渠道策略</h3><ul>
+<li>分销渠道：某种产品和服务在从生产者向消费者转移的过程中，取得这种产品和服务的所有权或帮助所有权转移的所有企业和个人。</li>
+<li>类型：<ul>
+<li>传统渠道系统：独立的生成者、批发商、零售商和消费者组成的分销渠道。</li>
+<li>整合渠道系统：渠道成员通过一体化整合形成的分销渠道系统。<ul>
+<li>垂直渠道</li>
+<li>水平渠道</li>
+<li>多渠道系统</li>
+</ul>
+</li>
+<li>O2O模式，线上促销、线上购买带动线下经营消费</li>
+<li>多渠道分销和去中介化</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>市场营销</tag>
       </tags>
   </entry>
   <entry>
