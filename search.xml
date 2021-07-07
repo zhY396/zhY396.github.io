@@ -19,7 +19,7 @@
         <category>琐事记录</category>
       </categories>
       <tags>
-        <tag>[object Object]</tag>
+        <tag>断舍离</tag>
       </tags>
   </entry>
   <entry>
@@ -780,7 +780,6 @@ SQL实现：Foreign Key
 ]]></content>
       <categories>
         <category>学习记录</category>
-        <category>复习</category>
       </categories>
       <tags>
         <tag>数据库</tag>
@@ -1630,7 +1629,13 @@ SQL实现：Foreign Key
 <p>登录github网页，在账号头像处（记录时处于右上方）单击，然后依次选择：</p>
 <p>setting - repository </p>
 </li>
-<li></li>
+<li><p>Hexo文章插入图片失效：</p>
+<p>中文名命名的图片失效，改为英文后成功，原因未知。</p>
+<p>该问题出现在数学一文档中。</p>
+</li>
+<li><p>Hexo渲染Latex在文章中记得加入：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">mathjax: true</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>未完待续</p>
 </li>
 </ul>
@@ -2176,7 +2181,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
         <category>琐事记录</category>
       </categories>
       <tags>
-        <tag>[object Object]</tag>
+        <tag>课程</tag>
       </tags>
   </entry>
   <entry>
@@ -2288,12 +2293,12 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
       </tags>
   </entry>
   <entry>
-    <title>数学一</title>
-    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学一高数笔记</p>
+    <title>数学二高等数学</title>
+    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学二高数笔记</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(23" alt="屏幕截图(23)">.png)</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(24" alt="屏幕截图(24)">.png)</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/1.png" alt="屏幕截图(23)"></p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/2.png" alt="屏幕截图(24)"></p>
 <h4 id="函数概念"><a href="#函数概念" class="headerlink" title="函数概念"></a>函数概念</h4><ol>
 <li>数集到数集的映射</li>
 <li>单值函数</li>
@@ -2316,7 +2321,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <li>几何层面，找到两条直线把函数图像包在其中即为有界。</li>
 <li>还可利用导数来判定有界</li>
 </ol>
-<h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>定义：<img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/image-20210222212431760.png" alt="image-20210222212431760" style="zoom: 33%;"></p>
+<h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>定义：<img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210222212431760.png" alt="image-20210222212431760" style="zoom: 33%;"></p>
 <p>注意：</p>
 <ol>
 <li>还可利用导数来判定单调性。</li>
@@ -2362,7 +2367,6 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 ]]></content>
       <categories>
         <category>考研</category>
-        <category>学习记录</category>
       </categories>
       <tags>
         <tag>高数</tag>
