@@ -1,10 +1,443 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>断舍离</title>
+    <url>/2021/07/08/%E6%96%AD%E8%88%8D%E7%A6%BB/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码不正确，请重新输入。" data-whm="文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="8130d414a3462df0c0b21e663e93ad85f23481d4b69f02192dc51105c006d39a">fe75e9f90837d31871e5503aa45a89ee5562dadfad55b5c5100ead8053f46fdf84a5fa17e621a46356190363770d12556671e02c64875c555e7d0cfd7871db022aa094b54f898ae830d67a349c8241ac0ebb6f5f08bda0b91a971701af93564af134be697fd603a479f839620012a8718959460e36f3062329b1b64da516a03cd83244ebe0e5be99fa5488bb1e74381681b9dfa0a63df5f18cbb4bbb22927c734f6eb9f89d7da79a63448fb2d622b0573165acdbdaa50c037d0055ad8bf73efe6c34dcf78bd507935378a31dd54795af8f9eaf43c3ef28fcefcdbccf504576f4b5758425b3de3cc26723771fb68c200a28f6265d494f3eb5353c62441b2449f14c89428797c0086fdbfd7a1b242e5d6fea08d336c01b538448fa0db00b964b12a2398d7e860ae4a3184f5bca7c89baa5258714b72882f4ec734d49809406384fbbbd03e4d3949ba79618415dc4e7fa87f57989317f9ae3211bd663f60e8b780a5c889f9c8878b77405a135f3a87c47f9561246ee857c2099cad21c2ace05cb8198cad1e22099a021f9d4c8b39d047a4018a049180e4c1f0aa33876196e422cb2797164cb29f731d74c1d415a7aa89a01788fb638bf1ba8332bc334bdac2d31eef80fe580ff388707edb374d42261dfa2f261a17dd24de16a9e9bea5ad471bd235452ce7292f9d0051b9af1a39c8db4d47ed9dbfe2cb00cd0ded2487f7d08da5182f8716b1baf745f2db7d40a64b066935a79275768b84047fa9ccc0e04ccd5f24191b5d7e52ed5cbe8c1afbcd53c187d920a8ca1a3e05c96b2c2fcffdae04c9c2c5250f391430fb43d400886a3a791fd45501897a26d90ac3c0581f007e689bbcace067113133a6352843c68afd41c41879718f75f55d8327d55dd5e623cdc68dccd427ca14a56f664796c4cfca676aab0a62b6cd368438c24b2e7d7e6300934a88288a1a1cde956f6648b9066da3520ba1c691d4133f0d8aad95a16560547f0b5b4b38b2d63d1514c3dda36955b9c3a977e6f6861c2704351c45446a2859197c08974be46db15e860ecd408fba732bc4c6f4a63559c534557bbd29be9629c54848f37a3cf9d446dd7eea03e319a4d6226bd6a332d6391cb62775a27d19b2dad54010227860baa7a92e76848395d6a5744667162d29c093cc815b82d4ea2688f31ee47c6e6b1544b27e5039772cfcd390306fce13a90c6fc4525df50f1f87e0f6bc1cf90af1ea49e87340c00afc5ec41a2be717d8ff84cf3cf32f4fa385151891f2b519e7a1e855603b463381c9e08fb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>琐事记录</category>
+      </categories>
+      <tags>
+        <tag>[object Object]</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题相关</title>
+    <url>/2021/07/05/Next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录Next主题相关个人配置</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ul>
+<li><p>主题风格</p>
+<p>Scheme：Mist</p>
+</li>
+<li><p>网页图标路径：themes\Next\source\images\personal</p>
+</li>
+<li><p>背景图片设置：(已舍弃背景图片配置)</p>
+<ul>
+<li>打开配置路径：主题配置文件中的custom_file_path，将style注释取消</li>
+<li>实际配置路径路径：source\_data\styles.styl</li>
+<li>使用到的CSS：<a href="https://www.w3school.com.cn/cssref/pr_background-size.asp">https://www.w3school.com.cn/cssref/pr_background-size.asp</a></li>
+</ul>
+</li>
+<li><p>背景音乐：</p>
+<ul>
+<li>插入音乐外链路径：<code>themes\next\layout\_macro\sidebar.swig</code>找到<code>sidebar-inner</code>，复制之前的代码粘贴到<code>&lt;div&gt;</code>标签后</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>瞎捣鼓</category>
+      </categories>
+      <tags>
+        <tag>Next</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UML复习</title>
+    <url>/2021/07/04/UML%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>UML课程复习</p>
+<span id="more"></span>
+<p>[TOC]</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="UML概述"><a href="#UML概述" class="headerlink" title="UML概述"></a>UML概述</h3><ul>
+<li>软件建模的UML类似于画电路图，作用是方便维护和修改设计</li>
+<li>管理组织OMG</li>
+</ul>
+<h3 id="软件开发过程"><a href="#软件开发过程" class="headerlink" title="软件开发过程"></a>软件开发过程</h3><ul>
+<li>OOA：基本模型（对象、特征、关系）、主题（子系统）、交互图</li>
+<li>OOD</li>
+<li>软件过程<ul>
+<li>瀑布模型</li>
+<li>螺旋模型（原型开发）</li>
+<li>RUP<ul>
+<li>时间（动态结构）和核心工作流（静态结构）的二维坐标图</li>
+<li>RUP的四种主要建模元素：角色（“谁”）、活动（“如何”）、制品（“某事”）、工作流（“何时” ）</li>
+<li>RUP 阶段（phase）<br>初始（先启）：定义整个项目的范围<br>细化（精化）：制定项目计划、描述功能、建立架构框架<br>构造（构建）：构造软件产品<br>发布（产品化）：将软件产品移交到最终用户手中</li>
+<li>角色在工作流生成制品，通过活动达到目标</li>
+<li>9个核心工作流：6个核心过程工作流（Core Process Workflows）和3个核心支持工作流（Core Supporting Workflows）。 </li>
+</ul>
+</li>
+<li>敏捷开发：精益思维</li>
+</ul>
+</li>
+</ul>
+<h3 id="用例图"><a href="#用例图" class="headerlink" title="用例图"></a>用例图</h3><ul>
+<li><p>参与者（actor）也称为角色、活动者。<br>为完成某个任务，是与系统进行交互的外部实体。<br>相对系统而言，是外部实体所扮演的角色，不是虚拟的人</p>
+<p>按性质分类和按重要性分类</p>
+</li>
+<li><p>用例是对系统、子系统或类与参与者交互动作序列的说明</p>
+</li>
+<li><p>场景是用例的一次完整、具体的执行过程，用例是一组场景（脚本）的共同行为抽象</p>
+</li>
+<li><p>事件流是场景中系统行为的一个特定序列</p>
+</li>
+<li><p>参与者对用例的关系：关联，用实线表示</p>
+</li>
+<li><p>用例之间的关系：</p>
+<ul>
+<li>泛化：空心三角形，实线</li>
+<li>包含：虚线箭头线，《include》构造型</li>
+<li>扩展：虚线箭头线，《extend》构造型，对基本用例的扩展，可以看作例外用例的实现，因为扩展用例依赖于基本用例的场景，所以不能独立存在</li>
+</ul>
+</li>
+<li><p>用例描述：描述系统所做的事</p>
+</li>
+</ul>
+<h3 id="类图"><a href="#类图" class="headerlink" title="类图"></a>类图</h3><ul>
+<li><p>消息</p>
+</li>
+<li><p>接口（协议）</p>
+</li>
+<li><p>服务</p>
+</li>
+<li><p>可视性（Visibility）用以下可视性标记表示：</p>
+<ul>
+<li>（公共），#  （保护），–  （私用），～（包） </li>
+</ul>
+</li>
+<li><p>构造操作可以用构造型&lt;<constructor>&gt;标示，也可以用下划线表示</constructor></p>
+</li>
+<li><p>类（Class）的UML图标：属性的属主范围<br>若属性的属主范围是实例，则该类的每一个实例对象都有一个自己的该属性的值<br>若属性的属主范围是分类符，则对于该类本属性只有一个值，该类的每一个实例对象都持有此唯一的属性值，属性标注下划线 </p>
+</li>
+<li><p>例</p>
+<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704151803268.png" alt="image-20210704151803268"></p>
+</li>
+<li><p>类操作：</p>
+<p>返回列表由逗号分隔的操作的返回值类型表达式组成，其格式为：返回类型 或 返回名字 = 类型，… </p>
+</li>
+<li><p>类的UML图标：接口类、抽象类、模板类<br>接口：一组操作的集合，只有操作的声明而没有实现<br>标准图形、变体图形，没有属性<br>不要求实现类和接口类概念本质上是一致的<br>抽象类：不能被实例化的类，一般至少包含一个抽象操作<br>类名、抽象操作名均为斜体<br>模版类：一种参数化的类，在编译时把模版参数绑定到不同的数据类型，从而产生不同的类；模版化的类具有相同行为，但数据类型不同。</p>
+</li>
+<li><p>分析类</p>
+<ul>
+<li>边界类</li>
+<li>实体类</li>
+<li>控制类</li>
+</ul>
+</li>
+<li><p>对象</p>
+<ul>
+<li>对象图标不含有操作框。 </li>
+</ul>
+</li>
+<li><p>类之间的关系</p>
+<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704153053811.png" alt="image-20210704153053811" style="zoom:33%;"></p>
+</li>
+<li><p>限定关联：订货：源类 作业线：目标类</p>
+<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704153555919.png" alt="image-20210704153555919" style="zoom:33%;"></p>
+</li>
+<li><p>聚合关联：较弱的整体部分关系，空心菱形代表整体的一方</p>
+</li>
+<li><p>组合关联：较强的整体部分关系，实心菱形代表整体的一方</p>
+</li>
+<li><p>多态机制：</p>
+<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704155032304.png" alt="image-20210704155032304" style="zoom: 33%;"></p>
+</li>
+<li><p>类图模型建立过程<br>寻找类：寻找备选类，从备选类中筛选出候选类。<br>确定类关系，给关联加属性。<br>确定类的职责：类所维护的信息、类提供的行为。</p>
+</li>
+</ul>
+<h3 id="活动图"><a href="#活动图" class="headerlink" title="活动图"></a>活动图</h3><ul>
+<li><p>特点：描述并发、没有循环控制机制、用状态作为基本的描述单元</p>
+</li>
+<li><p>基本模型元素</p>
+<ul>
+<li>状态<ul>
+<li>表示：圆角矩形</li>
+<li>动作状态：最小构造快，</li>
+<li>活动状态：动作状态的组合</li>
+</ul>
+</li>
+<li>转移<ul>
+<li>表示：实箭头线</li>
+<li>转移表达状态发生变化</li>
+</ul>
+</li>
+<li>动作流：状态以及转移的组合</li>
+<li>分支</li>
+<li>分叉、汇合<ul>
+<li>使用同步条（水平线）</li>
+<li>一个分叉和汇合构成一个线程</li>
+<li>一个线程加上监护条件变为条件线程，条件为假的时候可以不用等待该线程到达汇合</li>
+</ul>
+</li>
+<li>泳道<ul>
+<li>将活动状态分组表示，每一组代表某个对象执行该分组的活动，用垂直线划分泳道。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>动作流和分支可使用：[监护条件]/动作</p>
+</li>
+<li><p>对象流</p>
+<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704171150219.png" alt="image-20210704171150219"></p>
+</li>
+<li><p>活动分解</p>
+<ul>
+<li>简单活动</li>
+<li>组合活动</li>
+</ul>
+</li>
+</ul>
+<h3 id="交互图"><a href="#交互图" class="headerlink" title="交互图"></a>交互图</h3><ul>
+<li>行为视图：用例图、活动图、交互图、状态机图。</li>
+<li>顺序图标记符号<br>对象类角色（Class Role）：矩形，符号与对象图相同。<br>生命线（Lifeline）：虚线，表示对象生存期。<br>消息（Message）：箭头线，表示对象间消息通信。<br>激活（Activation）：矩形条，表示对象正在执行一些活动。</li>
+<li>对象类角色自左至右依次为参与者、边界、控制、实体等对象类型</li>
+<li>消息编号：消息号：消息</li>
+<li>消息类型<ul>
+<li>简单消息</li>
+<li>返回消息</li>
+<li>同步消息<ul>
+<li>接收者：被动对象</li>
+<li>表示：全箭头</li>
+<li>返回</li>
+</ul>
+</li>
+<li>异步消息<ul>
+<li>接收者：主动对象</li>
+<li>表示：半箭头</li>
+<li>回调</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>组合片段<ul>
+<li>不同区域用虚线分割，整个组合片段用矩形框表示</li>
+<li>alt多条件 if xxx else yyy</li>
+<li>opt单条件</li>
+<li>loop </li>
+<li>break</li>
+</ul>
+</li>
+</ul>
+<h3 id="状态机图"><a href="#状态机图" class="headerlink" title="状态机图"></a>状态机图</h3><ul>
+<li>基本元素<ul>
+<li>状态：圆角矩形</li>
+<li>转移：箭头线，箭头线上可以包含：事件[监护条件]/动作</li>
+<li>动作：</li>
+<li>活动</li>
+<li>事件</li>
+<li>判定：菱形</li>
+<li>分叉、汇合</li>
+</ul>
+</li>
+<li>注意：并非所有可区分状态都有意义，如果区分状态后，没有针对每个状态有不同的处理方式，那就不必区分状态，也就是状态的粒度是可以变化的，取决于类方法的粒度。</li>
+</ul>
+<h3 id="构件图和部署图"><a href="#构件图和部署图" class="headerlink" title="构件图和部署图"></a>构件图和部署图</h3><h4 id="构件图"><a href="#构件图" class="headerlink" title="构件图"></a>构件图</h4><ul>
+<li><p>构件</p>
+<ul>
+<li><p>包含：构件名、构造型标注、类或对象</p>
+</li>
+<li><p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704194650412.png" alt="image-20210704194650412" style="zoom: 33%;"></p>
+</li>
+<li><p>构件两种依赖（依赖用虚线表示）</p>
+<ul>
+<li>开发时期依赖：构件图中使用</li>
+<li>调用依赖：部署图中使用</li>
+</ul>
+</li>
+<li><p>构件之间相互依赖的构造型：</p>
+<ul>
+<li>《trace》，类的源代码依赖于类的设计</li>
+<li>《use》，某类使用了其他类</li>
+<li>《implements》</li>
+<li>《source》</li>
+</ul>
+</li>
+<li><p>构件之间实箭头线表示使用</p>
+<p>一般在系统内部用实箭头线表示使用，外部用虚线连接系统的接口。</p>
+</li>
+<li><p>构件可以放在包图中</p>
+</li>
+<li><p>构件代表的是软件物理实现，例如源代码等</p>
+</li>
+<li><p>构件可以区分型和值</p>
+</li>
+</ul>
+</li>
+<li><p>5个用于构件的标准构造型<br>1．&lt;<executable>&gt;：说明一个构件可以在系统的节点上执行<br>2．&lt;<library>&gt;：说明一个构件是一个静态的或动态的对象库<br>3．&lt;<table>&gt;：说明一个构件代表的是一个数据库表<br>4．&lt;<file>&gt;： 说明一个构件代表的是一个文档，它包含的是源代码或数据<br>5．&lt;<document>&gt;：说明一个构件代表的是一个文档</document></file></table></library></executable></p>
+</li>
+</ul>
+<hr>
+<h4 id="组件图"><a href="#组件图" class="headerlink" title="组件图"></a>组件图</h4><ul>
+<li>节点<ul>
+<li>代表计算机物理资源，包括处理器或其他硬件（UML2.0，还可以代表执行环境，如J2EE容器、操作系统、数据库等）</li>
+<li>表示：斜视的立方体</li>
+<li>包含：对象名、构造型标注、构件或对象</li>
+<li>节点可以放在包图中</li>
+<li>节点可以区分型和值</li>
+</ul>
+</li>
+<li>节点的关系<ul>
+<li>通信关系（节点-节点）<ul>
+<li>表示：实线、构造型标注</li>
+<li>表达节点之间的通信</li>
+</ul>
+</li>
+<li>成为关系（构件-构件，对象-对象，构件-对象）<ul>
+<li>表示：虚箭头线，《becomes》构造型、{time=}约束</li>
+<li>表达构件\对象不同时间点的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="包图"><a href="#包图" class="headerlink" title="包图"></a>包图</h3><ul>
+<li>把语义上相近的、可能一起变更的模型元素组织在同一个包里，便于理解复杂的系统</li>
+<li>表示：包的图标是一个大矩形（内容框）的左上角带一个小矩形（名字框）</li>
+<li>在包名之前或之下，可用括在花括号中的文字（约束）说明包的性质，如“{abstract}”、“{version}”等</li>
+<li>包纯粹是一种概念性的建模工具</li>
+<li>UML预定义的用于包的构造型有：&lt;<facade>&gt;、&lt;<framework>&gt;、&lt;<stub>&gt;、&lt;<subsystem>&gt;、&lt;<system>&gt;等。<br>构造型&lt;<facade>&gt;说明一个包仅仅是其他一些包的视图。<br>构造型&lt;<framework>&gt;说明一个包代表模型架构。<br>构造型&lt;<stub>&gt;说明一个包是另一个包的公共内容的服务代理。<br>构造型&lt;<subsystem>&gt;说明一个包代表系统模型的一个独立部分，即子系统。<br>构造型&lt;<system>&gt;说明一个包代表系统模型。<br>构造型&lt;<facade>&gt;和&lt;<stub>&gt;特别有助于管理大型系统模型。 </stub></facade></system></subsystem></stub></framework></facade></system></subsystem></stub></framework></facade></li>
+<li>包之间的联系<ul>
+<li>依赖<ul>
+<li>表示：虚箭头线</li>
+<li>可以包含构造型，例如《import》、《access》、《merge》、《trace》</li>
+</ul>
+</li>
+<li>泛化</li>
+</ul>
+</li>
+</ul>
+<h3 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h3><h4 id="非形式化约束"><a href="#非形式化约束" class="headerlink" title="非形式化约束"></a>非形式化约束</h4><ul>
+<li>形式写出的约束应当用花括号“{ }”括起来<br>放在所描述的模型元素的内部或紧靠所描述元素的地方<br>也可放在注解的图标内，用虚线连接到所描述的模型元素</li>
+<li>标准约束：xor、subset</li>
+</ul>
+<h4 id="OCL对象约束语言"><a href="#OCL对象约束语言" class="headerlink" title="OCL对象约束语言"></a>OCL对象约束语言</h4><ul>
+<li><p>OCL 定义基本类型来描述数据：<br>Boolean<br>Integer<br>Real</p>
+</li>
+<li><p>格式：<strong>context</strong> name <strong>inv</strong>：</p>
+<p>​             Boolean expression</p>
+</li>
+<li><p>name可以是：角色名、类名</p>
+</li>
+<li><p>导航表达式：用于在Boolean expression中导航一个和name对应的类有关的类</p>
+<ul>
+<li>name本身：self（注意：self是一个对象聚集）</li>
+<li>name的相关对象:self.x.y （x和self有关联关系，y和x有关联关系）</li>
+<li>导航本身返回一个聚集</li>
+<li>限定关联的导航，对于限定符内的规定，用[]选取对应的划分</li>
+<li>可以使用关联类进行导航</li>
+</ul>
+</li>
+<li><p>特性表达式：导航中角色的属性构成的集合</p>
+<ul>
+<li>name本身的属性：self.a(a是self的属性，注意：self.a代表一个聚集)</li>
+</ul>
+</li>
+<li><p>枚举</p>
+</li>
+<li><p>OCL定义三种类型的聚集:<br>sets（集合）: 一个对象在集合中只能出现一次<br>bags（袋）: 一个对象能够出现多次<br>sequences（序列）: 对象按次序排列</p>
+</li>
+<li><p>一个对象出发产生集合、一个集合出发产生袋</p>
+</li>
+<li><p>聚集上的操作：</p>
+<ul>
+<li><p>-&gt;sum()</p>
+</li>
+<li><p>-&gt;asSet()</p>
+</li>
+<li><p>-&gt;size()</p>
+</li>
+<li><p>-&gt;select()</p>
+</li>
+<li><p>-&gt;collect() //通常不必使用，除非对属性进行了运算，返回一个袋</p>
+</li>
+<li><p>-&gt;isEmpty()</p>
+</li>
+<li><p>-&gt;includes()</p>
+</li>
+<li><p>-&gt;includesAll()</p>
+</li>
+<li><p>-&gt;forAll()</p>
+</li>
+<li><p>-&gt;exists()</p>
+</li>
+<li><p>ps:</p>
+<ul>
+<li><p>括号里可以写布尔表达式，其中可以使用替换的名称，例如：</p>
+<p>“employees with a salary greater than 50,000”<br>context Company inv:</p>
+<pre><code>        self.employee-&gt;select(**p:Person |**
+        **p**.contract.grade.salary &gt; 50000)
+</code></pre></li>
+<li><p>操作返回聚集后可以继续导航</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>操作符：and、or、not、xor、implies(蕴含)</p>
+</li>
+<li><p>类不变量inv</p>
+</li>
+<li><p>前置条件pre</p>
+</li>
+<li><p>后置条件post，可以用name@pre表达前置条件时候的name</p>
+</li>
+<li><p>对应三种构造型：&lt;<invariant>&gt;、&lt;<precondition>&gt;、&lt;<postcondition>&gt;</postcondition></precondition></invariant></p>
+</li>
+</ul>
+<h3 id="作业题目"><a href="#作业题目" class="headerlink" title="作业题目"></a>作业题目</h3><ul>
+<li>协作图中的消息：返回值:=方法 注意关联上方还有一个实心三角直线</li>
+<li>单向关联多重性只有一边有，如果有两个多重性是双向关联</li>
+<li>双向关联中可以用动词加上实心三角形，表示关联动作的方向</li>
+<li>对象图中的多重性问题、泛化问题</li>
+<li>可替换性原则：子类对象可以赋予父类对象</li>
+<li>画类图，首先要找到最大的公共操作，把公共操作的集合构造为一个基类，其他的类从基类里面扩展，公共操作里面可以有部分子类不需要或者需要限定的操作，在这些子类里面重写特定的操作即可。</li>
+<li>类中有其他类的成员，需要单向关联；如果是对象数组，多重性为*，如果是单个对象，为0…1</li>
+</ul>
+<h3 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h3><ul>
+<li>建模不一定用标准图形符号</li>
+<li>建模不涉及底层实现细节</li>
+<li>成功建模：表示法、过程和工具</li>
+<li>创始人：Grady Booch、Ivar Jaconbson、James Rumbaugh</li>
+<li>UML不统一各种软件过程</li>
+<li>用例视图描述外部</li>
+<li>UML构成：图、视图、模型元素、通用机制</li>
+<li>通用机制：约束、构造型、标记值</li>
+<li>simula67是第一个面向对象程序设计语言</li>
+<li>RUP生命周期：初始、精化、构造、发布</li>
+<li><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210705113107162.png" alt="image-20210705113107162"></li>
+<li>自关联有两个关联端，任何一个关联至少两个关联端</li>
+<li>活动指示要完成某项工作的动作或表示工作流的步骤</li>
+<li>顺序图标记符号：类元角色、生命线、激活、消息</li>
+<li>协作图和顺序图</li>
+<li>活动图着重表示活动到活动的控制流、状态机图着重表示模型元素可能的状态及其转移</li>
+<li>状态机图没有表现生命周期</li>
+<li>状态机图 全部状态属性</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>UML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>人工智能复习</title>
     <url>/2021/06/30/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>人工智能课程复习</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>1.人工智能有哪几个主要学派？各自的特点是什么？</p>
 <p>符号主义、连接主义和行为主义三大学派。</p>
 <ul>
@@ -129,12 +562,19 @@
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>学习记录</category>
+        <category>复习</category>
+      </categories>
+      <tags>
+        <tag>人工智能</tag>
+      </tags>
   </entry>
   <entry>
     <title>数据库系统复习</title>
     <url>/2021/06/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>数据库系统复习总结</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="模糊概念"><a href="#模糊概念" class="headerlink" title="模糊概念"></a>模糊概念</h3><ul>
 <li><p>•数据是数据库中存储的基本对象</p>
 <p>​        定义：描述<strong>事物</strong>的<strong>符号记录</strong></p>
@@ -339,265 +779,19 @@ SQL实现：Foreign Key
 </li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>软件测试复习</title>
-    <url>/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>软件测试双语课程复习</p>
-<a id="more"></a>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h3><ul>
-<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628162708964.png" alt="image-20210628162708964" style="zoom: 20%;"></li>
-<li>Bug程序：<ul>
-<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628170059982.png" alt="image-20210628170059982" style="zoom: 33%;"></li>
-</ul>
-</li>
-</ul>
-<h3 id="测试名词"><a href="#测试名词" class="headerlink" title="测试名词"></a>测试名词</h3><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172108276.png" alt="image-20210628172108276" style="zoom: 20%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172323203.png" alt="image-20210628172323203" style="zoom:33%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172410628.png" alt="image-20210628172410628" style="zoom:33%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172504917.png" alt="image-20210628172504917" style="zoom: 15%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172631973.png" alt="image-20210628172631973" style="zoom:25%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628172849851.png" alt="image-20210628172849851" style="zoom:25%;"></p>
-<ul>
-<li><p>测试层次和分类</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171850562.png" alt="image-20210628171850562" style="zoom: 20%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630094316545.png" alt="image-20210630094316545" style="zoom: 33%;"></p>
-</li>
-</ul>
-<ul>
-<li><p>alpha and beta</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628171943331.png" alt="image-20210628171943331" style="zoom: 30%;"></p>
-</li>
-</ul>
-<h3 id="输入域测试"><a href="#输入域测试" class="headerlink" title="输入域测试"></a>输入域测试</h3><ul>
-<li><p>等价类划分标准</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630085839080.png" alt="image-20210630085839080" style="zoom: 25%;"></p>
-</li>
-<li><p>三角形等价类例子</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090317814.png" alt="image-20210630090317814" style="zoom: 25%;"></p>
-</li>
-<li><p>边界值分析例子</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090408145.png" alt="image-20210630090408145" style="zoom: 25%;"></p>
-</li>
-<li><p>边界值分析要考虑的值[min,max]</p>
-<p>min- min min+ nom  max- max max+</p>
-</li>
-<li><p>random tesing 的问题</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090701463.png" alt="image-20210630090701463" style="zoom:25%;"></p>
-</li>
-<li><p>模糊测试</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090754335.png" alt="image-20210630090754335" style="zoom:25%;"></p>
-</li>
-<li><p>随机测试错误的分布情况</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630090912433.png" alt="image-20210630090912433" style="zoom:25%;"></p>
-</li>
-<li><p>adaptive random testing</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091212188.png" alt="image-20210630091212188" style="zoom:25%;"></p>
-<p>Distance</p>
-<p>sampling:enlarged input domain</p>
-</li>
-<li><p>不连续输入域的随机测试,anti-random testing</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091612288.png" alt="image-20210630091612288" style="zoom:25%;"></p>
-</li>
-</ul>
-<p>​             example:</p>
-<p>​                <img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630091657319.png" alt="image-20210630091657319" style="zoom:25%;"></p>
-<p>​            Hamming distance:The number of inconsistent characters</p>
-<h3 id="combinational-testing"><a href="#combinational-testing" class="headerlink" title="combinational testing"></a>combinational testing</h3><ul>
-<li><p>Solve the problem that the input domain testing does not consider the input output relationship</p>
-</li>
-<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630092134141.png" alt="image-20210630092134141" style="zoom:25%;"></p>
-</li>
-<li><p>All combination:All test input pairs must occur at least once</p>
-</li>
-<li><p>Pair-wise testing:All test inputs are paired in pairs, and each pair of data appears at least once</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093108024.png" alt="image-20210630093108024" style="zoom:20%;"></p>
-</li>
-<li><p>T-way combination testing:T paired test inputs occur at least once</p>
-<p>the more the T,the more the number of combination</p>
-<p>if T=all input ,T-way combination = all combination</p>
-</li>
-<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093027700.png" alt="image-20210630093027700" style="zoom:25%;"></p>
-</li>
-<li><p>Consider the special cases of input domain</p>
-<p>Default options of input domain:</p>
-<p>One default option:</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093436411.png" alt="image-20210630093436411" style="zoom:25%;"> </p>
-<p>two defalut options:</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093548534.png" alt="image-20210630093548534" style="zoom:25%;"></p>
-</li>
-<li><p>constraint in Testing</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093805383.png" alt="image-20210630093805383" style="zoom: 33%;"></p>
-</li>
-<li><p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210630093931646.png" alt="image-20210630093931646" style="zoom:25%;"></p>
-</li>
-</ul>
-<h3 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h3><ul>
-<li>随机测试Gtest、Randoop、Monkey</li>
-<li>组合测试PICT</li>
-<li>Web功能测试Selenium IDE、WebDriver、PICT+Selenium</li>
-<li>Web性能测试JMeter</li>
-</ul>
-<h3 id="Evaluate-test-adequacy"><a href="#Evaluate-test-adequacy" class="headerlink" title="Evaluate test adequacy"></a>Evaluate test adequacy</h3><ul>
-<li><p>CFG</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173523039.png" alt="image-20210628173523039" style="zoom:50%;"></p>
-</li>
-<li><p>结构测试</p>
-<ul>
-<li><p>语句覆盖：覆盖结点</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173736527.png" alt="image-20210628173736527" style="zoom:50%;"></p>
-</li>
-<li><p>分支覆盖：覆盖边，强于语句覆盖</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628173835503.png" alt="image-20210628173835503"></p>
-</li>
-<li><p>executable</p>
-</li>
-</ul>
-</li>
-<li><p>逻辑测试</p>
-<ul>
-<li><p>判定覆盖</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174154295.png" alt="image-20210628174154295"></p>
-</li>
-<li><p>条件覆盖</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174219711.png" alt="image-20210628174219711" style="zoom:33%;"></p>
-</li>
-<li><p>条件组合覆盖</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174331393.png" alt="image-20210628174331393"></p>
-</li>
-<li><p>MCDC覆盖：独立影响最终布尔值的单个布尔表达式数量/总布尔表达式数量</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174745217.png" alt="image-20210628174745217"></p>
-</li>
-<li><p>强弱关系</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628174936959.png" alt="image-20210628174936959" style="zoom: 25%;"></p>
-</li>
-</ul>
-</li>
-<li><p>路径测试</p>
-<ul>
-<li><p>路径覆盖：</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175705411.png" alt="image-20210628175705411"></p>
-</li>
-<li><p>等价类划分解决循环</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175831278.png" alt="image-20210628175831278" style="zoom:25%;"></p>
-</li>
-<li><p>基本路径测试</p>
-<p>注意生成基本路径的时候，新的路径要相对前面的基本路径独立</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628175943121.png" alt="image-20210628175943121" style="zoom:25%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628180038432.png" alt="image-20210628180038432" style="zoom:25%;"></p>
-</li>
-</ul>
-</li>
-<li><p>数据流测试</p>
-<ul>
-<li>du-path:从定义a到使用v的一条清晰的路径</li>
-<li>例子</li>
-</ul>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628181053256.png" alt="image-20210628181053256"></p>
-</li>
-</ul>
-<h3 id="Mutation-Testing"><a href="#Mutation-Testing" class="headerlink" title="Mutation Testing"></a>Mutation Testing</h3><ul>
-<li><p>定义</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200428042.png" alt="定义"></p>
-</li>
-<li><p>Mutate</p>
-<ul>
-<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200659134.png" alt="image-20210628200659134"></li>
-<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201325000.png" alt="image-20210628201325000" style="zoom:20%;"></li>
-<li><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201352265.png" alt="image-20210628201352265" style="zoom:20%;"></li>
-</ul>
-</li>
-<li><p>基于故障的变异测试（降低开销）中的变异体强弱关系</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/35.png" alt="35" style="zoom: 25%;"></p>
-</li>
-<li><p>过程：</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200834263.png" alt="image-20210628200834263" style="zoom: 25%;"></p>
-</li>
-<li><p>等价变异体</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200907278.png" alt="image-20210628200907278" style="zoom: 25%;"></p>
-</li>
-<li><p>变异得分</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628200939857.png" alt="image-20210628200939857" style="zoom:25%;"></p>
-</li>
-<li><p>原理</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201003792.png" alt="image-20210628201003792" style="zoom:25%;"></p>
-</li>
-<li><p>总结</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628201018077.png" alt="image-20210628201018077" style="zoom:25%;"></p>
-</li>
-</ul>
-<h3 id="模糊知识点"><a href="#模糊知识点" class="headerlink" title="模糊知识点"></a>模糊知识点</h3><ul>
-<li><p>决策表（Model-based Testing)</p>
-<ul>
-<li><p>步骤</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628195155177.png" alt="image-20210628195155177" style="zoom:33%;"></p>
-</li>
-<li><p>例子</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194910298.png" alt="image-20210628194910298"></p>
-</li>
-</ul>
-</li>
-<li><p>功能测试（Black-box Testing）方法：探索式测试</p>
-<p><img src="https://images0.cnblogs.com/i/638228/201407/301735568216391.png" alt="img" style="zoom: 50%;"></p>
-</li>
-<li><p>Performance Tesing</p>
-<ul>
-<li><p>基准测试：</p>
-<p>将新系统的性能与一个已知的参考标准进行比较。如果新系<br>究的性能弱于已知的参考标准,那么新系统就被认为不合格。</p>
-</li>
-<li><p>配置测试</p>
-<p>确认系统在不同的配置条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
-</li>
-<li><p>负载测试</p>
-<p>确认系统在不同的正常负载条件下性能的可接受性。在不同的配<br>置条件下测试时,一般要求在一轮测试中操作序列、输入数<br>据、并发访问压力都维持不变。</p>
-</li>
-<li><p>压力测试</p>
-<p>确认系统在异常或超岀极限的条件下性能的可接受性。例如<br>资源减少至最低限度以下、超过预期的用户同时访问等等。</p>
-</li>
-<li><p>竞争测试</p>
-<p>确认系统是否能处理多个并发用户对同一资源的竞争性请求。</p>
-</li>
-</ul>
-</li>
-<li><p>Cyclomatic Complexity: CC=#V-#E+2</p>
-</li>
-</ul>
-<h3 id="慕课习题"><a href="#慕课习题" class="headerlink" title="慕课习题"></a>慕课习题</h3><ul>
-<li>等价类划分</li>
-</ul>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628182245900.png" alt="image-20210628182245900"></p>
-<ul>
-<li>测试基础基本知识检测</li>
-</ul>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190912318.png" alt="image-20210628190912318" style="zoom:33%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628190932006.png" alt="image-20210628190932006" style="zoom: 33%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628191009953.png" alt="image-20210628191009953" style="zoom: 50%;"></p>
-<ul>
-<li><p>测试充分性单元测试</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192111950.png" alt="image-20210628192111950" style="zoom: 33%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628192148651.png" alt="image-20210628192148651" style="zoom:33%;"></p>
-</li>
-<li><p>期末测试</p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193048475.png" alt="image-20210628193048475" style="zoom:50%;"></p>
-</li>
-</ul>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193425661.png" alt="image-20210628193425661" style="zoom: 45%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628193853008.png" alt="image-20210628193853008" style="zoom:35%;"></p>
-<p><img src="/2021/06/28/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%A4%8D%E4%B9%A0/image-20210628194033207.png" alt="image-20210628194033207" style="zoom:33%;"></p>
-<p>[toc]</p>
-]]></content>
       <categories>
         <category>学习记录</category>
+        <category>复习</category>
       </categories>
       <tags>
-        <tag>软件测试</tag>
+        <tag>数据库</tag>
       </tags>
   </entry>
   <entry>
     <title>管理学原理复习</title>
     <url>/2021/06/27/%E7%AE%A1%E7%90%86%E5%AD%A6%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>管理学复习部分知识点总结</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[TOC]</p>
 <h3 id="决策"><a href="#决策" class="headerlink" title="决策"></a>决策</h3><ul>
 <li>决策<ul>
@@ -889,252 +1083,20 @@ SQL实现：Foreign Key
 </li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>市场营销复习</title>
-    <url>/2021/06/25/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>市场营销课程复习总结知识点</p>
-<a id="more"></a>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="市场营销基础"><a href="#市场营销基础" class="headerlink" title="市场营销基础"></a>市场营销基础</h3><ul>
-<li>市场：卖主、买主和双方交易规则的集合</li>
-<li>市场营销：以满足人民日益增长的美好生活需要为目的，通过市场变潜在交换为现实交换的一系列活动和过程</li>
-<li>营销观点转变<ul>
-<li>传统观点：重生产轻营销</li>
-<li>营销观点：重需求</li>
-<li>客户观点：重客户</li>
-<li>整体营销观点：针对个人客户的需求</li>
-</ul>
-</li>
-<li>顾客让渡价值：顾客总价值-顾客总成本</li>
-</ul>
-<h3 id="市场营销环境分析"><a href="#市场营销环境分析" class="headerlink" title="市场营销环境分析"></a>市场营销环境分析</h3><ul>
-<li>宏观环境：PEST分析 政治、经济、社会、技术</li>
-<li><p>微观环境：波特五力模型：行业竞争状态取决于下面的竞争势力</p>
-<ul>
-<li><p>供应商的议价能力</p>
-</li>
-<li><p>购买者的议价能力</p>
-</li>
-<li><p>新进入者的威胁</p>
-</li>
-<li><p>替代品的威胁</p>
-</li>
-<li><p>同行业竞争者的竞争程度</p>
-</li>
-</ul>
-</li>
-<li>SWOT分析，即基于内外部竞争环境和竞争条件下的态势分析，就是将与研究对象密切相关的各种主要内部<strong>优势、劣势和外部的机会和威胁</strong>等，通过调查列举出来，并依照<a href="https://baike.baidu.com/item/矩阵/18069" target="_blank" rel="noopener">矩阵</a>形式排列，然后用系统分析的思想，把各种因素相互匹配起来加以分析，从中得出一系列相应的结论，而结论通常带有一定的决策性。</li>
-<li><p>消费者购买影响因素</p>
-<ul>
-<li>文化、亚文化</li>
-<li>社会：参照、家庭、社会角色</li>
-<li>个人因素：年龄性别、职业和经济状况、生活方式和自我观念</li>
-<li>心理因素：动机、知觉、学习、信念和态度</li>
-</ul>
-</li>
-<li>知觉的定义：<strong>感觉器官与大脑</strong>对<strong>刺激</strong>做出<strong>解释、分析和整合</strong>的创造性过程</li>
-<li><p>态度的定义：<strong>一个人</strong>对某些事物或观念<strong>长期</strong>持有的<strong>好与坏的评价</strong>和由此导向的<strong>行为倾向</strong></p>
-</li>
-<li><p>消费者购买决策过程</p>
-<ul>
-<li>引起需求</li>
-<li>收集信息</li>
-<li>评价方案</li>
-<li>决定购买</li>
-<li>购后感觉和行为</li>
-</ul>
-</li>
-</ul>
-<h3 id="市场定位战略"><a href="#市场定位战略" class="headerlink" title="市场定位战略"></a>市场定位战略</h3><ul>
-<li>STP：目标营销战略<ul>
-<li>市场细分</li>
-<li>选择目标市场</li>
-<li>市场定位</li>
-</ul>
-</li>
-<li>市场细分<ul>
-<li>定义：就是指企业按照某种标准将市场上的顾客划分成若干个顾客群，每一个顾客群构成一个子市场，不同子市场之间，需求存在着明显的差别。</li>
-<li>维度：<ul>
-<li>消费者市场：<ul>
-<li>地理细分</li>
-<li>人口细分</li>
-<li>心理细分</li>
-<li>行为细分</li>
-</ul>
-</li>
-<li>产业市场：<ul>
-<li>最终用户</li>
-<li>顾客规模</li>
-<li>顾客位置</li>
-<li>采购方式</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>有效标志：<ul>
-<li>可区分性：概念上区分</li>
-<li>可测量性：购买力和市场大小</li>
-<li>可进入性</li>
-<li>可营利性</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>目标市场：<ul>
-<li>定义：企业投其所好，为之服务的具有相似性的的顾客群</li>
-</ul>
-</li>
-<li><p>市场定位：</p>
-<ul>
-<li>定义：企业针对<strong>潜在顾客的心理</strong>进行<strong>营销设计，创立产品、品牌</strong>或企业在目标顾客心目中的某种形象或个性特征，保留深刻印象和独特位置，<strong>从而取得竞争优势</strong>。</li>
-</ul>
-</li>
-<li><p>波特竞争战略</p>
-<ul>
-<li><p><strong>总成本领先战略</strong></p>
-<p>降低成本</p>
-</li>
-<li><p><strong>差别化战略（differentiation）</strong></p>
-<p>服务差别化</p>
-</li>
-<li><p><strong>专一化战略（focus）</strong></p>
-<p>主攻某个特殊的顾客群</p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="产品策略"><a href="#产品策略" class="headerlink" title="产品策略"></a>产品策略</h3><ul>
-<li>产品一般可以分为五个层次：<ul>
-<li>核心产品：是指产品能够提供给消费者的基本效用或益处，是消费者真正想要购买的基本效用或益处。</li>
-<li>基本产品：是产品在市场上出现时的具体物质形态，主要表现在品质、特征、式样、商标、包装等方面，是核心利益的物质载体。</li>
-<li>期望产品：就是顾客在购买产品前对所购产品的质量、使用方便程度、特点等方面的期望值。</li>
-<li>附加产品：是指由产品的生产者或经营者提供的购买者有需求的产品层次，主要是帮助用户更好地使用核心利益和服务。</li>
-<li>潜在产品：是在延伸产品层次之外，由企业提供能满足顾客潜在需求的产品层次，它主要是产品的一种增值服务。</li>
-</ul>
-</li>
-<li>产品生命周期：<ul>
-<li>导入期：新产品投入市场</li>
-<li>成长期：导入期的销售取得成功</li>
-<li>成熟期：市场需求趋于饱和</li>
-<li>衰退期：新产品和替代品的出现</li>
-</ul>
-</li>
-<li>产品组合：企业生产或销售的产品线（大类）和产品品种（小类）的组合。<ul>
-<li>宽度：产品线的多少</li>
-<li>长度：产品品种的多少</li>
-<li>深度：产品线内每种产品的规格、品种的多少</li>
-</ul>
-</li>
-</ul>
-<h3 id="价格策略"><a href="#价格策略" class="headerlink" title="价格策略"></a>价格策略</h3><ul>
-<li>定价影响因素：<ul>
-<li>定价目标</li>
-<li>定价成本</li>
-<li>市场需求</li>
-<li>竞争者的产品和价格</li>
-<li>企业整体营销战略和外部因素</li>
-</ul>
-</li>
-<li><p>定价方法：</p>
-<ul>
-<li>成本导向定价：以成本为依据</li>
-<li>需求导向定价法：市场需求和顾客感觉价值</li>
-<li>竞争导向定价法</li>
-</ul>
-</li>
-<li><p>定价策略</p>
-<ul>
-<li><p>新产品定价策略</p>
-<ul>
-<li><p>撇脂：最初阶段高价格</p>
-<ul>
-<li>需求缺乏弹性</li>
-<li>单位成本增加不抵消高价带来的利益</li>
-<li>独家经营，无竞争者</li>
-<li>高档产品的印象</li>
-</ul>
-</li>
-<li><p>渗透：最初阶段低价格</p>
-<ul>
-<li><p>需求敏感，低价刺激消费</p>
-</li>
-<li><p>成本随着经营降低</p>
-</li>
-<li><p>低价不会引起实际和潜在的竞争</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="传播策略"><a href="#传播策略" class="headerlink" title="传播策略"></a>传播策略</h3><ul>
-<li><p>促销组合：</p>
-<ul>
-<li><p>定义：根据企业需要，对广告、销售促进、人员推销、直复营销与公共关系等各种方式的适当选择和综合编配</p>
-</li>
-<li><p>构成：</p>
-<p>广告、销售促进、人员推销、直复营销与公共关系</p>
-</li>
-<li><p>影响因素：</p>
-<ul>
-<li>产品类型：消费者产品、产业产品</li>
-<li>推式和拉式策略</li>
-<li>促销目标</li>
-<li>产品生命周期阶段</li>
-<li>经济前景</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>广告分类：</p>
-<ul>
-<li>传统广告</li>
-<li>程序化广告：实时更新广告，精准投放</li>
-</ul>
-</li>
-<li><p>销售促进：</p>
-<ul>
-<li><p>除了人员推销、广告、宣传以外的刺激消费者购买和经销商销售的各种营销活动。</p>
-</li>
-<li><p>分类：</p>
-<p>​    1、一级SP：制造商对批发商的促俏；制造商对零售商的促销；制造商对消费者的促销；批发商对零售商的促销；批发商对消费者的促销；零售商对消费者的促销。一级SP的特点：单层次促销。</p>
-<p>​    2、二级SP：制造商对批发商对零售商的促销；制造商对零售商对消费者的促销；制造商对批发商对消费者的促销；批发商对零售商对消费者的促销。二级SP的特点：双层次促销。</p>
-<p>​    3、三级SP：制造商对批发商对零售商对消费者的促销。三级SP的特点：三层次促销。</p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="渠道策略"><a href="#渠道策略" class="headerlink" title="渠道策略"></a>渠道策略</h3><ul>
-<li>分销渠道：某种产品和服务在从生产者向消费者转移的过程中，取得这种产品和服务的所有权或帮助所有权转移的所有企业和个人。</li>
-<li>类型：<ul>
-<li>传统渠道系统：独立的生成者、批发商、零售商和消费者组成的分销渠道。</li>
-<li>整合渠道系统：渠道成员通过一体化整合形成的分销渠道系统。<ul>
-<li>垂直渠道</li>
-<li>水平渠道</li>
-<li>多渠道系统</li>
-</ul>
-</li>
-<li>O2O模式，线上促销、线上购买带动线下经营消费</li>
-<li>多渠道分销和去中介化</li>
-</ul>
-</li>
-</ul>
-]]></content>
       <categories>
         <category>学习记录</category>
+        <category>复习</category>
       </categories>
       <tags>
-        <tag>市场营销</tag>
-        <tag>复习</tag>
+        <tag>管理学原理</tag>
       </tags>
   </entry>
   <entry>
     <title>疑难杂症问题解决记录</title>
     <url>/2021/06/02/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>各方面的问题解决过程记录，防止重复寻找解决方案。</p>
-<a id="more"></a>
+<p>如果记录的许多问题集中于一个领域，那些问题将不会被列在这里，而将作为单独的文档进行记录。</p>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ul>
 <li><p>github本地下载仓库git clone 失败，提示错误访问失败</p>
 <p>解决方案：尝试将仓库地址中的https改为http</p>
@@ -1148,7 +1110,37 @@ SQL实现：Foreign Key
 </li>
 <li><p>“hexo s”命令未出现错误 “hexo d”命令部署博客失败：</p>
 <p><img src="/2021/06/02/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/image-20210628202801200.png" alt="image-20210628202801200"></p>
+<p>解决方案：</p>
+<p>查阅知乎回答，将_config.yml文件中repo进行修改：</p>
+<p><img src="/2021/06/02/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/image-20210703113414663.png" alt="image-20210703113414663" style="zoom:33%;"></p>
+<p>重新部署成功，这里部署成功后的提示信息：</p>
+<figure class="highlight plaintext"><figcaption><span>This repository moved. Please use the new location:</span></figcaption><table><tr><td class="code"><pre><span class="line">remote:   git@github.com:zhY396/zhY396.github.io.git</span><br><span class="line">To github.com:zhy396/zhy396.github.io.git</span><br><span class="line">   3db7af2..db767a7  HEAD -&gt; master</span><br><span class="line">Branch &#x27;master&#x27; set up to track remote branch &#x27;master&#x27; from &#x27;git@github.com:zhy396/zhy396.github.io.git&#x27;.</span><br><span class="line">INFO  Deploy done: git</span><br></pre></td></tr></table></figure>
+<p>总结原因：有人说是因为windows的cmd造成的，虽然不知道真伪，但是以后执行命令还是使用git bash吧。</p>
 </li>
+<li><p>修改用于部署博客的批处理文件，将执行终端改为git bash.</p>
+<p><code>start git-bash -c &quot;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&quot;</code></p>
+<ul>
+<li>start git-bash： 在cmd脚本中启动gitbash窗口</li>
+<li>-c: 设置启动参数， 各个启动参数用&amp;&amp;分隔</li>
+</ul>
+</li>
+<li><p>关于windows下系统变量和环境变量的一些知识</p>
+<p>1、环境变量不区分大小写</p>
+<p>2、系统变量对所有用户有效</p>
+<p>3、用户变量只对当前用户有效</p>
+<p>4、变量由名称和值组成</p>
+<p>4、PATH变量保存了可执行程序的路径</p>
+<p>5、windows系统在执行用户命令时，若用户未给出文件的绝对路径，则首先在当前目录下寻找相应的可执行文件、批处理文件等；</p>
+<p>6、若果当前目录找不到对应文件名的程序，在系统变量的PATH的路径中，依次寻找对应的可执行程序文件（查找顺序是按照路径录入顺序的先后进行寻找的，最先录入的一条路径的优先级最高，如果找到程序就停止寻找，后面的路径不再执行）</p>
+<p>7、如果系统变量的PATH的路径找不到，再到用户变量的PATH路径中寻找（如果系统变量和用户变量的PATH中同时包含了同一个命令，则优先执行系统变量PATH中的命令）</p>
+<p>8、每次新加了命令以后，要按“确定”按钮进行保存，之后重启终端，否则命令不生效。</p>
+<p>9、在CMD里输出环境变量：ECHO %变量名%</p>
+</li>
+<li><p>查看已经建立的代码仓库使用的存储容量</p>
+<p>登录github网页，在账号头像处（记录时处于右上方）单击，然后依次选择：</p>
+<p>setting - repository </p>
+</li>
+<li></li>
 <li><p>未完待续</p>
 </li>
 </ul>
@@ -1164,7 +1156,7 @@ SQL实现：Foreign Key
     <title>碎碎念</title>
     <url>/2021/05/21/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>偶尔掠过的一些思绪</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="情绪"><a href="#情绪" class="headerlink" title="情绪"></a>情绪</h3><p>情绪对行为的影响非常大，如果不能管理好情绪，一个人的状态会非常差。</p>
 <p>当人的情绪处于极端波动状态（愤怒、悲伤）的时候，一些基本的行为会发生变形，日常生活也会受到波及，正常状态下不会犯的错误、一些思想中存在的隐蔽顽疾都会暴露出来，并且出于自我保护，个人会非常想将极端的情绪传播给他人以求得恢复平静，这往往会导致一系列恶劣的连锁反应。</p>
 <p>处于极端情绪的时候，请保持冷静，控制好自己奔涌的思绪，脑中不要去思考得失、利益之类的行为，否则很容易造成心理失衡而做出不当的行为。</p>
@@ -1199,7 +1191,7 @@ SQL实现：Foreign Key
     <title>大物上笔记</title>
     <url>/2021/04/26/%E5%A4%A7%E7%89%A9%E4%B8%8A%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>补修大物上册活页作业本笔记</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="质点运动学"><a href="#质点运动学" class="headerlink" title="质点运动学"></a>质点运动学</h3><h4 id="质点运动的描述"><a href="#质点运动的描述" class="headerlink" title="质点运动的描述"></a>质点运动的描述</h4><p>运动方程<strong>r</strong>=x<strong>i</strong>+y<strong>j</strong></p>
 <p>dr/dt是位移模的变化率，标量，不等于速率</p>
 <p>d<strong>r</strong>/dt是速度，矢量</p>
@@ -1290,7 +1282,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 </li>
 <li><p>点电荷电势的表达式（无穷远为0点）</p>
 </li>
-<li><p>带电圆环：<a href="https://www.docin.com/p-1161230989.html" target="_blank" rel="noopener">https://www.docin.com/p-1161230989.html</a></p>
+<li><p>带电圆环：<a href="https://www.docin.com/p-1161230989.html">https://www.docin.com/p-1161230989.html</a></p>
 </li>
 <li><p>电势，就是相对0电位而言，具有的能量级别。表征了产生电流大小的能力。</p>
 <p>电压，就是两个电势之差。</p>
@@ -1370,14 +1362,14 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
         <category>学习记录</category>
       </categories>
       <tags>
-        <tag>大物</tag>
+        <tag>大学物理</tag>
       </tags>
   </entry>
   <entry>
     <title>英语外刊阅读</title>
     <url>/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%A4%96%E5%88%8A%E9%98%85%E8%AF%BB/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>公众号外刊阅读笔记</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="2021-3-15"><a href="#2021-3-15" class="headerlink" title="2021.3.15"></a>2021.3.15</h3><h4 id="单词短语"><a href="#单词短语" class="headerlink" title="单词短语"></a>单词短语</h4><ol>
 <li><p>stimulus payments</p>
 <p>刺激消费</p>
@@ -1441,7 +1433,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>英语句子/短语记录</title>
     <url>/2021/03/11/%E8%8B%B1%E8%AF%AD%E5%8F%A5%E5%AD%90-%E7%9F%AD%E8%AF%AD%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录一些值得记忆的英语句子或短语</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ol>
 <li><p>air conditioning </p>
 <p>空调</p>
@@ -1618,7 +1610,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>《人工智能》作业</title>
     <url>/2021/02/26/%E3%80%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E3%80%8B%E4%BD%9C%E4%B8%9A/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>《人工智能》课程作业记录</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h4 id="第一节课"><a href="#第一节课" class="headerlink" title="第一节课"></a>第一节课</h4><ol>
 <li><p>什么是人工智能？它的研究目标是什么？</p>
 <p>从能力的角度：人工智能是指用人工的方法在机器（计算机）上实现的智能。<br>从学科的角度：人工智能是一门研究如何构造智能机器或智能系统，去模拟、延伸和扩展人类智能的学科。</p>
@@ -1679,7 +1671,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>应修课程记录</title>
     <url>/2021/02/26/%E5%BA%94%E4%BF%AE%E8%AF%BE%E7%A8%8B%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码不正确，请重新输入。" data-whm="文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="fca937dd4a67a2ba66e015a4e2d8b32a844daa9a0bf9fd951de428155127bf22">fe75e9f90837d31871e5503aa45a89ee5562dadfad55b5c5100ead8053f46fdf84a5fa17e621a46356190363770d12556671e02c64875c555e7d0cfd7871db022aa094b54f898ae830d67a349c8241ac0ebb6f5f08bda0b91a971701af93564a863d2363799878ad83deac54d581d75976a01771f3b7ffd8cb93ddcff492b9a31b3892e807284d6df9f608e9138441153735dfcaaadc6fc5c6a23443423e459688cf5e999c71553c149acf87290e298276c2d582afcb70a29ebbb09fa13fd70e05b88e3b96bc1547c6658ac5e2d24014ebda232c7feb5550673a1563f1d52939110e8d8741032b6370f5ea18df7cbcfa7d25c45e24c622e918064dfdd128ddf95ee0350c917943115cb3bafd11b0fbddd3a2857c909c86b865c37be1d28d004b84c58789267cea2cd9d6524c3206709afd9ea9d449cf64050a7ed86aa2200aebb1bc4dd856384a14932fde8b5d5cdf5ddd4298b10eb1cb6738afaf5597e2eb311964112b9dd91c099a4cbe71cc8f7fdaba33e339a86b098c1a33695fc5f0766a15c2d7c90235b3483e505d968ddae314965ab2a7b4612e255bc706a41905c92c4de78f838ddd0401d0f4678aff0c4f386fa0e614754f178296d23964bc31ff569ab929e6547b0ef63e51aad863b20a8d24918a2ddf1da4a03b1d1aa58ae5a816024774ef715c02947c88cfc82bf0214eca1d1e739834f0bd1f07f46e08a85ad8f997d790b7b5807e7369414885376c4edb001c7f7379c43985e2f7a69f4ff1836b6014a1a644f6aa81d6a147f81843f8a498d59187e9b75a65d0ffa41a870dfc5300880d79b3398c546976e98aaf223b13871fa16ca857fdf144e3f85a2917013cd1c2df573c7e5569f0fc44eb547a4b741ec801cfc23a768286b3252a091c623369e1d75fb5302ab71e4f529d2b8d30b96cf43a73af69826bd37345e5a74529cb58dc0e0143c688991dca700e34a2dcb109b08f7cd566e21a333b26acfe44f8477d9833ffd8712eadfb0d4584de2cdb69163a5d442b68fb6a268212d513f333f29f58979c00032b7158883275a79c8d28298ed831d31740be8f8dbb5ec9a9e5662069f34638946fa19cf111031b6dd41b0d73566d7c0a63ed9c88189557b9cdee057f62cf08f40c458e37e913908052e5ca0574a1265f2cfbdc7799eec016630dc2bfe3958e3313ee79866afc3db5623503a1b8c66100abc0a63ca31ae4e8eabb3de30231a11e676f02af7c39b56b8576001adca99543df430b307a278fd039e55d93ba8b30c68733619bdaad3415f2017f9049ff683e8b83053209392fc288ba185908d14a2b69a6567192b137f3d4282dd48b1afd7228c955bde387c82881488f5a5042c155d98f67be1a3303b452b7d03ddce0e825490768e2895527408bf184ba17f2c430805363d63d5040a8fed117da64e6ed0325d01967295dd79ad25ebbeb1e74fb0fd466d8598365faf380a235ff532ee4fb68418c92f56d5b7d33d598303020700dd9df1cf084efbaea94e91b8c12e642935f82afc0170fddaed4df7d6650dbfced45305134c898a4378c91bbe858beb97c28cca3e7dcb842722b1a6e159b831ac432ff1fa5c6660c53be1e18b7cdd555c3b966056fef9690e177942e3877024ceda2a25bdf26114db64ebf6a65fcc0954a449e8a4ded68fa9d4097ae81e78cead8c20d93aac1697a3847b804d35b74d9805e68f135d136543228feab707b651ab0654b9d9a408f8befe162202471df661844e4ab615bd1efbfcd423b1c803efe8a1dc3b59a3d6223ea5816043110218cb56e2e31d67792ab5779e06ea12cad42b71917ec730ab506ea50066fe613d1cccc216399202a0f4e50d97c3354af2e7ab4fb62b59e6e7452d2c7c1fe4d0203ba61144803a57d461fb13577217927411c6e5f4242c8f95ea6a9df56b0e24873956e4f3cc0567e47724655383309ba4fcbf2d15b92dd4258c55ba1704c5ec997d172964f58b44677d9094759c8e1a049b8fe0e6cab8a8d8e6dfb7d5f4f3f34baba082ee2f176b74f78d1df54a015b81efd233d72b4682d564d13d89e5be186061f8645b328cb1a3bb44363efafef7e3751f8b5616a817944cae1dcd94e4a89ba2024a82803eac249ffb04765bc83e589e6713f70e4dac9df55f83b33adb553745f822e536d438122c2a5e724704fa93360f842aeeddcd569079717183a19a0c89abf9b1725c6a8dc42f4022282a25d474e338f83fa2f81dae308fdcd5ed432298aaaac0d4a134a9ee04d2dd7e5429a5fe64273e09c1c859d05ee7bb9c2af873beb011995e0372b90a2fcb4</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="71a4bbf953b09ae1687abdd8a7c7d550fc8d8274c20cdf9ddb03ce63632beede">fe75e9f90837d31871e5503aa45a89ee5562dadfad55b5c5100ead8053f46fdf84a5fa17e621a46356190363770d12556671e02c64875c555e7d0cfd7871db022aa094b54f898ae830d67a349c8241ac0ebb6f5f08bda0b91a971701af93564a863d2363799878ad83deac54d581d75976a01771f3b7ffd8cb93ddcff492b9a31b3892e807284d6df9f608e913844115ad0f241ec2377cc8c8c35e9b04c459204ada9e442e0035b8fbe0626a783648a2ad694e7f391c74ae37a56a3869fb7796034c465bae6ba346446dfc853fc686f4962f0796fa967e4f01f53dfe5bc633e1f8792cacae7130cdcebbdb05ba8936a8ac8715b367359ea5d5300a62c7a7ba37f847d30f125c42fd6e4ab0d32866a6b5d00270203d43e4835dbf621e0bbb044c68d004a54e6b8c4a0b5650ffc43d749656d9071997160a1d307887479caa3153f578371a450644b04895a6b70eb458aaebfaddd5592716e6b16119733e353e4b7c3c24a67d6ff690457300d4204888c7d21bbe686c2b2ca9befb8b94cd3fbc2d0b91cf194926dd4f9bea5512b7a32a4053881b9f3d6ab782d7157d8e76d237deefd5ce1131999633afb70e8267c5701a4217f8bb737ea3a925cad05a6fdbe133614755c58d8f9ef8aef95d0754149030f23cd9033e308f117023921a837615472a594ec6ebc75f7533c0d3e80e6f667010b30942083e89ef74947aa8b9e09698a0c63efe8e2c997d39ebc6baf70dbf73c89ddf801c6f26899a80a2245bfd983a0ed0774103827709185102b6912ba172fc78a90ae16f0daa2f0e459127b110905c431cd9db898f0fdda6a91bcedb0a573ece29e650712856d3da53c37907bb30272d8c5577051c35f438d3f1c10166942c48f268733f17117b98e2400f2515d99da6f03ebab8243e15c5c41f42d56d3fd1b25eb47e3fb2419e07229ebae914d19dc224b66929f9259cdba7617c00050be2cbc3e4fca56de2e858e00ac68f8a9047b8b65e1b83e61afff136cd49f342b63f074cd39369b6bd1e59c9dd37e7baa0849f57aeef2eb009d6a63a4b07ee5c00301d761dcd34f9ecb6f3bf0b01871c32c1416ee4691410a5cf1cca12d137f226ef3dcad655f0894872f7186ce11d24540f7a63c2a5f36b483d66022f4afc96bdf8c822232b1a3d7a47a2283d674b2a0fc106cae57b8f9dbdcf7edb25f3b525d7c3624fe9e2d383d477774417b11906cacc28bcd569fe1191c931f0447d2c7ea4637e708f5fdb79491f4f1ea7f28acc3e1bca24515063d0270faee1262c193fed73dbeab220044e38781d8c89ce00271959604eebb3b5213b451509364aa70b188b5dc1dc4c8a90bdaae9d5b271f7d863bc5c0856ab1895930a4e83a634910ed634aa7888b95f4bcea98ba5d28deb96f96865b8e3a012b00c98c40ade591867d166a19c1a70c0b317822b21ba18d2b7202181aae096bc1cad00a7dda54b9eeec460ef1518726070ef059a18a6c2636dd3a09310e8aa5fc9e983c716248cc803e1e6da43fd03f6ffb1a15b7590bb426d178c458cfcb498c0d96726e43d9f0e426e928257cef7a5594fef4cf1f175e53332cae56c922a2daecbff6728a32c2e4cd9adcf5f4e36b3637af334643e0a590ece6c90fc136458d69a61c9c498df6dcfc2ed2dfb7829b4aded553722a613b80524c8de4226de34966e23845970f3bd757265f7770e5083e809300f65a4b0f25a922596df2c4416beab1f23d6e8eda94cb23265cba8db68713705a28f614db5b2dc4b56c1a81a3d8c664728952c57870d0f471b0622c33b5c110e2bd135aa1f8a61c4244d5c09ea0d1151f55c6a7fb6691bb6394d66cdcad1e1d03bd3c293eb26e86247d3ea37cf455cc0f55f628cf157caa3ab93b3a6105aaa260a38b09f718c64f5c5f284e7cb2589da33468a69cb8ac6da86357ab32c2a7e3575f6f1cda9f015ab60bd0cf17207c51c9ac1373355e7aa03f5e440e3ece4b3fd218df0c718b21dfbd01926795eae6a8ac30682d3be29522bf83d948674512958d5d40ebe5959726486e2671749a169326cf8b43f2483fe50ff7d8ca4051710298991bc2133328a659a68a5ab96d60f3a2154195a7ba360f905d76fcfc392acce9a4dc8ccda73de5245020ea75628ae3959a24fb88bc1a3c895fe4481c6fce246eee0baf32d61b097f2f94ceb170c754be35bd5d36daab55d3c8b5158903a82d284213841632852ec83eefed093cd1330eae4f692436ab3de46807a185b0c897c58062d9e65fba22ce0b1d0f287d78002948193ac0aebb92f2e7b6109ca6dafc37a61763d553ea5</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1701,7 +1693,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>《管理学原理》笔记</title>
     <url>/2021/02/23/%E3%80%8A%E7%AE%A1%E7%90%86%E5%AD%A6%E5%8E%9F%E7%90%86%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>《管理学原理B》笔记</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[toc]</p>
 <h3 id="管理导论"><a href="#管理导论" class="headerlink" title="管理导论"></a>管理导论</h3><hr>
 <h4 id="管理的概念"><a href="#管理的概念" class="headerlink" title="管理的概念"></a>管理的概念</h4><h5 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h5><p>华为的管理：</p>
@@ -1809,7 +1801,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>数学一</title>
     <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学一高数笔记</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(23" alt="屏幕截图(23)">.png)</p>
 <p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(24" alt="屏幕截图(24)">.png)</p>
 <h4 id="函数概念"><a href="#函数概念" class="headerlink" title="函数概念"></a>函数概念</h4><ol>
@@ -1889,59 +1881,48 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>关于冲动</title>
     <url>/2021/01/28/%E5%85%B3%E4%BA%8E%E5%86%B2%E5%8A%A8/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>一篇关于信仰、驱动力、性的随想</p>
-<a id="more"></a>
-<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><h3 id="驱动力"><a href="#驱动力" class="headerlink" title="驱动力"></a>驱动力</h3><p>这里的驱动力是指“驱动人做某件事的动力”，我认为驱动力分为两种：</p>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>激励行为的简单分析</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="驱动力"><a href="#驱动力" class="headerlink" title="驱动力"></a>驱动力</h3><p>这里的驱动力是指“驱动人做某件事的动力”，驱动力分为两种：</p>
 <ul>
-<li>正驱动力：积极的驱动力，也就是给人带来希望与期盼的愿景，例如：完成某事以后得到某种奖励。</li>
-<li>负驱动力：消极的驱动力，给人带来压抑和不适的<strong>未完成某事</strong>的后果，例如：不参加考试被记作旷考。</li>
+<li>拉力：积极的驱动力，也就是给人带来希望与期盼的愿景，例如：完成某事以后得到某种奖励。</li>
+<li>推力：消极的驱动力，给人带来压力，例如：不学习就会挂科。</li>
 </ul>
 <p>根据赋予驱动力“强”、“弱”两种性质来说，共有四种组合：</p>
-<ol>
-<li>强正驱动力，弱负驱动力</li>
-<li>弱正驱动力，强负驱动力</li>
-<li>弱正驱动力，弱负驱动力</li>
-<li>强正驱动力，强负驱动力</li>
-</ol>
-<p>我认为，每种情况对应的驱动效果对个体是不同的，这里不逐一分析各情况，仅分析对我来说总驱动力最强和最弱的情况：</p>
-<p>最强：4</p>
-<p>最弱：3</p>
-<p>压力带来的后果能让我不得不考虑着手开始这件事，而愿景带来的吸引可以让我以更好的状态去完成这件事，因此最强的驱动力应该是4。</p>
-<p>最弱驱动是3的原因类似可得。</p>
-<p>注意，1、2是有可能比3、4更强或者更弱的，驱动力总和并不应该是1+1=2的情况，举例说明：</p>
-<p>某个人的性格较佛系，那么可能“3、弱正驱动力，弱负驱动力”对他来说效果最好，因为他不适应比较强的驱动，而更多靠一种自觉。</p>
+<ul>
+<li>强拉力、低推力</li>
+<li>强推力、低拉力</li>
+<li>强拉力、强推力</li>
+<li>弱拉力、弱推力</li>
+</ul>
+<p>总的驱动力应该是两种力的“合力”。</p>
 <hr>
-<h3 id="信仰"><a href="#信仰" class="headerlink" title="信仰"></a>信仰</h3><p>如果将信仰带来的驱动按照上面所介绍的进行分类，应当划为：“2、弱正驱动力，强负驱动力”</p>
-<p>可能你会想：能作为信仰的应当是一件非常伟大的事情吧？（至少作为信仰者来说应当是伟大的），那为什么正驱动力不强？</p>
-<p>答曰：正因为大部分人信仰的难以实现性，我想不会有人吧把“吃饭”、“睡觉”当作信仰吧？（不是开玩笑说的那种信仰）</p>
-<p>思考一下：诺贝尔奖作为愿景是否很激动人心？给人强烈的吸引力，甚至你可能都在幻想站在领奖台的样子，可是如果你把得到诺贝尔奖当作信仰，思考正驱动力和负驱动力：</p>
-<p>正驱动力：金钱（最直接的）、荣誉（自我实现的满足感）、地位（例如：某某大学名誉教授）</p>
-<p>负驱动力：生活的压力、困苦的处境、渴求被人理解的心情</p>
-<p>因为信仰的正驱动力太过理想化，负驱动力是赤裸的现实，所以我将信仰划分为“2、弱正驱动力，正负驱动力”</p>
+<h3 id="信仰"><a href="#信仰" class="headerlink" title="信仰"></a>信仰</h3><p>如果将信仰带来的驱动按照上面所介绍的进行分类，应当划为：“强拉力，弱推力”</p>
+<p>拉力：成就感、自我满足的需求</p>
+<p>推力：近乎没有推力，毕竟没有人和事能强迫你必须完成信仰，甚至不要求你必须有信仰</p>
 <hr>
-<h3 id="性"><a href="#性" class="headerlink" title="性"></a>性</h3><p>这里指的性并不特指狭义的性，也包括对异性的接触欲、倾诉欲等等。</p>
-<p>性应该分作“ 1、强正驱动力，弱负驱动力”</p>
+<h3 id="性"><a href="#性" class="headerlink" title="性"></a>性</h3><p>这里指的性并不特指狭义的性，也包括对异性的接触欲、倾诉欲以及爱情等等。</p>
+<p>性应该划分为：“ 强拉力，强推力”</p>
 <p>分析：</p>
-<p>正驱动力：多巴胺带来的快感、对脑子中幻想的未来的希望、性冲动等</p>
-<p>负驱动力：孤独、生理需求</p>
+<p>拉力：生物需求、行为习惯、感情、等</p>
+<p>推力：孤独感、需求感、占有欲、控制欲</p>
 <hr>
-<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>从信仰和性能看出一些驱动的长短期效应，也就是驱动的持续时间。</p>
-<p>信仰应该是长期驱动，很难被短期的挫折消灭；</p>
-<p>性属于短期驱动，因为此种驱动本质上说依赖于生理化学反应，如果没有思想改变，迟早会消散。</p>
+<h3 id="时效"><a href="#时效" class="headerlink" title="时效"></a>时效</h3><p>信仰是长期驱动，一旦拉力明确下来，不会轻易被挫折消灭；</p>
+<p>性属于短期驱动，因为此种驱动本质上说依赖于激素和欲望，如果没有深层次的情感，迟早会失去驱动效果。</p>
 ]]></content>
       <categories>
-        <category>胡思乱想</category>
+        <category>思考</category>
       </categories>
       <tags>
-        <tag>思考</tag>
+        <tag>激励</tag>
       </tags>
   </entry>
   <entry>
     <title>LeetCode674.最长连续递增序列</title>
     <url>/2021/01/24/LeetCode674-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>给定一个未经排序的整数数组，找到最长且 <strong>连续递增的子序列</strong>，并返回该序列的长度。</p>
-<a id="more"></a>
-<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>思路：贪心</p>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>给定一个未经排序的整数数组，找到最长且 <strong>连续递增的子序列</strong>，并返回该序列的长度。</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>思路：贪心</p>
 <p>说明：连续说明不能跳越的得到数字。</p>
 <p>证明：</p>
 <ul>
@@ -1956,7 +1937,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 </li>
 </ul>
 <p>代码：（题目只要长度，就只记录了长度信息）</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">findLengthOfLCIS</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> len=nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">if</span>(len==<span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> res=<span class="number">1</span>,temp=<span class="number">1</span>;<span class="comment">//初始情况下，首尾元素重叠，也就是只有1个长度的子序列。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;len<span class="number">-1</span>;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&gt;nums[i])&#123;</span><br><span class="line">                temp++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&lt;nums[i])&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp&gt;res)</span><br><span class="line">                res=temp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">findLengthOfLCIS</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> len=nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">if</span>(len==<span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> res=<span class="number">1</span>,temp=<span class="number">1</span>;<span class="comment">//初始情况下，首尾元素重叠，也就是只有1个长度的子序列。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;len<span class="number">-1</span>;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&gt;nums[i])&#123;</span><br><span class="line">                temp++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(nums[i+<span class="number">1</span>]&lt;nums[i])&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                temp=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp&gt;res)</span><br><span class="line">                res=temp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>学习记录</category>
@@ -1968,9 +1949,9 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>《陶哲轩实分析》读书笔记</title>
     <url>/2021/01/24/%E3%80%8A%E9%99%B6%E5%93%B2%E8%BD%A9%E5%AE%9E%E5%88%86%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>假期阅读，为复习微积分等课程做准备。</p>
-<a id="more"></a>
-<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>[toc]</p>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>假期阅读，为复习微积分等课程做准备。</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[toc]</p>
 <h3 id="第二章-自然数"><a href="#第二章-自然数" class="headerlink" title="第二章 自然数"></a>第二章 自然数</h3><h4 id="Peano公理：公理化定义自然数系-0、1、2、……"><a href="#Peano公理：公理化定义自然数系-0、1、2、……" class="headerlink" title="Peano公理：公理化定义自然数系{0、1、2、……}"></a>Peano公理：公理化定义自然数系{0、1、2、……}</h4><ul>
 <li>0是一个自然数。</li>
 <li>若n是自然数，则n++也是自然数。</li>
@@ -1990,9 +1971,9 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>关于人之间关系的一些想法</title>
     <url>/2021/01/24/%E5%85%B3%E4%BA%8E%E4%BA%BA%E4%B9%8B%E9%97%B4%E5%85%B3%E7%B3%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>一些辗转反侧的痛苦</p>
-<a id="more"></a>
-<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><font size="3">
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>一些辗转反侧的痛苦</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><font size="3">
 
 [toc]
 
@@ -2011,23 +1992,22 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 
 更具体的例子：
 
-鲁迅和闰土（尽管不一定对应真人，但必定有一定的现实基础）
+鲁迅和闰土（尽管小说是虚构的，但必定有一定的现实基础）
 
-> 一日是天气很冷的午后，我吃过午饭，坐着喝茶，觉得外面有人进来了，便回头去看。我看时，不由的非常出惊，慌忙站起身，迎着走去。
->
-> 这来的便是闰土。虽然我一见便知道是闰土，但又不是我这记忆上的闰土了。他身材增加了一倍；先前的紫色的圆脸，已经变作灰黄，而且加上了很深的皱纹；眼睛也像他父亲一样，周围都肿得通红，这我知道，在海边种地的人，终日吹着海风，大抵是这样的。他头上是一顶破毡帽，身上只一件极薄的棉衣，浑身瑟索着；手里提着一个纸包和一支长烟管，那手也不是我所记得的红活圆实的手，却又粗又笨而且开裂，像是松树皮了。
->
-> 我这时很兴奋，但不知道怎么说才好，只是说：
->
-> “阿！闰土哥，——你来了？……”
->
-> 我接着便有许多话，想要连珠一般涌出：角鸡，跳鱼儿，贝壳，猹，……但又总觉得被什么挡着似的，单在脑里面回旋，吐不出口外去。
->
-> 他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声。他的态度终于恭敬起来了，分明的叫道：
->
-> “老爷！……”
->
-> 我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。我也说不出话。
+ 一日是天气很冷的午后，我吃过午饭，坐着喝茶，觉得外面有人进来了，便回头去看。我看时，不由的非常出惊，慌忙站起身，迎着走去。
+ 这来的便是闰土。虽然我一见便知道是闰土，但又不是我这记忆上的闰土了。他身材增加了一倍；先前的紫色的圆脸，已经变作灰黄，而且加上了很深的皱纹；眼睛也像他父亲一样，周围都肿得通红，这我知道，在海边种地的人，终日吹着海风，大抵是这样的。他头上是一顶破毡帽，身上只一件极薄的棉衣，浑身瑟索着；手里提着一个纸包和一支长烟管，那手也不是我所记得的红活圆实的手，却又粗又笨而且开裂，像是松树皮了。
+
+ 我这时很兴奋，但不知道怎么说才好，只是说：
+
+ “阿！闰土哥，——你来了？……”
+
+ 我接着便有许多话，想要连珠一般涌出：角鸡，跳鱼儿，贝壳，猹，……但又总觉得被什么挡着似的，单在脑里面回旋，吐不出口外去。
+
+ 他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声。他的态度终于恭敬起来了，分明的叫道：
+
+ “老爷！……”
+
+ 我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。我也说不出话。
 
 
 
@@ -2105,7 +2085,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>菜菜的句子摘抄</title>
     <url>/2021/01/20/%E8%8F%9C%E8%8F%9C%E7%9A%84%E5%8F%A5%E5%AD%90%E6%91%98%E6%8A%84/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>以日期为标题记录的句子摘抄</p>
-<a id="more"></a>
+<span id="more"></span>
 <font face="楷体" size="5">
 
 # 内容
@@ -2369,8 +2349,8 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>《欢迎来到实力至上主义教室》摘抄</title>
     <url>/2020/01/28/%E3%80%8A%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%AE%9E%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E4%B9%89%E6%95%99%E5%AE%A4%E3%80%8B/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>句子摘抄</p>
-<a id="more"></a>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>句子摘抄</p>
+<span id="more"></span>
 <font face="楷体" size="5">
 
 <blockquote><p>什么是恶？</p>
@@ -2483,7 +2463,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <title>学习C++</title>
     <url>/2020/01/15/%E5%AD%A6%E4%B9%A0C++/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>C++基础内容学习</p>
-<a id="more"></a>
+<span id="more"></span>
 <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><h2 id="换行符辨析"><a href="#换行符辨析" class="headerlink" title="换行符辨析"></a>换行符辨析</h2><ul>
 <li><p>“\n”<code>换行不会刷新缓冲区，</code>std::endl`会刷新缓冲区；</p>
 <pre><code>* 操作符`&lt;&lt;`重载，&quot;\n&quot;与&#39;\n&#39;输出效果相同；
@@ -2505,7 +2485,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <li><p>全局作用域</p>
 <p>  例如：有局部变量a与全局变量a，在局部作用域内局部变量a会自动覆盖全局变量a，可以使用<code>::a</code>来指代全局变量a。</p>
 </li>
-<li>作用域分解运算符<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">例如：</span><br><span class="line">  <span class="class"><span class="keyword">class</span> <span class="title">A</span>&#123;</span><span class="comment">//定义类A，但对于成员函数只给出声明（函数原型），不给出定义。</span></span><br><span class="line">      <span class="keyword">public</span>:</span><br><span class="line">      <span class="keyword">int</span> a;</span><br><span class="line">      <span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>;</span><br><span class="line">      <span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a)</span></span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">//为了实现成员函数，从类声明以外给出函数的定义。</span></span><br><span class="line">  <span class="keyword">int</span> A::add(<span class="keyword">int</span> a,<span class="keyword">int</span> b)&#123;</span><br><span class="line">      <span class="keyword">return</span> a+b;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">int</span> A::add(<span class="keyword">int</span> a)&#123;</span><br><span class="line">      <span class="keyword">return</span> a+::a; <span class="comment">//这里使用::指代类中的a，相当于this.</span></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<li>作用域分解运算符<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">例如：</span><br><span class="line">  <span class="class"><span class="keyword">class</span> <span class="title">A</span>&#123;</span><span class="comment">//定义类A，但对于成员函数只给出声明（函数原型），不给出定义。</span></span><br><span class="line">      <span class="keyword">public</span>:</span><br><span class="line">      <span class="keyword">int</span> a;</span><br><span class="line">      <span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>;</span><br><span class="line">      <span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a)</span></span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">//为了实现成员函数，从类声明以外给出函数的定义。</span></span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">A::add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">      <span class="keyword">return</span> a+b;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">int</span> <span class="title">A::add</span><span class="params">(<span class="keyword">int</span> a)</span></span>&#123;</span><br><span class="line">      <span class="keyword">return</span> a+::a; <span class="comment">//这里使用::指代类中的a，相当于this.</span></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
@@ -2541,7 +2521,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <h2 id="类似wchar-t类型的其他类型-以下内容转自菜鸟教程笔记，实际来源未知"><a href="#类似wchar-t类型的其他类型-以下内容转自菜鸟教程笔记，实际来源未知" class="headerlink" title="类似wchar_t类型的其他类型(以下内容转自菜鸟教程笔记，实际来源未知)"></a>类似wchar_t类型的其他类型(以下内容转自菜鸟教程笔记，实际来源未知)</h2><p>​    size_t 在 C 语言中就有了。<br>​    它是一种 <strong>整型</strong> 类型，里面保存的是一个整数，就像 int, long 那样。这种整数用来记录一个大小(size)。size_t 的全称应该是 size type，就是说 <strong>一种用来记录大小的数据类型</strong>。<br>​    通常我们用 <strong>sizeof(XXX)</strong> 操作，这个操作所得到的结果就是 size_t 类型。<br>​    因为 size_t 类型的数据其实是保存了一个整数，所以它也可以做加减乘除，也可以转化为 int 并赋值给 int 类型的变量。<br>​    类似的还有 <strong>wchar_t, ptrdiff_t</strong>。<br>​    <strong>wchar_t</strong> 就是 wide char type， 一种用来记录一个宽字符的数据类型 。<br>​    <strong>ptrdiff_t</strong>就是 pointer difference type， 一种用来记录两个指针之间的距离的数据类型 。<br>​    通常，size_t 和 ptrdiff_t 都是用 typedef 来实现的。你可能在某个头文件里面找到类似的语句：</p>
 <pre><code> typedef unsigned int size_t;
 </code></pre><p>​    而 wchar_t 则稍有不同。在一些旧的编译器中，wchar_t 也可能是用 typedef 来实现，但是新的标准中 wchar_t 已经是 C/C++ 语言的关键字，wchar_t 类型的地位已经和 char, int 的地位等同了。<br>​    在标准 C/C++ 的语法中，只有 <strong>int float char bool</strong> 等基本的数据类型，至于 size_t, 或 size_type 都是以后的编程人员为了方便记忆所定义的一些便于理解的由基本数据类型的变体类型。<br>​    例如：<strong>typedef int size_t;</strong> 定义了 <strong>size_t</strong> 为整型。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> i;                   <span class="comment">// 定义一个 int 类型的变量 i</span></span><br><span class="line">  <span class="keyword">size_t</span> <span class="built_in">size</span>=<span class="keyword">sizeof</span>(i);   <span class="comment">// 用 sizeof 操作得到变量i的类型的大小</span></span><br><span class="line">  <span class="comment">// 这是一个size_t类型的值</span></span><br><span class="line">  <span class="comment">// 可以用来对一个size_t类型的变量做初始化</span></span><br><span class="line"></span><br><span class="line">  i=(<span class="keyword">int</span>)<span class="built_in">size</span>;             <span class="comment">// size_t 类型的值可以转化为 int 类型的值</span></span><br><span class="line">  <span class="keyword">char</span> c=<span class="string">'a'</span>;              <span class="comment">// c 保存了字符 a，占一个字节</span></span><br><span class="line">  <span class="keyword">wchar_t</span> wc=<span class="string">L'a'</span>;         <span class="comment">// wc 保存了宽字符 a，占两个字节</span></span><br><span class="line">  <span class="comment">// 注意 'a' 表示字符 a，L'a' 表示宽字符 a</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">int</span> arr[]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>&#125;;   <span class="comment">// 定义一个数组</span></span><br><span class="line">  <span class="keyword">int</span> *p1=&amp;arr[<span class="number">0</span>];         <span class="comment">// 取得数组中元素的地址，赋值给指针</span></span><br><span class="line">  <span class="keyword">int</span> *p2=&amp;arr[<span class="number">3</span>];</span><br><span class="line">  <span class="keyword">ptrdiff_t</span> diff=p2-p1;    <span class="comment">// 指针的减法可以计算两个指针之间相隔的元素个数</span></span><br><span class="line">  <span class="comment">// 所得结果是一个 ptrdiff_t 类型</span></span><br><span class="line">  i=(<span class="keyword">int</span>)diff;             <span class="comment">// ptrdiff_t 类型的值可以转化为 int 类型的值</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> i;                   <span class="comment">// 定义一个 int 类型的变量 i</span></span><br><span class="line">  <span class="keyword">size_t</span> size=<span class="built_in"><span class="keyword">sizeof</span></span>(i);   <span class="comment">// 用 sizeof 操作得到变量i的类型的大小</span></span><br><span class="line">  <span class="comment">// 这是一个size_t类型的值</span></span><br><span class="line">  <span class="comment">// 可以用来对一个size_t类型的变量做初始化</span></span><br><span class="line"></span><br><span class="line">  i=(<span class="keyword">int</span>)size;             <span class="comment">// size_t 类型的值可以转化为 int 类型的值</span></span><br><span class="line">  <span class="keyword">char</span> c=<span class="string">&#x27;a&#x27;</span>;              <span class="comment">// c 保存了字符 a，占一个字节</span></span><br><span class="line">  <span class="keyword">wchar_t</span> wc=<span class="string">L&#x27;a&#x27;</span>;         <span class="comment">// wc 保存了宽字符 a，占两个字节</span></span><br><span class="line">  <span class="comment">// 注意 &#x27;a&#x27; 表示字符 a，L&#x27;a&#x27; 表示宽字符 a</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">int</span> arr[]=&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>&#125;;   <span class="comment">// 定义一个数组</span></span><br><span class="line">  <span class="keyword">int</span> *p1=&amp;arr[<span class="number">0</span>];         <span class="comment">// 取得数组中元素的地址，赋值给指针</span></span><br><span class="line">  <span class="keyword">int</span> *p2=&amp;arr[<span class="number">3</span>];</span><br><span class="line">  <span class="keyword">ptrdiff_t</span> diff=p2-p1;    <span class="comment">// 指针的减法可以计算两个指针之间相隔的元素个数</span></span><br><span class="line">  <span class="comment">// 所得结果是一个 ptrdiff_t 类型</span></span><br><span class="line">  i=(<span class="keyword">int</span>)diff;             <span class="comment">// ptrdiff_t 类型的值可以转化为 int 类型的值</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>学习记录</category>
@@ -2553,8 +2533,8 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>学习markdown基本语法</title>
     <url>/2020/01/15/%E5%AD%A6%E4%B9%A0markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>markdown语法的学习。<br>Typora是我写md文档时使用的编辑器，因此我也记录了一些Typora的快捷键。</p>
-<a id="more"></a>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>markdown语法的学习。<br>因为Typora是我写md文档时使用的编辑器，所以我也记录了一些个人常用的Typora快捷键。</p>
+<span id="more"></span>
 <h2 id="学习内容总结"><a href="#学习内容总结" class="headerlink" title="学习内容总结"></a>学习内容总结</h2><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><hr>
 <ol>
 <li><p>标题</p>
@@ -2612,12 +2592,6 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <li><p>主题设置：Pixyll</p>
 </li>
 </ul>
-<h3 id="引用句子实例"><a href="#引用句子实例" class="headerlink" title="引用句子实例"></a>引用句子实例</h3><hr>
-<blockquote><p>草在结它的种子，风在摇它的叶子。</p>
-<p>我们站着，不说话，就十分美好。</p>
-<footer><strong>顾城</strong></footer></blockquote>
-<h3 id="插入图片实例"><a href="#插入图片实例" class="headerlink" title="插入图片实例"></a>插入图片实例</h3><hr>
-<p><img src="/2020/01/15/%E5%AD%A6%E4%B9%A0markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/maomi.jpg" style="zoom:33%;"></p>
 ]]></content>
       <categories>
         <category>学习记录</category>
