@@ -1,436 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>断舍离</title>
-    <url>/2021/07/08/%E6%96%AD%E8%88%8D%E7%A6%BB/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码不正确，请重新输入。" data-whm="文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="8130d414a3462df0c0b21e663e93ad85f23481d4b69f02192dc51105c006d39a">fe75e9f90837d31871e5503aa45a89ee5562dadfad55b5c5100ead8053f46fdf84a5fa17e621a46356190363770d12556671e02c64875c555e7d0cfd7871db022aa094b54f898ae830d67a349c8241ac0ebb6f5f08bda0b91a971701af93564af134be697fd603a479f839620012a8718959460e36f3062329b1b64da516a03cd83244ebe0e5be99fa5488bb1e74381681b9dfa0a63df5f18cbb4bbb22927c734f6eb9f89d7da79a63448fb2d622b0573165acdbdaa50c037d0055ad8bf73efe6c34dcf78bd507935378a31dd54795af8f9eaf43c3ef28fcefcdbccf504576f4b5758425b3de3cc26723771fb68c200a28f6265d494f3eb5353c62441b2449f14c89428797c0086fdbfd7a1b242e5d6fea08d336c01b538448fa0db00b964b12a2398d7e860ae4a3184f5bca7c89baa5258714b72882f4ec734d49809406384fbbbd03e4d3949ba79618415dc4e7fa87f57989317f9ae3211bd663f60e8b780a5c889f9c8878b77405a135f3a87c47f9561246ee857c2099cad21c2ace05cb8198cad1e22099a021f9d4c8b39d047a4018a049180e4c1f0aa33876196e422cb2797164cb29f731d74c1d415a7aa89a01788fb638bf1ba8332bc334bdac2d31eef80fe580ff388707edb374d42261dfa2f261a17dd24de16a9e9bea5ad471bd235452ce7292f9d0051b9af1a39c8db4d47ed9dbfe2cb00cd0ded2487f7d08da5182f8716b1baf745f2db7d40a64b066935a79275768b84047fa9ccc0e04ccd5f24191b5d7e52ed5cbe8c1afbcd53c187d920a8ca1a3e05c96b2c2fcffdae04c9c2c5250f391430fb43d400886a3a791fd45501897a26d90ac3c0581f007e689bbcace067113133a6352843c68afd41c41879718f75f55d8327d55dd5e623cdc68dccd427ca14a56f664796c4cfca676aab0a62b6cd368438c24b2e7d7e6300934a88288a1a1cde956f6648b9066da3520ba1c691d4133f0d8aad95a16560547f0b5b4b38b2d63d1514c3dda36955b9c3a977e6f6861c2704351c45446a2859197c08974be46db15e860ecd408fba732bc4c6f4a63559c534557bbd29be9629c54848f37a3cf9d446dd7eea03e319a4d6226bd6a332d6391cb62775a27d19b2dad54010227860baa7a92e76848395d6a5744667162d29c093cc815b82d4ea2688f31ee47c6e6b1544b27e5039772cfcd390306fce13a90c6fc4525df50f1f87e0f6bc1cf90af1ea49e87340c00afc5ec41a2be717d8ff84cf3cf32f4fa385151891f2b519e7a1e855603b463381c9e08fb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>琐事记录</category>
-      </categories>
-      <tags>
-        <tag>断舍离</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题相关</title>
-    <url>/2021/07/05/Next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录Next主题相关个人配置</p>
+    <title>数学概念的思考</title>
+    <url>/2021/08/14/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5%E7%9A%84%E6%80%9D%E8%80%83/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>数学概念过程中的一些个人理解。</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ul>
-<li><p>主题风格</p>
-<p>Scheme：Mist</p>
-</li>
-<li><p>网页图标路径：themes\Next\source\images\personal</p>
-</li>
-<li><p>背景图片设置：(已舍弃背景图片配置)</p>
-<ul>
-<li>打开配置路径：主题配置文件中的custom_file_path，将style注释取消</li>
-<li>实际配置路径路径：source\_data\styles.styl</li>
-<li>使用到的CSS：<a href="https://www.w3school.com.cn/cssref/pr_background-size.asp">https://www.w3school.com.cn/cssref/pr_background-size.asp</a></li>
-</ul>
-</li>
-<li><p>背景音乐：</p>
-<ul>
-<li>插入音乐外链路径：<code>themes\next\layout\_macro\sidebar.swig</code>找到<code>sidebar-inner</code>，复制之前的代码粘贴到<code>&lt;div&gt;</code>标签后</li>
-</ul>
-</li>
-</ul>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h3><p>​        极限概念应该用变化的角度去理解，用过程这个词来描述极限最为合适。</p>
+<p>​        过程是指无线逼近的动态变化过程。</p>
+<p>​        极限与所求点处的值更像一对孪生兄弟，他们永远也不能划等号，因为他们不能是同一个人。</p>
+<p>​        但是它们之间存在一些相似的特性，这些相似的特性使得我们在无法直接运用某个点处的值的时候（例如该点值为0且处于分母时）可以借用极限这个孪生兄弟来解决问题，尽管极限和实际的值存在一个误差，但是这个误 差由极限定义可知是无穷小的，也就是误差的极限是0。</p>
+<p>​        我们人为的认为：误差等于0和误差极限为0对于问题的解来说意义是等价的。</p>
+<p>​        举例说：在使用积分求解面积的过程中，我们采用宽度非常细的矩形条求和来计算面积，为什么非要采用这种方式呢？因为如果采用线条叠加的方式求和，我们无法计算出每条线条的面积，因为线条的宽固定在一个点上，宽的值为0.</p>
+<p>​        这个时候我们采用极限这个孪生兄弟来解决，取宽的极限为0的细矩形条求和。</p>
+<p>​        尽管两者之间由概念上的区别可知，极限的方式存在误差，但是这种误差在宽无限接近0的情况下也变得无限接近于0，也就是极限为0，而对问题的解来说，由于人为的对于误差为0和误差极限为0持有相同的态度，所以这样得出的结果被我们接受。</p>
+<p>​        另一个例子：</p>
+<p>​        1/3=0.3333… </p>
+<p>​        (1/3)*3=0.9999…=1</p>
+<p>​        0.9999…和1之间是有间隙的，这种间隙可以认为是一种误差，由于9是无限循环的，</p>
+<p>​        我们可以认为这种误差的极限为0，可以接受使用0.9999…=1的行为。</p>
+<p>​        这里的0.9999…和1也就是我们的孪生兄弟，0.9999…是一个极限，因为9的无限循环其实就是一种无限趋近的过程，符合极限的特点，而1就是一个固定的点。</p>
+<p>​        0.9999…可以代替1使用，理由是上面所说的误差极限为0，但我认为两者是本质不同的。</p>
+<p>​        类比于0的左极限和0的关系，尽管无限接近0，但是左极限是有负号的，他们不可能相同，</p>
+<p>也就是上面我说的他们不可能是同一个东西。</p>
+<p>那为什么计算面积可以用积分求呢？积分不是一种极限，一种近似的过程吗？为什么能代替一种完全确定的过程（面积）？</p>
+<p>我的猜想是因为数学中所求的面积都是一种无限叠加的近似过程，试想，数学中数轴上的线段都存在无穷个点，而现实中不可能存在。一维度长度尚且如此，二维面积自然也是无穷个点叠加而成。换言之，数学中的面积，长度等定义都是无穷个点叠加得到的，与极限的定义殊途同归，都代表一种过程，所以数学中的面积可以用极限求得。现实中不存在这样的东西，但是数学对现实世界的简化可以实现误差的尽可能小，误差足够小就能让我们接受那个所谓的面积了。</p>
+<hr>
+<h3 id="光滑和粗糙"><a href="#光滑和粗糙" class="headerlink" title="光滑和粗糙"></a>光滑和粗糙</h3><p>​        在现实世界里，普朗克长度告诉我们所有事物的最小尺度是有限的，不会无限小，这就意味着如果有足够的放大镜放大事物的尺度，我们可以看见空间是“粗糙”的，也就是不是由物质由最小组成部分“无缝”拼合而成，而是有“缝隙”的拼合而成。</p>
+<p>​        在数学的世界里，有离散和连续两种情况，离散其实对应了我们的现实世界的真实情况，而连续对应了一种数学上、思想中抽象的“光滑”，也就是“无缝”拼接。为什么需要这种“光滑”的抽象呢？我觉得其中可能有一个原因是：现实世界对于“粗糙”的情况我们无法去处理，比如你如何求一个表面到处都是坑的球体的体积和面积呢？（现实世界尺度的球体），尺度放大以后过于复杂，因此我们采取了“光滑”的球体，而那种球体在我们的世界，至少如今的世界是不存在的，类似的，数学中的其他几何图形，都是在现实里不可能真正存在的。</p>
+<hr>
+<h4 id="关于复合函数求导的直观理解"><a href="#关于复合函数求导的直观理解" class="headerlink" title="关于复合函数求导的直观理解"></a>关于复合函数求导的直观理解</h4><p>首先要明确两个概念：</p>
+<p>所谓函数，即某变量$x$的变化会导致另一个变量$y$的变化。</p>
+<p>所谓对$x$求导，即某变量$x$的无穷小变化$dx$导致另一个变量$y$的无穷小变化$dy$</p>
+<p>假设$x$使得另一变量$g$发生变化，而$g$又会让$y$变化，例如：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&x变化dx会导致g变化2dx，即dg=2dx；\\
+&而g变化dy会让y变化2dg，即dy=2dg.\\
+&则总的x对y的变化影响为：dy=2dg=2\cdot 2dx=4dx.\\
+\end{align*}</script><p>这就是链式法则最通俗的理解。</p>
 ]]></content>
       <categories>
-        <category>瞎捣鼓</category>
+        <category>思考</category>
       </categories>
       <tags>
-        <tag>Next</tag>
-        <tag>Hexo</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
-    <title>UML复习</title>
-    <url>/2021/07/04/UML%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>UML课程复习</p>
+    <title>LaTex语法</title>
+    <url>/2021/08/11/LaTex%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录使用到的LaTex语法，方便复用。不直接保存整个表的原因是会保存许多使用不到的内容。</p>
+<p>TODO：内容多了以后会进行分类。</p>
 <span id="more"></span>
-<p>[TOC]</p>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="UML概述"><a href="#UML概述" class="headerlink" title="UML概述"></a>UML概述</h3><ul>
-<li>软件建模的UML类似于画电路图，作用是方便维护和修改设计</li>
-<li>管理组织OMG</li>
-</ul>
-<h3 id="软件开发过程"><a href="#软件开发过程" class="headerlink" title="软件开发过程"></a>软件开发过程</h3><ul>
-<li>OOA：基本模型（对象、特征、关系）、主题（子系统）、交互图</li>
-<li>OOD</li>
-<li>软件过程<ul>
-<li>瀑布模型</li>
-<li>螺旋模型（原型开发）</li>
-<li>RUP<ul>
-<li>时间（动态结构）和核心工作流（静态结构）的二维坐标图</li>
-<li>RUP的四种主要建模元素：角色（“谁”）、活动（“如何”）、制品（“某事”）、工作流（“何时” ）</li>
-<li>RUP 阶段（phase）<br>初始（先启）：定义整个项目的范围<br>细化（精化）：制定项目计划、描述功能、建立架构框架<br>构造（构建）：构造软件产品<br>发布（产品化）：将软件产品移交到最终用户手中</li>
-<li>角色在工作流生成制品，通过活动达到目标</li>
-<li>9个核心工作流：6个核心过程工作流（Core Process Workflows）和3个核心支持工作流（Core Supporting Workflows）。 </li>
-</ul>
-</li>
-<li>敏捷开发：精益思维</li>
-</ul>
-</li>
-</ul>
-<h3 id="用例图"><a href="#用例图" class="headerlink" title="用例图"></a>用例图</h3><ul>
-<li><p>参与者（actor）也称为角色、活动者。<br>为完成某个任务，是与系统进行交互的外部实体。<br>相对系统而言，是外部实体所扮演的角色，不是虚拟的人</p>
-<p>按性质分类和按重要性分类</p>
-</li>
-<li><p>用例是对系统、子系统或类与参与者交互动作序列的说明</p>
-</li>
-<li><p>场景是用例的一次完整、具体的执行过程，用例是一组场景（脚本）的共同行为抽象</p>
-</li>
-<li><p>事件流是场景中系统行为的一个特定序列</p>
-</li>
-<li><p>参与者对用例的关系：关联，用实线表示</p>
-</li>
-<li><p>用例之间的关系：</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>摘自：<a href="https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols">https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols</a></p>
 <ul>
-<li>泛化：空心三角形，实线</li>
-<li>包含：虚线箭头线，《include》构造型</li>
-<li>扩展：虚线箭头线，《extend》构造型，对基本用例的扩展，可以看作例外用例的实现，因为扩展用例依赖于基本用例的场景，所以不能独立存在</li>
-</ul>
+<li><p>大于等于：<code>\geq</code></p>
 </li>
-<li><p>用例描述：描述系统所做的事</p>
+<li><p>小于等于：<code>\leq</code></p>
 </li>
-</ul>
-<h3 id="类图"><a href="#类图" class="headerlink" title="类图"></a>类图</h3><ul>
-<li><p>消息</p>
+<li><p>左对齐：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;align*&#125;</span><br><span class="line"></span><br><span class="line">&amp; some contents in one column...</span><br><span class="line"></span><br><span class="line">\end&#123;align*&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>接口（协议）</p>
+<li><p>存在：<code>\exists</code></p>
 </li>
-<li><p>服务</p>
-</li>
-<li><p>可视性（Visibility）用以下可视性标记表示：</p>
-<ul>
-<li>（公共），#  （保护），–  （私用），～（包） </li>
-</ul>
-</li>
-<li><p>构造操作可以用构造型&lt;<constructor>&gt;标示，也可以用下划线表示</constructor></p>
-</li>
-<li><p>类（Class）的UML图标：属性的属主范围<br>若属性的属主范围是实例，则该类的每一个实例对象都有一个自己的该属性的值<br>若属性的属主范围是分类符，则对于该类本属性只有一个值，该类的每一个实例对象都持有此唯一的属性值，属性标注下划线 </p>
-</li>
-<li><p>例</p>
-<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704151803268.png" alt="image-20210704151803268"></p>
-</li>
-<li><p>类操作：</p>
-<p>返回列表由逗号分隔的操作的返回值类型表达式组成，其格式为：返回类型 或 返回名字 = 类型，… </p>
-</li>
-<li><p>类的UML图标：接口类、抽象类、模板类<br>接口：一组操作的集合，只有操作的声明而没有实现<br>标准图形、变体图形，没有属性<br>不要求实现类和接口类概念本质上是一致的<br>抽象类：不能被实例化的类，一般至少包含一个抽象操作<br>类名、抽象操作名均为斜体<br>模版类：一种参数化的类，在编译时把模版参数绑定到不同的数据类型，从而产生不同的类；模版化的类具有相同行为，但数据类型不同。</p>
-</li>
-<li><p>分析类</p>
-<ul>
-<li>边界类</li>
-<li>实体类</li>
-<li>控制类</li>
-</ul>
-</li>
-<li><p>对象</p>
-<ul>
-<li>对象图标不含有操作框。 </li>
-</ul>
-</li>
-<li><p>类之间的关系</p>
-<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704153053811.png" alt="image-20210704153053811" style="zoom:33%;"></p>
-</li>
-<li><p>限定关联：订货：源类 作业线：目标类</p>
-<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704153555919.png" alt="image-20210704153555919" style="zoom:33%;"></p>
-</li>
-<li><p>聚合关联：较弱的整体部分关系，空心菱形代表整体的一方</p>
-</li>
-<li><p>组合关联：较强的整体部分关系，实心菱形代表整体的一方</p>
-</li>
-<li><p>多态机制：</p>
-<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704155032304.png" alt="image-20210704155032304" style="zoom: 33%;"></p>
-</li>
-<li><p>类图模型建立过程<br>寻找类：寻找备选类，从备选类中筛选出候选类。<br>确定类关系，给关联加属性。<br>确定类的职责：类所维护的信息、类提供的行为。</p>
-</li>
-</ul>
-<h3 id="活动图"><a href="#活动图" class="headerlink" title="活动图"></a>活动图</h3><ul>
-<li><p>特点：描述并发、没有循环控制机制、用状态作为基本的描述单元</p>
-</li>
-<li><p>基本模型元素</p>
-<ul>
-<li>状态<ul>
-<li>表示：圆角矩形</li>
-<li>动作状态：最小构造快，</li>
-<li>活动状态：动作状态的组合</li>
-</ul>
-</li>
-<li>转移<ul>
-<li>表示：实箭头线</li>
-<li>转移表达状态发生变化</li>
-</ul>
-</li>
-<li>动作流：状态以及转移的组合</li>
-<li>分支</li>
-<li>分叉、汇合<ul>
-<li>使用同步条（水平线）</li>
-<li>一个分叉和汇合构成一个线程</li>
-<li>一个线程加上监护条件变为条件线程，条件为假的时候可以不用等待该线程到达汇合</li>
-</ul>
-</li>
-<li>泳道<ul>
-<li>将活动状态分组表示，每一组代表某个对象执行该分组的活动，用垂直线划分泳道。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>动作流和分支可使用：[监护条件]/动作</p>
-</li>
-<li><p>对象流</p>
-<p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704171150219.png" alt="image-20210704171150219"></p>
-</li>
-<li><p>活动分解</p>
-<ul>
-<li>简单活动</li>
-<li>组合活动</li>
-</ul>
-</li>
-</ul>
-<h3 id="交互图"><a href="#交互图" class="headerlink" title="交互图"></a>交互图</h3><ul>
-<li>行为视图：用例图、活动图、交互图、状态机图。</li>
-<li>顺序图标记符号<br>对象类角色（Class Role）：矩形，符号与对象图相同。<br>生命线（Lifeline）：虚线，表示对象生存期。<br>消息（Message）：箭头线，表示对象间消息通信。<br>激活（Activation）：矩形条，表示对象正在执行一些活动。</li>
-<li>对象类角色自左至右依次为参与者、边界、控制、实体等对象类型</li>
-<li>消息编号：消息号：消息</li>
-<li>消息类型<ul>
-<li>简单消息</li>
-<li>返回消息</li>
-<li>同步消息<ul>
-<li>接收者：被动对象</li>
-<li>表示：全箭头</li>
-<li>返回</li>
-</ul>
-</li>
-<li>异步消息<ul>
-<li>接收者：主动对象</li>
-<li>表示：半箭头</li>
-<li>回调</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>组合片段<ul>
-<li>不同区域用虚线分割，整个组合片段用矩形框表示</li>
-<li>alt多条件 if xxx else yyy</li>
-<li>opt单条件</li>
-<li>loop </li>
-<li>break</li>
-</ul>
-</li>
-</ul>
-<h3 id="状态机图"><a href="#状态机图" class="headerlink" title="状态机图"></a>状态机图</h3><ul>
-<li>基本元素<ul>
-<li>状态：圆角矩形</li>
-<li>转移：箭头线，箭头线上可以包含：事件[监护条件]/动作</li>
-<li>动作：</li>
-<li>活动</li>
-<li>事件</li>
-<li>判定：菱形</li>
-<li>分叉、汇合</li>
-</ul>
-</li>
-<li>注意：并非所有可区分状态都有意义，如果区分状态后，没有针对每个状态有不同的处理方式，那就不必区分状态，也就是状态的粒度是可以变化的，取决于类方法的粒度。</li>
-</ul>
-<h3 id="构件图和部署图"><a href="#构件图和部署图" class="headerlink" title="构件图和部署图"></a>构件图和部署图</h3><h4 id="构件图"><a href="#构件图" class="headerlink" title="构件图"></a>构件图</h4><ul>
-<li><p>构件</p>
-<ul>
-<li><p>包含：构件名、构造型标注、类或对象</p>
-</li>
-<li><p><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210704194650412.png" alt="image-20210704194650412" style="zoom: 33%;"></p>
-</li>
-<li><p>构件两种依赖（依赖用虚线表示）</p>
-<ul>
-<li>开发时期依赖：构件图中使用</li>
-<li>调用依赖：部署图中使用</li>
-</ul>
-</li>
-<li><p>构件之间相互依赖的构造型：</p>
-<ul>
-<li>《trace》，类的源代码依赖于类的设计</li>
-<li>《use》，某类使用了其他类</li>
-<li>《implements》</li>
-<li>《source》</li>
-</ul>
-</li>
-<li><p>构件之间实箭头线表示使用</p>
-<p>一般在系统内部用实箭头线表示使用，外部用虚线连接系统的接口。</p>
-</li>
-<li><p>构件可以放在包图中</p>
-</li>
-<li><p>构件代表的是软件物理实现，例如源代码等</p>
-</li>
-<li><p>构件可以区分型和值</p>
-</li>
-</ul>
-</li>
-<li><p>5个用于构件的标准构造型<br>1．&lt;<executable>&gt;：说明一个构件可以在系统的节点上执行<br>2．&lt;<library>&gt;：说明一个构件是一个静态的或动态的对象库<br>3．&lt;<table>&gt;：说明一个构件代表的是一个数据库表<br>4．&lt;<file>&gt;： 说明一个构件代表的是一个文档，它包含的是源代码或数据<br>5．&lt;<document>&gt;：说明一个构件代表的是一个文档</document></file></table></library></executable></p>
-</li>
-</ul>
-<hr>
-<h4 id="组件图"><a href="#组件图" class="headerlink" title="组件图"></a>组件图</h4><ul>
-<li>节点<ul>
-<li>代表计算机物理资源，包括处理器或其他硬件（UML2.0，还可以代表执行环境，如J2EE容器、操作系统、数据库等）</li>
-<li>表示：斜视的立方体</li>
-<li>包含：对象名、构造型标注、构件或对象</li>
-<li>节点可以放在包图中</li>
-<li>节点可以区分型和值</li>
-</ul>
-</li>
-<li>节点的关系<ul>
-<li>通信关系（节点-节点）<ul>
-<li>表示：实线、构造型标注</li>
-<li>表达节点之间的通信</li>
-</ul>
-</li>
-<li>成为关系（构件-构件，对象-对象，构件-对象）<ul>
-<li>表示：虚箭头线，《becomes》构造型、{time=}约束</li>
-<li>表达构件\对象不同时间点的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="包图"><a href="#包图" class="headerlink" title="包图"></a>包图</h3><ul>
-<li>把语义上相近的、可能一起变更的模型元素组织在同一个包里，便于理解复杂的系统</li>
-<li>表示：包的图标是一个大矩形（内容框）的左上角带一个小矩形（名字框）</li>
-<li>在包名之前或之下，可用括在花括号中的文字（约束）说明包的性质，如“{abstract}”、“{version}”等</li>
-<li>包纯粹是一种概念性的建模工具</li>
-<li>UML预定义的用于包的构造型有：&lt;<facade>&gt;、&lt;<framework>&gt;、&lt;<stub>&gt;、&lt;<subsystem>&gt;、&lt;<system>&gt;等。<br>构造型&lt;<facade>&gt;说明一个包仅仅是其他一些包的视图。<br>构造型&lt;<framework>&gt;说明一个包代表模型架构。<br>构造型&lt;<stub>&gt;说明一个包是另一个包的公共内容的服务代理。<br>构造型&lt;<subsystem>&gt;说明一个包代表系统模型的一个独立部分，即子系统。<br>构造型&lt;<system>&gt;说明一个包代表系统模型。<br>构造型&lt;<facade>&gt;和&lt;<stub>&gt;特别有助于管理大型系统模型。 </stub></facade></system></subsystem></stub></framework></facade></system></subsystem></stub></framework></facade></li>
-<li>包之间的联系<ul>
-<li>依赖<ul>
-<li>表示：虚箭头线</li>
-<li>可以包含构造型，例如《import》、《access》、《merge》、《trace》</li>
-</ul>
-</li>
-<li>泛化</li>
-</ul>
-</li>
-</ul>
-<h3 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h3><h4 id="非形式化约束"><a href="#非形式化约束" class="headerlink" title="非形式化约束"></a>非形式化约束</h4><ul>
-<li>形式写出的约束应当用花括号“{ }”括起来<br>放在所描述的模型元素的内部或紧靠所描述元素的地方<br>也可放在注解的图标内，用虚线连接到所描述的模型元素</li>
-<li>标准约束：xor、subset</li>
-</ul>
-<h4 id="OCL对象约束语言"><a href="#OCL对象约束语言" class="headerlink" title="OCL对象约束语言"></a>OCL对象约束语言</h4><ul>
-<li><p>OCL 定义基本类型来描述数据：<br>Boolean<br>Integer<br>Real</p>
-</li>
-<li><p>格式：<strong>context</strong> name <strong>inv</strong>：</p>
-<p>​             Boolean expression</p>
-</li>
-<li><p>name可以是：角色名、类名</p>
-</li>
-<li><p>导航表达式：用于在Boolean expression中导航一个和name对应的类有关的类</p>
-<ul>
-<li>name本身：self（注意：self是一个对象聚集）</li>
-<li>name的相关对象:self.x.y （x和self有关联关系，y和x有关联关系）</li>
-<li>导航本身返回一个聚集</li>
-<li>限定关联的导航，对于限定符内的规定，用[]选取对应的划分</li>
-<li>可以使用关联类进行导航</li>
-</ul>
-</li>
-<li><p>特性表达式：导航中角色的属性构成的集合</p>
-<ul>
-<li>name本身的属性：self.a(a是self的属性，注意：self.a代表一个聚集)</li>
-</ul>
-</li>
-<li><p>枚举</p>
-</li>
-<li><p>OCL定义三种类型的聚集:<br>sets（集合）: 一个对象在集合中只能出现一次<br>bags（袋）: 一个对象能够出现多次<br>sequences（序列）: 对象按次序排列</p>
-</li>
-<li><p>一个对象出发产生集合、一个集合出发产生袋</p>
-</li>
-<li><p>聚集上的操作：</p>
-<ul>
-<li><p>-&gt;sum()</p>
-</li>
-<li><p>-&gt;asSet()</p>
-</li>
-<li><p>-&gt;size()</p>
-</li>
-<li><p>-&gt;select()</p>
-</li>
-<li><p>-&gt;collect() //通常不必使用，除非对属性进行了运算，返回一个袋</p>
-</li>
-<li><p>-&gt;isEmpty()</p>
-</li>
-<li><p>-&gt;includes()</p>
-</li>
-<li><p>-&gt;includesAll()</p>
-</li>
-<li><p>-&gt;forAll()</p>
-</li>
-<li><p>-&gt;exists()</p>
-</li>
-<li><p>ps:</p>
-<ul>
-<li><p>括号里可以写布尔表达式，其中可以使用替换的名称，例如：</p>
-<p>“employees with a salary greater than 50,000”<br>context Company inv:</p>
-<pre><code>        self.employee-&gt;select(**p:Person |**
-        **p**.contract.grade.salary &gt; 50000)
-</code></pre></li>
-<li><p>操作返回聚集后可以继续导航</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>操作符：and、or、not、xor、implies(蕴含)</p>
-</li>
-<li><p>类不变量inv</p>
-</li>
-<li><p>前置条件pre</p>
-</li>
-<li><p>后置条件post，可以用name@pre表达前置条件时候的name</p>
-</li>
-<li><p>对应三种构造型：&lt;<invariant>&gt;、&lt;<precondition>&gt;、&lt;<postcondition>&gt;</postcondition></precondition></invariant></p>
-</li>
-</ul>
-<h3 id="作业题目"><a href="#作业题目" class="headerlink" title="作业题目"></a>作业题目</h3><ul>
-<li>协作图中的消息：返回值:=方法 注意关联上方还有一个实心三角直线</li>
-<li>单向关联多重性只有一边有，如果有两个多重性是双向关联</li>
-<li>双向关联中可以用动词加上实心三角形，表示关联动作的方向</li>
-<li>对象图中的多重性问题、泛化问题</li>
-<li>可替换性原则：子类对象可以赋予父类对象</li>
-<li>画类图，首先要找到最大的公共操作，把公共操作的集合构造为一个基类，其他的类从基类里面扩展，公共操作里面可以有部分子类不需要或者需要限定的操作，在这些子类里面重写特定的操作即可。</li>
-<li>类中有其他类的成员，需要单向关联；如果是对象数组，多重性为*，如果是单个对象，为0…1</li>
-</ul>
-<h3 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h3><ul>
-<li>建模不一定用标准图形符号</li>
-<li>建模不涉及底层实现细节</li>
-<li>成功建模：表示法、过程和工具</li>
-<li>创始人：Grady Booch、Ivar Jaconbson、James Rumbaugh</li>
-<li>UML不统一各种软件过程</li>
-<li>用例视图描述外部</li>
-<li>UML构成：图、视图、模型元素、通用机制</li>
-<li>通用机制：约束、构造型、标记值</li>
-<li>simula67是第一个面向对象程序设计语言</li>
-<li>RUP生命周期：初始、精化、构造、发布</li>
-<li><img src="/2021/07/04/UML%E5%A4%8D%E4%B9%A0/image-20210705113107162.png" alt="image-20210705113107162"></li>
-<li>自关联有两个关联端，任何一个关联至少两个关联端</li>
-<li>活动指示要完成某项工作的动作或表示工作流的步骤</li>
-<li>顺序图标记符号：类元角色、生命线、激活、消息</li>
-<li>协作图和顺序图</li>
-<li>活动图着重表示活动到活动的控制流、状态机图着重表示模型元素可能的状态及其转移</li>
-<li>状态机图没有表现生命周期</li>
-<li>状态机图 全部状态属性</li>
+<li><p>任意：<code>\forall</code></p>
+</li>
+<li><p>希腊字母$\varphi$:<code>\varphi</code></p>
+</li>
+<li><p>不等于：<code>\neq</code></p>
+</li>
+<li><p>求和符号上下界限的标记：<code>\limits_&#123;upper&#125;^&#123;bottom&#125;</code></p>
+</li>
+<li><p>方程式：<code>\left\&#123; \begin&#123;array&#125;&#123;l&#125; content\\ content \end&#123;array&#125; \right.</code></p>
+</li>
+<li><p>分式：<code>\frac&#123;&#125;&#123;&#125;</code></p>
+</li>
+<li><p>希腊字母$\epsilon$：<code>\epsilon</code></p>
+</li>
+<li><p>极限符号：<code>\to</code></p>
+</li>
+<li><p>无穷大$\infty$：<code>infty</code></p>
+</li>
+<li><p>点乘：<code>\cdot</code></p>
+</li>
+<li><p>等价：<code>\leftrightarrow</code></p>
+</li>
+<li><p>字母上面加空心圆圈：<code>\mathring</code></p>
+</li>
+<li><p>箭头上加文字：<code>\stackrel&#123;contents&#125;\Rightarrow</code></p>
+</li>
 </ul>
 ]]></content>
       <categories>
         <category>学习记录</category>
       </categories>
       <tags>
-        <tag>UML</tag>
+        <tag>LaTex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>矿爷高数笔记</title>
+    <url>/2021/08/11/%E7%9F%BF%E7%88%B7%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>浙大苏德矿老师微积分课程笔记</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="函数（微积分的研究对象）"><a href="#函数（微积分的研究对象）" class="headerlink" title="函数（微积分的研究对象）"></a>函数（微积分的研究对象）</h3><ul>
+<li><p>有界函数</p>
+<ul>
+<li>定义：<ul>
+<li><script type="math/tex; mode=display">
+设函数y=f(x)，x\in D。
+\exist N\leq M（N,M是常数），对于\forall x\in D都有N\leq f(x)\leq M。</script></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>  * 
+  $$
+  设函数y=f(x)，x\in D。
+  \exists常数M使得对于所有\forall x\in D都有|f(x)|\leq M。
+  $$
+</code></pre><ul>
+<li><p>例题：证函数有界（只截取了最重要的部分）</p>
+<p><img src="/2021/08/11/%E7%9F%BF%E7%88%B7%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/image-20210811131142535.png" alt="image-20210811131142535" style="zoom:50%;"></p>
+<p>分析：重点是利用定义2套上不等式，然后利用常见的绝对值不等式进行放缩。</p>
+</li>
+</ul>
+<ul>
+<li><p>无界函数</p>
+<ul>
+<li><p>定义：</p>
+<script type="math/tex; mode=display">
+设函数y=f(x)，x\in D。\forall 常数M，\exists x \in D有|f(X)|\geq M。</script></li>
+<li><p>例题</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/2021/08/11/%E7%9F%BF%E7%88%B7%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/image-20210811124942145.png" alt="image-20210811124942145"></p>
+<p>​                分析：重点是利用定义，使用分析法得到能够导出结论的充分或者充要条件。</p>
+<ul>
+<li><p>复合函数</p>
+<ul>
+<li><p>定义：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&设函数y=f(u)，u\in D;u=\varphi(x)，x\in R，且D与R的交集不为空，\\
+&则称y(\varphi(x))为x的复合函数。
+\end{align*}</script></li>
+<li><p>例题</p>
+<p><img src="/2021/08/11/%E7%9F%BF%E7%88%B7%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/image-20210811141845820.png" alt="image-20210811141845820"></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>​               分析：分析定义域的时候，如果化简了函数表达式，注意不要漏掉原本的函数表达式中</p>
+<p>​               包含的定义域信息，这里将化简更多的看作一种等价而非相等;</p>
+<p>​                           分析是否可以复合的方法：将内层函数代入外层函数化简，观察是否存在x满足外</p>
+<p>​                层函数，如果存在即可以复合，否则不可以复合。</p>
+<ul>
+<li><p>反函数</p>
+<ul>
+<li><p>定义：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&设函数y=f(x),x\in D.\\
+&假设函数满足x_1\neq x_2时y1\neq y2。（称之为一一对应）\\
+&则\forall y\in R(值域),存在唯一的x\in D与之对应。\\
+&这种情况下x作为因变量与y作为自变量满足函数定义，函数关系表示为：\\
+&x=f^{-1}(y)\\
+&注：\\
+&1.y=f(x)与x=f^{-1}(y)的函数图像相同\\
+&2.y=f(x)与y=f^{-1}(x)的图像关于y=x对称\\
+&3.f(f^{-1}())
+\end{align*}</script></li>
+<li><p>例题</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《动手学深度学习》问题记录</title>
+    <url>/2021/07/09/%E3%80%8A%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录《动手学深度学习》代码和书籍中的个人疑问。</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ol>
+<li><p>问题：使用git-bash创建虚拟环境的过程中（命令如下）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda env create -f environment.yml</span><br></pre></td></tr></table></figure>
+<p>发现会卡在使用pip安装依赖的过程中：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Installing pip dependencies: </span><br></pre></td></tr></table></figure>
+<p>等待很久以后会报错：pip subprocess error.</p>
+<p>报错信息很长，大致理解是读取某个文件超时。</p>
+<p>解决方法：</p>
+<p>使用cmd创建环境。</p>
+<p>原因：个人猜测是conda对于git-bash的支持不好，或者git-bash在读取某些windows文件的时候因为是git-bash是基于Linux的shell而产生了一些错误，导致读取文件超时。</p>
+</li>
+<li></li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装Terminus项目并编译</title>
+    <url>/2021/07/09/%E5%AE%89%E8%A3%85Terminus%E9%A1%B9%E7%9B%AE%E5%B9%B6%E7%BC%96%E8%AF%91/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>Terminus是一个美化的终端界面，已更名为tabby.</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ul>
+<li><p>使用nrm镜像管理工具配置npm镜像</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm i -g nrm</span><br><span class="line">nrm use taobao</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看使用文件夹的进程：</p>
+<p>1：打开任务管理器选择“性能” </p>
+<p>2：单击下部的“资源监视器” </p>
+<p>3：选择“CPU”，在下部可以看到“关联的句柄”搜索框 </p>
+<p>4：在该搜索框中输入要删除的文件名回车 </p>
+</li>
+<li><p>卸载npm软件包：<a href="http://nodejs.cn/learn/uninstalling-npm-packages">http://nodejs.cn/learn/uninstalling-npm-packages</a></p>
+</li>
+<li><p>yarn 可以通过npm进行安装</p>
+</li>
+<li><p>安装windows-build-tools卡住：到edge收藏夹寻找</p>
+</li>
+<li><p>npm中有一个<strong>n模块</strong>可以用于管理node版本，但是<strong>n模块不支持windows</strong></p>
+<p>暂时使用以下方法完成node的更新：</p>
+<p>卸载现有的node.js，安装其他版本的node.js</p>
+</li>
+<li><p>yarn、npm源管理：yrm、nrm</p>
+<p><a href="https://blog.csdn.net/yuxielea/article/details/102848582">https://blog.csdn.net/yuxielea/article/details/102848582</a></p>
+</li>
+<li><p>在yarn运行的过程中，执行到building fresh packeges时报错：</p>
+<p><img src="/2021/07/09/%E5%AE%89%E8%A3%85Terminus%E9%A1%B9%E7%9B%AE%E5%B9%B6%E7%BC%96%E8%AF%91/image-20210708220747340.png" alt="image-20210708220747340"></p>
+<ul>
+<li><p>分析错误：在运行node scripts/install.js 命令的时候出现错误</p>
+<p>错误原因：报错信息中给出的那个下载地址不能访问，因此无法下载sentry-cli</p>
+<p>1.6.42二进制版本文件；复制报错信息中的链接，发现迅雷可以识别该下载链接并给出文件大小，但是下载进度一直保持在0%，个人猜测是该下载链接错误或者在国内无法访问</p>
+</li>
+<li><p>既然不能用此链接下载sentry-cli 1.6.42的二进制版本，那么我就去网上寻找一下其他链接，久经周折终于在guthub上找到：<a href="https://github.com/getsentry/sentry-cli/releases">https://github.com/getsentry/sentry-cli/releases</a></p>
+</li>
+<li><p>解决思路：因为不知道这个exe文件需要下载到哪里，所以我们不能直接下载。</p>
+<p>我们需要寻找无法访问的下载链接是在什么地方被给出的，然后替换掉它。</p>
+</li>
+<li><p>解决过程：</p>
+<p>首先进入报错第一行的目录tabby\node_modules\@sentry\cli，</p>
+<p>然后进入报错第三行的node命令参数”scripts\install.js”，</p>
+<p>即：“tabby\node_modules\@sentry\cli\scripts\install.js”</p>
+<p>最终在install.js中找到了一个用于表示下载链接的变量 downloadUrl。</p>
+<p>替换掉它的值：</p>
+</li>
+</ul>
+<p><img src="/2021/07/09/%E5%AE%89%E8%A3%85Terminus%E9%A1%B9%E7%9B%AE%E5%B9%B6%E7%BC%96%E8%AF%91/image-20210708222406381.png" alt="image-20210708222406381" style="zoom: 50%;"></p>
+<p>​          重新运行yarn命令，发现错误依然存在。</p>
+<p>​          重新install.js文件，发现我的替换消失了。</p>
+<p>​          这说明运行yarn后，这个install.js文件被覆盖了，查看install.js的修改时间，确实是刚刚修改的。</p>
+<p>​          思考了一下，运行整个yarn命令有四个过程，其中有一个过程将yarn cache里面的install.js复制到了我寻找到的install.js中，最终都会被cache中install.js覆盖。最终得出结论：我们需要修改cache目录下的install.js文件，这样保存才能生效。</p>
+<p>cache里面的install.js文件具体目录：</p>
+<p>~\Yarn\Cache\v6\npm-@sentry-cli-1.64.2-38a68d31692675061fdedd27d4006a249bc915a9-integrity\node_modules\@sentry\cli</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>github项目</tag>
       </tags>
   </entry>
   <entry>
@@ -562,12 +408,6 @@
 </li>
 </ul>
 ]]></content>
-      <categories>
-        <category>学习记录</category>
-      </categories>
-      <tags>
-        <tag>人工智能</tag>
-      </tags>
   </entry>
   <entry>
     <title>数据库系统复习</title>
@@ -778,12 +618,6 @@ SQL实现：Foreign Key
 </li>
 </ul>
 ]]></content>
-      <categories>
-        <category>学习记录</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
-      </tags>
   </entry>
   <entry>
     <title>软件测试复习</title>
@@ -1334,12 +1168,6 @@ SQL实现：Foreign Key
 </li>
 </ul>
 ]]></content>
-      <categories>
-        <category>学习记录</category>
-      </categories>
-      <tags>
-        <tag>管理学原理</tag>
-      </tags>
   </entry>
   <entry>
     <title>市场营销复习</title>
@@ -1578,13 +1406,13 @@ SQL实现：Foreign Key
       </categories>
       <tags>
         <tag>市场营销</tag>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
     <title>疑难杂症问题解决记录</title>
     <url>/2021/06/02/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>各方面的问题解决过程记录，防止重复寻找解决方案。</p>
-<p>如果记录的许多问题集中于一个领域，那些问题将不会被列在这里，而将作为单独的文档进行记录。</p>
 <span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ul>
 <li><p>github本地下载仓库git clone 失败，提示错误访问失败</p>
@@ -1614,27 +1442,19 @@ SQL实现：Foreign Key
 </ul>
 </li>
 <li><p>关于windows下系统变量和环境变量的一些知识</p>
-<p>1、环境变量不区分大小写</p>
+<p>1、环境变量没有区分大小写，例如path跟PATH是一样的</p>
 <p>2、系统变量对所有用户有效</p>
 <p>3、用户变量只对当前用户有效</p>
-<p>4、变量由名称和值组成</p>
-<p>4、PATH变量保存了可执行程序的路径</p>
+<p>4、用户变量与系统变量，名称是变量，值是里面的内容，也就是通过变量存储了想要存储的内容，方便调用</p>
+<p>4、系统变量与用户变量的PATH：告诉系统可执行文件放在什么路径（平常执行程序的路径，要放在PATH里面，不能建一个变量，cmd会提示“不是内部或外部命令，或者不是可执行程序”）</p>
 <p>5、windows系统在执行用户命令时，若用户未给出文件的绝对路径，则首先在当前目录下寻找相应的可执行文件、批处理文件等；</p>
-<p>6、若果当前目录找不到对应文件名的程序，在系统变量的PATH的路径中，依次寻找对应的可执行程序文件（查找顺序是按照路径录入顺序的先后进行寻找的，最先录入的一条路径的优先级最高，如果找到程序就停止寻找，后面的路径不再执行）</p>
+<p>6、若果当前目录找不到对应文件名的程序，在系统变量的PATH的路径中，依次寻找对应的可执行程序文件（查找顺序是按照路径的录入顺序从左往右寻找的，最前面一条的优先级最高，如果找到程序就停止寻找，后面的路径不再执行）</p>
 <p>7、如果系统变量的PATH的路径找不到，再到用户变量的PATH路径中寻找（如果系统变量和用户变量的PATH中同时包含了同一个命令，则优先执行系统变量PATH中的命令）</p>
-<p>8、每次新加了命令以后，要按“确定”按钮进行保存，之后重启终端，否则命令不生效。</p>
-<p>9、在CMD里输出环境变量：ECHO %变量名%</p>
+<p>8、每次新加了命令以后，要确定保存了。再重启CMD，否则命令不生效的。</p>
+<p>9、在CMD里要输出环境变量 ECHO %变量名%</p>
 </li>
-<li><p>查看已经建立的代码仓库使用的存储容量</p>
-<p>登录github网页，在账号头像处（记录时处于右上方）单击，然后依次选择：</p>
+<li><p>查看github剩余存储</p>
 <p>setting - repository </p>
-</li>
-<li><p>Hexo文章插入图片失效：</p>
-<p>中文名命名的图片失效，改为英文后成功，原因未知。</p>
-<p>该问题出现在数学一文档中。</p>
-</li>
-<li><p>Hexo渲染Latex在文章中记得加入：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">mathjax: true</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>未完待续</p>
 </li>
@@ -1857,7 +1677,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
         <category>学习记录</category>
       </categories>
       <tags>
-        <tag>大学物理</tag>
+        <tag>大物</tag>
       </tags>
   </entry>
   <entry>
@@ -2181,7 +2001,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
         <category>琐事记录</category>
       </categories>
       <tags>
-        <tag>课程</tag>
+        <tag>[object Object]</tag>
       </tags>
   </entry>
   <entry>
@@ -2293,12 +2113,12 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
       </tags>
   </entry>
   <entry>
-    <title>数学二高等数学</title>
-    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学二高数笔记</p>
+    <title>数学一</title>
+    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学一高数笔记</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/1.png" alt="屏幕截图(23)"></p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/2.png" alt="屏幕截图(24)"></p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(23" alt="屏幕截图(23)">.png)</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/屏幕截图(24" alt="屏幕截图(24)">.png)</p>
 <h4 id="函数概念"><a href="#函数概念" class="headerlink" title="函数概念"></a>函数概念</h4><ol>
 <li>数集到数集的映射</li>
 <li>单值函数</li>
@@ -2321,7 +2141,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <li>几何层面，找到两条直线把函数图像包在其中即为有界。</li>
 <li>还可利用导数来判定有界</li>
 </ol>
-<h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>定义：<img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210222212431760.png" alt="image-20210222212431760" style="zoom: 33%;"></p>
+<h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>定义：<img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%B8%80/image-20210222212431760.png" alt="image-20210222212431760" style="zoom: 33%;"></p>
 <p>注意：</p>
 <ol>
 <li>还可利用导数来判定单调性。</li>
@@ -2367,6 +2187,936 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 ]]></content>
       <categories>
         <category>考研</category>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>高数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学二高等数学</title>
+    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学二高数笔记，只记录书中没有的内容。</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[toc]</p>
+<h3 id="预备知识-30讲"><a href="#预备知识-30讲" class="headerlink" title="预备知识(30讲)"></a>预备知识(30讲)</h3><h4 id="函数概念"><a href="#函数概念" class="headerlink" title="函数概念"></a>函数概念</h4><ol>
+<li>数集到数集的映射</li>
+<li>单值函数</li>
+</ol>
+<h4 id="反函数"><a href="#反函数" class="headerlink" title="反函数"></a>反函数</h4><ol>
+<li>反函数存在定理：严格单调</li>
+<li>不能破坏函数的单值性</li>
+<li>如果不更改反函数变量的字母，则函数图像不变；如果更改字母，则直接函数和反函数的图像关于y=x对称</li>
+</ol>
+<h5 id="例题总结："><a href="#例题总结：" class="headerlink" title="例题总结："></a>例题总结：</h5><ul>
+<li><p>求反函数</p>
+<ol>
+<li>首先用导数判断是否严格单调</li>
+<li>若严格单调，尝试将x和y分离并用y表示x</li>
+<li>如果第2步骤存在一些x的次方项或根式项无法合并，尝试对原函数两边取负号或其他变化得到另外一个函数，将原函数和得到的函数当作一个方程组解出x</li>
+</ol>
+</li>
+<li><p>一个特殊的函数：$y=ln(x+\sqrt{x^2+1})$(反双曲正弦函数)</p>
+<ul>
+<li><p>函数图像</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814143552029.png" alt="image-20210814143552029" style="zoom:33%;"></p>
+</li>
+<li><p>$y’=\frac{1}{\sqrt{x^2+1}}$</p>
+</li>
+<li><p>$f^{-1}(x)=\frac{e^x-e^{-x}}{2}$（双曲正弦函数）</p>
+<ul>
+<li><p>奇函数，对称区间积分为0</p>
+</li>
+<li><p>函数图像</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814144133224.png" alt="image-20210814144133224" style="zoom: 20%;"></p>
+</li>
+<li><p>共轭的另一个函数：$f(x)=\frac{e^x+e^{-x}}{2}$(伯努利发现的一种悬链线，双曲余弦）</p>
+<ul>
+<li><p>函数图像</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814144837496.png" alt="image-20210814144837496" style="zoom:20%;"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>​    </p>
+<h4 id="复合函数"><a href="#复合函数" class="headerlink" title="复合函数"></a>复合函数</h4><h5 id="例题总结"><a href="#例题总结" class="headerlink" title="例题总结"></a>例题总结</h5><ul>
+<li><p>求复合函数</p>
+<p>解题流程：</p>
+<ol>
+<li>广义化：将中间变量u=g(x)带入表达式以及外层函数定义域</li>
+<li>画图：画自变量的图，注意这里的自变量是中间变量u=g(x)</li>
+<li>根据外层函数的定义域求得g(x)的取值范围，进一步求得内层x变量的取值范围，并将x对应范围的g(x)表达式代入外层函数即可</li>
+</ol>
+</li>
+<li><script type="math/tex; mode=display">
+ln(1+\frac{1}{x})=ln(\frac{x+1}{x})=ln(x+1)-lnx
+\\
+ln(x+1)-lnx 可以联想到拉格朗日中值定理</script></li>
+</ul>
+<h4 id="函数的四种特性"><a href="#函数的四种特性" class="headerlink" title="函数的四种特性"></a>函数的四种特性</h4><h5 id="有界性"><a href="#有界性" class="headerlink" title="有界性"></a>有界性</h5><h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>以下函数单调性一致，可用来简化求最值：</p>
+<ol>
+<li>$\sqrt{u}$和$\sqrt[3]{u}$，用u代替。</li>
+<li>|u|用$u^2$代替。</li>
+<li>$\frac1u（u&gt;0）$用u代替。</li>
+<li>$\prod\limits_{i=1}^nui$用$\sum\limits_{i=1}^n\ln{ui}$来代替。</li>
+</ol>
+<h5 id="奇偶性"><a href="#奇偶性" class="headerlink" title="奇偶性"></a>奇偶性</h5><ul>
+<li>奇函数$f(0)=0$，因此可以用$f(b)=f(b)-f(0)=f’(\xi)(b-0)构造拉格朗日中值定理$</li>
+<li>乘除法中1不体现，但可以用来构造定理需要的形式</li>
+<li>$f(x)=f(2T-x)或f(T-x)=f(T+x)\\关于x=T对称$</li>
+</ul>
+<h5 id="周期性"><a href="#周期性" class="headerlink" title="周期性"></a>周期性</h5><h5 id="重要结论"><a href="#重要结论" class="headerlink" title="重要结论"></a>重要结论</h5><ul>
+<li>函数求导，奇偶性互换</li>
+<li>周期函数求导，周期不变</li>
+<li>拉格朗日中值定理：用导数（变化率）控制函数。有限区间内导数有界，则函数有界。</li>
+</ul>
+<h4 id="基本初等函数"><a href="#基本初等函数" class="headerlink" title="基本初等函数"></a>基本初等函数</h4><ul>
+<li><p>常、反、对、幂、指、三</p>
+</li>
+<li><p>使用以下替换来研究最值：</p>
+<ul>
+<li>$用u代替研究\sqrt{u},\sqrt[3]{u}$</li>
+<li>$|u|=\sqrt{u^2}，用u^2代替研究|u|$</li>
+<li>$\frac{1}{u}用u代替研究，注意取反$</li>
+<li>$\sum\limits_{i=1}^nu_i用ln\sum\limits_{i=1}^nu_i代替研究$</li>
+</ul>
+</li>
+<li><p>幂指函数$u^v=e^{vlnu}$</p>
+</li>
+<li><p>$y=arc(sinx)$和$y=arc(cosx)$ </p>
+<p>$arc(sinx)+arc(cosx)=\frac{\pi}{2}$<br>$(arcsinx)’=\frac{1}{\sqrt{1-x^2}}\(arccosx)’=-\frac{1}{\sqrt{1-x^2}}$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817171954058.png" alt="image-20210817171954058" style="zoom:33%;"></p>
+</li>
+<li><p>$y=tanx和y=cotx$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172250534.png" alt="image-20210817172250534" style="zoom: 33%;"></p>
+</li>
+<li><p>$y=secx=\frac{1}{cosx}和y=cscx=\frac{1}{sinx}$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172552938.png" alt="image-20210817172552938" style="zoom:33%;"></p>
+</li>
+<li><p>$y=arc(tanx)和y=arc(cotx)$</p>
+<p>$arc(tanx)+arc(cotx)=\frac{\pi}{2}$<br>$(arctanx)’=\frac{1}{1+x^2}\(arccotx)’=-\frac{1}{1+x^2}$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172739072.png" alt="image-20210817172739072" style="zoom:33%;"></p>
+</li>
+<li><p>取整函数：$y=[x]$,不超过x的最大整数</p>
+<ul>
+<li>$x-1&lt;[x]\leq x(夹逼准则放缩)$</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<h4 id="极坐标系下面的常见图像"><a href="#极坐标系下面的常见图像" class="headerlink" title="极坐标系下面的常见图像"></a>极坐标系下面的常见图像</h4><ul>
+<li>$r=a(1-cos\theta)$<ul>
+<li>心型线</li>
+<li>外摆线</li>
+</ul>
+</li>
+<li>$r=sin3\theta$<ul>
+<li>三叶玫瑰线，从第一象限开始逆时针画，两叶为一个周期。</li>
+</ul>
+</li>
+<li>$r=a\theta$<ul>
+<li>阿基米德螺线</li>
+</ul>
+</li>
+<li>$r^2=a^2sin2\theta或r^2=a^2cos2\theta$</li>
+</ul>
+<h4 id="参数方程"><a href="#参数方程" class="headerlink" title="参数方程"></a>参数方程</h4><ul>
+<li>摆线（平摆线）<ul>
+<li>表达式：$\left\{\begin{array}{l}x=r(t-sint)\\y=r(1-cost)\end{array}\right.$</li>
+<li>一拱（一个周期）</li>
+<li>t代表原摆点到现摆点之间的弧度</li>
+<li>当位于最高点，坐标为$(\pi r,2r)$；最低点坐标$(2\pi r,0)$</li>
+</ul>
+</li>
+<li>星型线（内摆线）<ul>
+<li>表达式：$\left\{ \begin{array}{l} x=r^3cost\\ y=r^3sint \end{array} \right.$</li>
+<li>R=4r</li>
+<li>t代表原摆点到现摆点之间的弧度</li>
+</ul>
+</li>
+<li>对数螺线<ul>
+<li>表达式：$r=ae^{k\theta}$</li>
+<li>$若\theta&gt;0，逆时针变大，若\theta&lt;=0，顺时针变小$</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 id="数列"><a href="#数列" class="headerlink" title="数列"></a>数列</h4><ol>
+<li><p>等差数列</p>
+</li>
+<li><p>等比数列</p>
+<ol>
+<li>$S_n=\left\{ \begin{array}{l} na_1,d=1\\ \frac{a_1\cdot (1-r^n)}{1-r},d\neq1 \end{array} \right.    $</li>
+<li>常用：$\sum\limits_{i=0}^{n-1}r^n=\frac{1-r^n}{1-r}\space(r\neq 1)$,注意r的取值导致的极限值。</li>
+</ol>
+</li>
+<li><p>常见数列的和</p>
+<ol>
+<li>$\sum\limits_{i=1}^{n}k^2=\frac{n(n+1)(2n+1)}{6}$</li>
+<li>$\sum\limits_{k=1}^{n} \frac{1}{k(k+1)}=\frac{n}{n+1}$</li>
+</ol>
+</li>
+<li><p>三角函数</p>
+<p><img src="https://pic3.zhimg.com/v2-0b05585be95e728226424719a44de882_r.jpg" alt="preview"></p>
+</li>
+<li><p>诱导公式：</p>
+<p>奇变偶不变，符号看象限。</p>
+<p>例如：$sin(\frac{\pi}{2}-\theta)$</p>
+<p>分析：</p>
+<script type="math/tex; mode=display">
+\frac{\pi}{2}是\frac{\pi}{2}的奇数倍，因此sin变换为cos；\\
+(\frac{\pi}{2}-\theta)位于第一象限，\theta位于第一象限，\\
+cos和sin在第一象限都是正数，符号相同，不需要变号。\\
+综上分析结果为cos\theta。</script></li>
+</ol>
+<p>   又如：$cos(\frac{\pi}{2}+\theta)$</p>
+<p>   分析：</p>
+<script type="math/tex; mode=display">
+   \frac{\pi}{2}是\frac{\pi}{2}的奇数倍，因此cos变换为sin;\\
+   (\frac{\pi}{2}+\theta)位于第二象限，\theta位于第一象限，\\
+   cos在第二象限为负数，sin在第一象限为正数，符号不同，需要变号。\\
+   综上分析结果为-sin\theta。</script><ol>
+<li><p>倍角公式、降幂公式</p>
+</li>
+<li><p>和差化积，积化和差</p>
+</li>
+<li><p>多项相乘、相除、乘方、开方，考虑用对数简化运算；注意用绝对值。</p>
+</li>
+<li><p>二项式定理</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818153128267.png" alt="image-20210818153128267"></p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818153301351.png" alt="image-20210818153301351"></p>
+</li>
+<li><p>重要的因式分解公式：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&1.a^3+b^3=(a+b)(a^2-ab+b^2)\\
+&2.a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+a^{n-3}b^2...+ab^{n-2}+b^n-1)
+\end{align*}</script></li>
+<li><p>阶乘和双阶乘、华理士公式</p>
+</li>
+<li><p>常用不等式</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&1.|a\pm b|\leq|a|\pm |b|\\
+&2.||a|-|b||\leq|a-b|\\
+&3.\sqrt{ab}\leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}(a>0,b>0)\\
+&4.sinx<x(x>0)\\
+&5.e^x\geq x+1\\
+&6.x-1\geq lnx\\\\
+&注：\\
+&2.左边表示a和b到0点的距离的差，右边表示a、b的距离，a、b同号相等
+
+\end{align*}</script></li>
+</ol>
+<hr>
+<h4 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h4><ol>
+<li><p>定义证明极限</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818163914280.png" alt="image-20210818163914280"></p>
+</li>
+<li><script type="math/tex; mode=display">
+\epsilon-N语言描述数列极限：\\
+\lim_{n\to \infty}x_n=a\\ 
+\Leftrightarrow
+\forall \epsilon>0,\exists 正整数N,当n>N时有,|x_n-a|<\epsilon</script></li>
+<li><p>重要结论：$\lim\limits_{n\to \infty}x_n=a,则\lim\limits_{n\to \infty}|x_n|=|a|$</p>
+<p>当$a\neq 0时，充要条件；当a=0，充要条件.$</p>
+</li>
+<li><p>数列收敛和子数列收敛：</p>
+<ol>
+<li>数列收敛-&gt;所有子数列收敛于同值</li>
+<li>子数列不收敛或者子数列收敛值不同-&gt;数列不收敛</li>
+</ol>
+</li>
+<li><p>收敛数列的性质</p>
+<ol>
+<li><p>极限值唯一</p>
+<p>理解：极限值不可能同时趋于两个或以上的值，由定义可得知：假设存在两个值，</p>
+<p>则其中一个值必定在n&gt;N时不能被$\epsilon包围$。</p>
+</li>
+<li><p>有界</p>
+<p>理解：由于n是正整数，所以极限一般考虑的是$n\to \infty$的情况，$n无穷大时数列$</p>
+<p>趋于一个值；而n最小为1，不可能产生函数中x=0时候的f(x)趋于无穷大的情况；</p>
+<p>综上收敛数列有界。</p>
+</li>
+<li><p>保号性（脱帽）</p>
+<p>理解：极限为0，数列值有可能是在0的附近摇摆的，不一定是恒正，因此没有不等式中没有等于0。</p>
+<p>例如：$\frac{sin\space n}{n}$.</p>
+</li>
+<li><p>3.的推论（戴帽）</p>
+<p>理解：数列大于0，极限有可能为0，例如$\frac{1}{n}。$</p>
+<p>而等数列等于0，极限为0。</p>
+</li>
+<li><p>极限四则运算规则</p>
+<p>只有极限值分别存在才可能推出运算结果极限存在。</p>
+</li>
+</ol>
+</li>
+<li><p>夹逼准则</p>
+</li>
+<li><p>单调有界准则*（维尔斯特拉斯）</p>
+<ol>
+<li><p>递推式考虑单调有界准则</p>
+</li>
+<li><p>考虑常用不等式</p>
+</li>
+<li><p>类似裂项相消形式，借用放缩法转换为裂项相消：</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820005305105.png" alt="image-20210820005305105"></p>
+</li>
+<li><p>二阶递推转换为一阶递推、逆用裂项相消</p>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="函数极限和连续性"><a href="#函数极限和连续性" class="headerlink" title="函数极限和连续性"></a>函数极限和连续性</h4><h5 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h5><ol>
+<li><p>邻域$U(x_0)、U(x_0,\delta)$、去心邻域$\mathring{U}(x_0)、\mathring{U}(x_0,\delta)$</p>
+</li>
+<li><p>函数极限定义</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&1.\epsilon-\delta语言：\\
+&\lim\limits_{x\to x0}f(x)=A \leftrightarrow \\
+&\forall \epsilon>0，\exists \delta>0，当x在U(x_0,\delta)内有定义，且0<|x-x_0|<\delta时，|f(x)-A|<\epsilon成立。\\ 
+\\
+&2.\epsilon-X语言:\\
+&\lim\limits_{x\to \infty}f(x)=A \leftrightarrow \\
+&\forall \epsilon>0，\exists X>0，当|x|>X时，|f(x)-A|<\epsilon
+&
+
+\end{align*}</script></li>
+<li><p>单侧极限</p>
+</li>
+<li><p>转换：</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820185308002.png" alt="image-20210820185308002"></p>
+</li>
+<li><p>局部保号性：脱帽法</p>
+<ol>
+<li><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820200210472.png" alt="image-20210820200210472"></p>
+<p>说明：$图中的式子：A-\epsilon<f(x)<A+\epsilon并不是f(x)的取值范围，\\而是表明了函数的上界和下界。当\epsilon很大的时候，上界和下界会增大，导致不满足f(x)>0，\\但是我们要求的是逼近x_0的情况，也就是\epsilon很小的情况，目的是为了缩小上下界，得到局部保号性。\\即局部保号不是全局保号，这个保号只在逼近0时候成立。$</f(x)<A+\epsilon并不是f(x)的取值范围，\\而是表明了函数的上界和下界。当\epsilon很大的时候，上界和下界会增大，导致不满足f(x)></p>
+</li>
+</ol>
+</li>
+</ol>
+<ol>
+<li><h6 id="推论：戴帽法"><a href="#推论：戴帽法" class="headerlink" title="推论：戴帽法"></a>推论：戴帽法</h6></li>
+</ol>
+<ol>
+<li><p>函数极限的重要性质：</p>
+<ol>
+<li><p>极限的双向性</p>
+<p>遇到$arctanx、[x]、e^x、\frac{sinx}{|x|}$分左右极限讨论</p>
+</li>
+<li><p>和的极限存在，虽然我们不能直接推出部分的极限存在，但是我们可以去计算部分的极限，</p>
+<p>以此验证部分极限的存在性。</p>
+</li>
+<li><p>函数有界：</p>
+<ol>
+<li><p>闭区间连续</p>
+</li>
+<li><p>有限区间导数有界（变b为x）</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820213552532.png" alt="image-20210820213552532"></p>
+</li>
+<li><p>极限存在（包含左右极限），局部有界</p>
+</li>
+<li><p>开区间有界：局部有界+闭区间连续</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820212132874.png" alt="image-20210820212132874"></p>
+</li>
+</ol>
+</li>
+<li><p>极限运算性质</p>
+</li>
+<li><p>夹逼准则：注意若$g(x)\leq f(x) \leq h(x)，且\lim\limits_{x\to x_0}h(x)-g(x)=0的时候，不能确保h(x)和g(x)极限分别存在，也就不能确定f(x)存在$</p>
+</li>
+<li><p>洛必达法则：</p>
+<ol>
+<li>若导数的极限不存在（这个不存在不包括无穷大），那么洛必达失效，原式极限可能存在也可能不存在。</li>
+<li>可以连续使用洛必达法则。</li>
+<li>洛必达以后变复杂，尝试将复杂的项放在分子，简单项放在分母<ol>
+<li>简单：$e^x、x^n$</li>
+<li>复杂：$sinx、cosx、lnx$</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>常见的泰勒公式（注意$x$可被替代为$f(x)$）</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821171716317.png" alt="image-20210821171716317"></p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821173231546.png" alt="image-20210821173231546"></p>
+</li>
+<li><p>无穷小运算规则</p>
+<script type="math/tex; mode=display">
+O(f(x))表示f(x)的高阶无穷小：\\
+1.O(x^m)+O(x^n)=O(x^l)\space\space l=min\{m,n\}\\
+2.O(x^m)*O(x^n)=O(x^{m+n})\\
+3.x^m\cdot O(x^n)=O(x^{m+n})</script></li>
+<li><p>未定式计算</p>
+<ol>
+<li><p>7种不定式：</p>
+<ol>
+<li><p>基本情况：$\frac{0}{0}、\frac{\infty}{\infty}$</p>
+</li>
+<li><p>$\infty-\infty，和差化积$</p>
+<ol>
+<li><p>有分式则通分</p>
+<ol>
+<li><p>一种例题：分子x次方比分母的x次方低，但是分子具有可以连续求导而不化为0的项，就可以借用洛必达法则不断求导，让分子和分母的幂次趋于相同，从而求导极限。</p>
+<p>如图：分母存在$x^2，分母存在x^4，但是由于有sin^2xcos^x可以不断求导，最终可以使得分子分母次方一样$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821205815652.png" alt="image-20210821205815652" style="zoom:50%;"></p>
+</li>
+</ol>
+</li>
+<li><p>没有分式</p>
+<ol>
+<li>思路：创造分式，然后通分化简</li>
+<li>方法：<ol>
+<li>提取公因式，出现分式</li>
+<li>倒带换，出现分时</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>$\infty^0、0^0、1^{\infty}$</p>
+<ol>
+<li>幂指函数</li>
+<li></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<pre><code>  2. 提出常数项或等于常数的函数：
+
+     $x\to 0:e^&#123;tanx&#125;-e^x=e^x(e^&#123;tanx-x&#125;-1)=1\cdot (tanx-x)=\frac&#123;x^3&#125;&#123;3&#125;$
+
+     所以：$x\to 0:e^&#123;f(x)&#125;-e^&#123;g(x)&#125;\sim f(x)-g(x)$
+
+  3. 等价无穷小
+     $$
+     \begin&#123;align*&#125;
+     &amp;x\to 0,ln(x+1)、sinx、tanx、arcsinx、arccosx\sim x\\
+     &amp;x\to0,(1+x)^a-1\sim ax\\
+     &amp;x\to 0,cosx-1、x-ln(x+1)\sim x^2\\
+     &amp;x\to 0,x-sinx、arcsinx-x、tanx-x、x-arctanx\sim x^3
+     \end&#123;align*&#125;
+     $$
+
+  4. 变换
+
+     1. 提取公因式
+     2. 拆项
+     3. 合并
+     4. 换元
+        1. 负代换
+        2. 倒代换：
+           1. 例如遇到求导项包含$\frac&#123;1&#125;&#123;x^n&#125;$求导以后变复杂，尝试倒代换$\frac&#123;1&#125;&#123;x^n&#125;=t$
+           2. 当$x\to \infty，e^x&gt;&gt;x^n$
+</code></pre><hr>
+<h5 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h5><ol>
+<li><p>连续点的概念：</p>
+<p>某点的极限值=该点的函数值</p>
+<p>$\lim\limits_{x\to x_0}f(x)=f(x_0)\leftrightarrow\\ \lim\limits_{\triangle x\to 0}f(x_0+\triangle x)=f(x_0)$</p>
+</li>
+<li><p>间断点类型：前提（在该点某去心领域有定义）</p>
+<ol>
+<li>第一类：可去间断点、跳越间断点</li>
+<li>第二类：无穷间断点（点的两侧都趋于无穷大）、振荡间断点</li>
+</ol>
+</li>
+<li><p>讨论间断：</p>
+<ol>
+<li>分段函数的分段点</li>
+<li>无定义点</li>
+</ol>
+</li>
+</ol>
+<h4 id="导数和微分"><a href="#导数和微分" class="headerlink" title="导数和微分"></a>导数和微分</h4><ol>
+<li><p>导数（拉格朗日的叫法）</p>
+<ol>
+<li><p>定义：$\lim\limits_{\triangle x\to 0}\frac{f(x+\triangle x)-f(x)}{\triangle x}$</p>
+<p>注意：$\triangle x可以广义化为趋于0的其他变量或函数$</p>
+</li>
+<li><p>单侧导数</p>
+<p>$\triangle x\to 0^+或0^-，记位f’_{-}(x)和f’_{+}{(x)}$</p>
+<p>导数不存在：</p>
+<ol>
+<li>左右导数不相等，比如$x\to -,|x|$（角点）</li>
+<li>左右导数有一方不存在或者两方都不存在（包含无穷大），比如$x\to 0,x^{\frac{1}{3}}$（不光滑也不可导）</li>
+</ol>
+</li>
+<li><p>利用导数定义证明：</p>
+<ol>
+<li>求导后奇偶性互换（写$f^{‘}(-x)表达式，利用原函数奇偶性代换其中的项得到f^{‘}(x)$）</li>
+<li>求导后周期相同</li>
+<li>乘法求导公式（中间添项减项）</li>
+</ol>
+</li>
+<li><p>利用连续性和导数定义证明一些结论</p>
+<ol>
+<li><p>利用连续性把函数值变为极限值或把极限值变为函数值</p>
+<p>$f(x_0)=\lim\limits_{x\to x_0}f(x)$</p>
+</li>
+<li><p>利用恒等变形去掉分母，方便代入极限值</p>
+<ol>
+<li><p>例如</p>
+<script type="math/tex; mode=display">
+\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}存在，要取得分母，则可用\\
+\lim\limits_{x\to x_0}f(x)-f(x_0)=\lim\limits_{x\to x_0}\frac{f(x)-f(0)}{x-x_0}\cdot (x-x_0)=0</script></li>
+<li><p>一些结论</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823170218109.png" alt="image-20210823170218109"></p>
+<p>应用举例：</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823170544654.png" alt="image-20210823170544654"></p>
+</li>
+<li><p>尝试用$|x|或x^{1/3}$等在0处连续但极限不存在的例子举反例</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>导数几何意义</p>
+<ol>
+<li>斜率</li>
+<li>法线斜率*斜率=-1</li>
+</ol>
+</li>
+<li><p>高阶导数定义</p>
+</li>
+</ol>
+</li>
+<li><p>微分(一元函数可导必可微)</p>
+<p>$\triangle y=f(x)-f(x_0)=A\cdot \triangle x+o(\triangle x),\triangle x\to 0$</p>
+<p>$由于在一元函数中自变量x可看作f(x)=x，所以\\\triangle x=x’\cdot dx+o(dx)=dx$</p>
+<p>$将\triangle x=dx代入:\\\triangle y=y’(x)\cdot dx+o(dx)\\ A\cdot \triangle x叫线性主部记作dy，A=y’(x)$</p>
+<p>注意：$y’(x)不一定等于f’(x)，当y是复合函数,y’(x)=f’(u)\cdot u’(x)$</p>
+</li>
+</ol>
+<ol>
+<li><p>微分的几何意义（直线代替曲线）</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823175242764.png" alt="image-20210823175242764" style="zoom:50%;"></p>
+</li>
+<li><p>计算</p>
+</li>
+</ol>
+<ol>
+<li><p>求导和求微分的基本公式（四则运算和复合函数）</p>
+</li>
+<li><p>一阶微分形式不变性：</p>
+<p>$d(f(x))=f’(x)dx\\d(f(u))=f’(u)du=f’(u)u’(x)dx\\d(f(..))=f’(..)d..$</p>
+</li>
+<li><p>绝对值不影响的求导：</p>
+<p>$ln|x|=\frac{1}{x}\\ln|u(x)|=\frac{u’(x)}{u(x)}$</p>
+</li>
+<li><p>分段函数分段点的导数要用定义求解双向极限</p>
+</li>
+<li><p>$(ln(x+\sqrt{(x^2+a^2)})’=\frac{1}{x^2+a^2}$</p>
+</li>
+<li><p>导数存在且不为0，则恒正或恒负，因此原函数严格单调，存在反函数。</p>
+</li>
+<li><p>反函数的导数</p>
+<p>设$y=f(x),x=\varphi (y)$</p>
+<ol>
+<li><p>一阶</p>
+<p>$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}\leftrightarrow y’_x=\frac{1}{x’_y}$</p>
+</li>
+<li><p>二阶</p>
+<p>$y’’_x=-\frac{x’’_y}{(x’_y)^3}$</p>
+<ol>
+<li>变限积分求导</li>
+<li>二阶导数的细节：</li>
+</ol>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823220214346.png" alt="image-20210823220214346"></p>
+</li>
+</ol>
+</li>
+<li><p>参数方程的导数</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824175750643.png" alt="image-20210824175750643"></p>
+</li>
+<li><p>隐函数求导</p>
+<script type="math/tex; mode=display">
+F(x,y)=0，y=f(x)，F(x,y)两边对x求导：\\
+F'_x+F'_y\cdot y'_x=0\\
+y'_x=-\frac{F'_x}{F'_y}\\
+注意:要确保是y=f(x)单值函数不能出现铅垂线作为切线</script></li>
+<li><p>幂指函数</p>
+<ol>
+<li>变化后求导即可，幂指函数是初等函数</li>
+<li><p>常见幂指函数的图像</p>
+<ol>
+<li><p>$x^x(x&gt;0)$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824201510823.png" alt="image-20210824201510823" style="zoom: 15%;"></p>
+</li>
+<li><p>$x^{\frac{1}{x}}(x&gt;0)$</p>
+</li>
+</ol>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824201657069.png" alt="image-20210824201657069" style="zoom:15%;"></p>
+</li>
+</ol>
+</li>
+<li><p>高阶导数</p>
+<ol>
+<li>递推</li>
+<li>莱布尼兹公式<br>$(uv)^{(n)}=\sum\limits_{k=0}^{n}C_{n}^{k}u^{(n-k)}v^{(k)}$</li>
+<li>泰勒公式<br>抽象展开=实际展开 <img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824212302962.png" alt="image-20210824212302962"></li>
+</ol>
+</li>
+</ol>
+<hr>
+<h4 id="一元函数微分几何应用"><a href="#一元函数微分几何应用" class="headerlink" title="一元函数微分几何应用"></a>一元函数微分几何应用</h4><p><strong>三点、两性、一线</strong></p>
+<ol>
+<li><p>极值</p>
+<ul>
+<li>范围：某个邻域（双向性）</li>
+<li>广义极值：含有等号</li>
+<li>严格极值：不含等号</li>
+</ul>
+</li>
+<li><p>最值</p>
+<ul>
+<li>范围：整个定义域</li>
+<li>广义</li>
+<li>严格</li>
+</ul>
+</li>
+<li><p>极值与最值的关系</p>
+<ul>
+<li><p>最值存在不一定有极值</p>
+<p>例：$f(x)=e^x\space(x&gt;=0)$</p>
+</li>
+<li><p>极值存在不一定有最值</p>
+<p>$f(x)=3x-x^3$</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210825161720093.png" alt="image-20210825161720093"></p>
+</li>
+<li><p>各种间断点都有可能是极值点</p>
+</li>
+</ul>
+</li>
+<li><p>单调性</p>
+<ul>
+<li><p>判别：导数值</p>
+</li>
+<li><p>费马定理：(极值存在的必要条件)</p>
+<p>设函数为$f(x)$，已知$f’(x_0)$存在，且$x_0$是极值点，则$f’(x_0)=0.$</p>
+<p>逆命题不成立：导数为0不一定是极值点，例如$f(x)=x^3,f’(0)=0但x=0不是极值点.$</p>
+</li>
+<li><p>极值存在的第一充分条件</p>
+<p>设函数$f(x)$连续，且在$x_0$的某个去心邻域内可导；</p>
+<p>若在该邻域两侧：$(x_0-\delta,x0),(x_0,x_0+\delta)$内$f’(x)$变号，则$x_0$是极值点，否则$x_0$不是极值点.</p>
+</li>
+<li><p>极值存在的第二充分条件</p>
+<p>设函数$f(x)$二阶可导，且$f’(x_0)=0,f’’(x_0)\neq 0$，</p>
+<p>则当$f’’(x_0)<0，x_0为极大值点；f''(x_0)>0，x_0为极小值点。$</0，x_0为极大值点；f''(x_0)></p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210825165155552.png" alt="image-20210825165155552"></p>
+</li>
+<li><p>极值存在的第三充分条件</p>
+<p>设函数$f(x)的n阶导数存在且n为偶数，若f^{(k)}(x_0)(k=0,1,2..n-1)=0,f^{(n)}(x_0)\neq 0，\\则x_0为极值点$</p>
+</li>
+<li><p>联系导数和原函数的桥梁：拉氏中值定理</p>
+</li>
+</ul>
+</li>
+<li><p>凹凸性</p>
+</li>
+<li><p>拐点：凹凸分界点</p>
+<ol>
+<li><p>连续曲线，极值点不要求连续。</p>
+</li>
+<li><p>拐点在曲线上，写作$(x_0,f(x_0))$，而极值点只是$x_0$。</p>
+</li>
+<li><p>拐点存在的必要条件</p>
+</li>
+<li><p>拐点存在的第一充分条件、第二充分条件、第三充分条件</p>
+</li>
+<li><p>例题思路<br>$y=(x-1)(x-2)^2(x-3)^3(x-4)^4的拐点$</p>
+<p>拐点要求二阶导数为0，三阶导数不为0.</p>
+<p>按照下面的规律：</p>
+</li>
+</ol>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210826172716782.png" alt="image-20210826172716782" style="zoom:25%;"></p>
+<p>​           我们还知道，乘法求导规则可以导致下面的规律：</p>
+<p>​           例如：$(x-2)^2g(x)$在求一阶导数以后为：$2(x-2)g(x)+(x-2)^2g’(x)$</p>
+<p>​           可见，式子中出现了$(x-2)和(x-2)^2$，二次方并没有因为求导而消失，这是乘法</p>
+<p>​           规则所导致的。合理的外推还可以得到下面的结论：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&(x-x_0)^ng(x)求n阶导数后，\\
+&结果中包含了(x-x_0)^k (k=0、1、2...n)的因式，\\
+&这个时候如果x=x_0，那么包含(x-x_0)的因式都变为0，只剩下n!g(x)这个没有(x-x_0)的式子
+\end{align*}</script></li>
+</ol>
+<p>​                     所以这个题目我们可以令$y=(x-3)^3g(x)$，求二阶导数以后可以保证所以式子都含有(x-3)</p>
+<p>​                     的次方项，所以二阶导数为0；而三阶导数以后可以保证存在一项不含有(x-3)的次方，这样三阶</p>
+<p>​                     导数就不为0，满足拐点的第一充分条件。</p>
+<ol>
+<li><p>函数图像分析</p>
+<ul>
+<li>$f(x)$无定义点（分析铅垂渐近线或间断点）</li>
+<li>$f’(x)=0或f’(x)无定义点$（分析可能的驻点）</li>
+<li>$f’’(x)=0或f’’(x)$无定义点（分析可能的拐点）</li>
+<li>根据这些点划分不同的区间，确定是否为极值点或者拐点，并得出函数的图像。</li>
+</ul>
+</li>
+<li><p>渐近线</p>
+<ul>
+<li><p>铅垂渐近线：$\lim\limits_{x\to x_0}f(x)=\infty$，则$x=x_0$叫做铅垂渐近线。注意间断点需要考虑双侧，而渐近线只用考虑单侧，即渐近线不一定位于间断点处。</p>
+</li>
+<li><p>水平渐近线：$\lim\limits_{x\to \infty}f(x)=y_0$，则$y=y_0$叫做水平渐近线。</p>
+</li>
+<li><p>斜渐近线：当水平渐近线存在就不需要考虑了；有斜渐近线有可能另一个方向存在水平渐近线。</p>
+<p>当$\lim\limits_{x\to \infty}f(x)=\infty$，则可能出现斜渐近线。</p>
+<p>求斜渐近线(无穷有正有负，可能有两条渐近线）：</p>
+<p>$k=\lim\limits_{x\to \infty}\frac{f(x)}{x}\neq 0$</p>
+<p>$b=\lim\limits_{x\to \infty }f(x)-kx$</p>
+<p>如果k、b有一个不存在，斜渐近线都不存在：可见，$f(x)与x$是同阶无穷大；当k=0变为水平渐近线。</p>
+</li>
+</ul>
+</li>
+<li><p>求区间最值</p>
+<ol>
+<li>求一阶导数不存在或为0的点</li>
+<li>列出区间端点（若为闭区间为端点值，若为开区间为端点的极限值，开区间可以为无穷）函数值和1.所求点的函数值，比较大小即可获得区间最值。</li>
+</ol>
+</li>
+<li><p>画函数图像</p>
+<ol>
+<li>确定奇偶性、定义域、无定义点</li>
+<li>求各类点，列表划分定义域区间</li>
+<li>划分单调性和凹凸性，确定极值点，间断点位置处不能确定拐点，连续位置确定拐点。</li>
+<li>求渐近线</li>
+</ol>
+<p>画图：</p>
+<ol>
+<li>画渐近线</li>
+<li>依据划分区间，依据表格内的走势和渐近线画出图像，注意无定义点用空心圆标注</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h4 id="中值定理"><a href="#中值定理" class="headerlink" title="中值定理"></a>中值定理</h4><ol>
+<li><p>最值定理（闭区间连续函数）</p>
+<p>闭区间连续函数必有界，且存在最大值M、最小值m。</p>
+</li>
+<li><p>介值定理（闭区间）</p>
+<p>闭区间$[a,b]$内的连续函数$f(x)$在$[a,b]必存在点f(\xi)满足m\leq f(\xi)\leq M.$</p>
+</li>
+<li><p>平均值定理、积分中值定理（介值定理证明）</p>
+<ul>
+<li><script type="math/tex; mode=display">
+闭区间[a,b]内的连续函数f(x)，设a<x_1<x_2<...<x_n<b\Rightarrow \\ 存在\xi \in[x_1,x_n],f(\xi)=\frac{f(x_1)+f(x_2)+...+f(x_n)}{n}</script></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><script type="math/tex; mode=display">
+闭区间[a,b]内的连续函数f(x)\Rightarrow
+存在\xi \in [a,b]使得：f(\xi)=\frac{\int_{a}^{b}f(x)dx}{b-a}</script><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210829173112725.png" alt="image-20210829173112725" style="zoom:25%;"></p>
+</li>
+</ul>
+<ol>
+<li><p>零点定理</p>
+<script type="math/tex; mode=display">
+闭区间[a,b]内的连续函数f(x)，f(a)\cdot f(b)<0\Rightarrow 存在\xi \in (a,b),f(\xi)=0.</script></li>
+<li><p>费马定理（可能考证明）</p>
+<p>$f(x)在x_0处可导且取极值，则f’(x_0)=0.$</p>
+<p>使用条件：可导、取极值</p>
+<p>取极值证明：最值在区间内部取到就是极值，端点没有两侧不讨论极值。</p>
+<p>证明：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&可导\Rightarrow 左极限等于右极限\Rightarrow 极限定义式\\
+&极值\Rightarrow 存在邻域U(x_0,\delta),任给x属于该邻域，有f(x)\leq f(x_0)或f(x_0)\leq f(x).\\
+&不妨设取极大值，根据极限定义、极值定义以及保号性：\\
+&\lim\limits_{x\to x_0^+}\frac{f(x)-f(x_0)}{x-x_0}\geq 0,(1)\\
+& \lim\limits_{x\to x_0^-}\frac{f(x)-f(x_0)}{x-x_0}\leq 0,(2)\\
+&由于(1)=(2)，所以\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=f'(x_0)=0
+\end{align*}</script></li>
+<li><p>导数零点定理(达布定理)</p>
+<p>$f(x)在[a,b]上可导，且f’(a)\cdot f’(b)&lt;0，则存在\xi \in (a,b)使得f’(\xi)=0.$</p>
+<p>证明：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&不妨设f'(a)>0,f'(b)<0.由导数定义和极限的保号性：\\
+&f'(a)=\lim\limits_{x\to a^+}\frac{f(x)-f(a)}{x-a}>0 \Rightarrow \exists x\in(a,a+\delta),f(x)>f(a).(1)\\
+&同理可得：\exists x\in(b-\delta,b),f(x)>f(b).(2)\\
+&f(x)在闭区间[a,b]可导\Rightarrow f(x)在闭区间[a,b]连续\\
+&由最值定理可知f(x)在[a,b]存在最小值，又由(1)(2)可知最大值点不在端点处，所以最大值点必在(a,b)内。\\
+&非端点处的最值点必为极值点，由费马定理可知：\exists \xi \in (a,b),使得f'(\xi)=0.
+\end{align*}</script><p>推论：$f’(x)\neq 0 \Rightarrow f’(x)保号 \Rightarrow f(x)严格单调 \Rightarrow f(x)存在反函数$</p>
+</li>
+<li><p>罗尔定理</p>
+<p>$f(x)在闭区间[a,b]连续，开区间(a,b)可导，且f(a)=f(b)\Rightarrow \exists \xi \in (a,b),f’(\xi)=0.$</p>
+<p>证明思路：证明开区间内有极值，然后用费马定理。</p>
+<p>使用定理的重点是寻找端点值相同，考试的时候$f(x)$可能需要自己构造，构造$f(x)$主流的方法是逆用</p>
+<p>乘法求导规则$(uv)’=u’v+uv’.$</p>
+</li>
+</ol>
+<script type="math/tex; mode=display">
+\begin{align*}
+   &由于罗尔定理使得f'(\xi)=0.那么题目给的条件g(x)=0中，g(x)可能不等于F'(x)，\\
+   &而是F'(x)除以或乘以某个不为0的函数的结果，即g(x)=F'(x)\cdot \varphi(x).\\
+   &辅助函数可能为F(x)=f(x)\cdot e^{\varphi(x)}的形式，F'(x)=e^{\varphi(x)}(f'(x)+f(x)\varphi'(x))\\
+   &由于e^{\varphi(x)}\neq 0不影响F'(x)是否为0，所以题目给出的g(x)=f'(x)+f(x)\varphi'(x)\neq F'(x)\\
+   &构造F(x)的时候要注意有e^{\varphi(x)}乘积项。
+   \end{align*}</script><ol>
+<li><p>推广的罗尔定理</p>
+<p>不需要闭区间连续，只要两个端点处的极限值相等即可。（包含无穷）</p>
+</li>
+<li><p>拉格朗日中值定理</p>
+<script type="math/tex; mode=display">
+设f(x)在[a,b]连续，(a,b)可导，则f(b)-f(a)=f'(\xi)(b-a)\space (\xi \in (a,b))\\
+当f(b)=f(a)，该定理变为罗尔定理。</script></li>
+<li><p>柯西中值定理</p>
+<script type="math/tex; mode=display">
+设f(x)、g(x)在[a,b]连续，(a,b)可导，且g'(x)\neq 0.\\
+则\frac{f(b)-f(a)}{g(b)-b(a)}=\frac{f'(\xi)}{g'(\xi)},\xi \in (a,b)</script><p>注：柯西中值定理不能通过单独对$f(x)、g(x)$运用拉氏定理得到，因为$\xi$是一个数而不是两个.</p>
+<p>证明方法：将式子整理为:$(f(b)-f(a))\cdot g’(\xi) -(g(b)-g(a))\cdot f’(\xi)=0$，然后构造辅助函数$F(x)$使得$F(a)=F(b)，同时F’(x)等于上式左边的部分，再用罗尔定理即可。$</p>
+<p>说明：柯西中值定理当$g(x)=x$时，弱化为拉格朗日中值定理。</p>
+</li>
+<li><p>泰勒公式</p>
+<ul>
+<li><p>拉格朗日余项（某个区间，要求n+1阶导数）</p>
+</li>
+<li><p>佩亚诺余项（某个点，n阶导数）</p>
+</li>
+<li><p>去除$f’(0)$的项的办法：</p>
+<ul>
+<li>$f(x)为偶函数$</li>
+<li>$f(x)在0处切线水平$</li>
+<li>$\int_{-a}^{a}f’(0)x =0、\int_{0}^{2x_0}f’(0)(x-x_0)=0.$</li>
+</ul>
+</li>
+<li><p>$中值\xi 是端点的函数$</p>
+</li>
+<li><p>联系函数与一阶导数：拉格朗日中值定理</p>
+<p>联系函数与高阶导数：泰勒公式</p>
+<p>联系函数与原函数：积分</p>
+</li>
+<li><p>对导数利用介值定理，将含有中值的项单独放在一边，想办法将另一边放缩到最值[m,M]之间即可。</p>
+</li>
+</ul>
+</li>
+<li><p>导数介值定理</p>
+<p>导数存在只有两种可能：导数连续或者导数振荡间断</p>
+</li>
+</ol>
+<hr>
+<h4 id="零点问题和微分不等式"><a href="#零点问题和微分不等式" class="headerlink" title="零点问题和微分不等式"></a>零点问题和微分不等式</h4><ol>
+<li><p>零点定理：严格闭区间</p>
+</li>
+<li><p>推广的零点定理（开区间）：端点不能取到则取极限值</p>
+</li>
+<li><p>罗尔定理推论</p>
+<p>$若f^{(n)}(x)=0至多k个根，则f(x)至多k+n个根$</p>
+<p>有且仅有n个根：证明至多有n个根，然后找出n个根即可，找根过程就是求至少的过程。</p>
+</li>
+<li><p>实系数奇数次多项式至少有一根</p>
+</li>
+<li><p>含参数的方程求根和不含参数方程根</p>
+</li>
+<li><p>不等式问题（令辅助函数）</p>
+<ol>
+<li><p>求导得单调性，比大小，辅助函数可能需要一定的恒等变换</p>
+</li>
+<li><p>求导得凹凸性，端点相等得区间内大小</p>
+</li>
+<li><p>求导得唯一极值点，比大小</p>
+</li>
+<li><p>常数转变量</p>
+</li>
+<li><p>拉格朗日中值定理和泰勒公式的利用</p>
+</li>
+<li><p>重要结论</p>
+<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210830181943282.png" alt="image-20210830181943282"></p>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h4 id="一元函数积分学概念和计算"><a href="#一元函数积分学概念和计算" class="headerlink" title="一元函数积分学概念和计算"></a>一元函数积分学概念和计算</h4><ol>
+<li><p>重要结论</p>
+<ul>
+<li><p>奇函数的原函数都是偶函数，偶函数的原函数只有一个是奇函数</p>
+</li>
+<li><p>周期函数的原函数在相同周期间隔内的积分值相同</p>
+<p>$\int_a^{a+T}f(x)dx=\int_0^{T}f(x)dx$</p>
+<p>证明：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&\int_a^{a+T}f(x)dx=\int_a^{0}f(x)dx+\int_0^Tf(x)dx+\int_T^{a+T}f(x)dx\\
+&观察式子可知，当\int_a^{0}f(x)dx+\int_T^{a+T}f(x)dx=0时结论得证\\
+&又已知\int_a^0f(x)dx=-\int_0^af(x)dx，积分与积分变量表示无关。\\
+&猜测\int_T^{a+T}f(x)d=\int_0^af(x)dx.\\
+&观察积分上下限可知，令t=x-T可以使得还原后得到\int_0^a:\\
+&\int_T^{a+T}f(x)dx\stackrel{令x=t+T}\Rightarrow\int_0^af(t)dt
+\end{align*}</script></li>
+</ul>
+</li>
+<li><p>原函数存在定理（不定积分）</p>
+<ul>
+<li>函数连续</li>
+<li>函数只有振荡间断点</li>
+</ul>
+</li>
+<li><p>定积分定义（黎曼积分）</p>
+<p>$\int_a^bf(x)dx=\lim\limits_{n\to \infty}\sum_{i=1}^{n}f(a+\frac{(b-a)i}{n})\frac{b-a}{n}$</p>
+<p>特别地，当$a=0，b=1$：</p>
+<p>$\int_0^1f(x)dx=\lim\limits_{n\to \infty} \sum\limits_{i=1}^{n}f(a+\frac{i}{n})\frac{1}{n}$</p>
+</li>
+<li><p>定积分存在</p>
+<p>前提：有限区间</p>
+<ul>
+<li>充分条件：<ul>
+<li>函数连续</li>
+<li>函数单调</li>
+<li>函数只有有限个可去、振荡、跳跃间断点</li>
+</ul>
+</li>
+<li>必要条件<ul>
+<li>函数在该区间有界</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>定积分的性质</p>
+<ul>
+<li><p>保号性</p>
+<script type="math/tex; mode=display">
+区间[a,b]上，若f(x)\leq g(x)，则\int_a^bf(x)dx\leq \int_a^bg(x)dx\\
+注：等号当且仅当f(x)\equiv g(x)时成立</script><p>推论：</p>
+<script type="math/tex; mode=display">
+区间[a,b]上，若f(x)\leq 0，则\int_a^bf(x)dx\leq 0.\\
+注：等号当且仅当f(x)\equiv g(x)时成立</script></li>
+<li><p>估值定理</p>
+</li>
+<li><p>中值定理：开区间、闭区间都可以。</p>
+</li>
+</ul>
+</li>
+<li><p>变限积分求导公式</p>
+<p>$(\int_{\varphi (x)}^{g(x)}f(t)dt)’=f’(\varphi (x))\varphi ‘(x)-f’(g(x))g’(x)$</p>
+</li>
+<li><p>反常积分</p>
+<ul>
+<li><p>无穷区间</p>
+</li>
+<li><p>无界函数</p>
+<p>当$x=b时候f(x)无穷大，则x=b为瑕点$</p>
+</li>
+</ul>
+</li>
+<li><p>基本积分法</p>
+</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>考研</category>
       </categories>
       <tags>
         <tag>高数</tag>
@@ -2375,48 +3125,59 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>关于冲动</title>
     <url>/2021/01/28/%E5%85%B3%E4%BA%8E%E5%86%B2%E5%8A%A8/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>激励行为的简单分析</p>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>一篇关于信仰、驱动力、性的随想</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="驱动力"><a href="#驱动力" class="headerlink" title="驱动力"></a>驱动力</h3><p>这里的驱动力是指“驱动人做某件事的动力”，驱动力分为两种：</p>
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><h3 id="驱动力"><a href="#驱动力" class="headerlink" title="驱动力"></a>驱动力</h3><p>这里的驱动力是指“驱动人做某件事的动力”，我认为驱动力分为两种：</p>
 <ul>
-<li>拉力：积极的驱动力，也就是给人带来希望与期盼的愿景，例如：完成某事以后得到某种奖励。</li>
-<li>推力：消极的驱动力，给人带来压力，例如：不学习就会挂科。</li>
+<li>正驱动力：积极的驱动力，也就是给人带来希望与期盼的愿景，例如：完成某事以后得到某种奖励。</li>
+<li>负驱动力：消极的驱动力，给人带来压抑和不适的<strong>未完成某事</strong>的后果，例如：不参加考试被记作旷考。</li>
 </ul>
 <p>根据赋予驱动力“强”、“弱”两种性质来说，共有四种组合：</p>
-<ul>
-<li>强拉力、低推力</li>
-<li>强推力、低拉力</li>
-<li>强拉力、强推力</li>
-<li>弱拉力、弱推力</li>
-</ul>
-<p>总的驱动力应该是两种力的“合力”。</p>
+<ol>
+<li>强正驱动力，弱负驱动力</li>
+<li>弱正驱动力，强负驱动力</li>
+<li>弱正驱动力，弱负驱动力</li>
+<li>强正驱动力，强负驱动力</li>
+</ol>
+<p>我认为，每种情况对应的驱动效果对个体是不同的，这里不逐一分析各情况，仅分析对我来说总驱动力最强和最弱的情况：</p>
+<p>最强：4</p>
+<p>最弱：3</p>
+<p>压力带来的后果能让我不得不考虑着手开始这件事，而愿景带来的吸引可以让我以更好的状态去完成这件事，因此最强的驱动力应该是4。</p>
+<p>最弱驱动是3的原因类似可得。</p>
+<p>注意，1、2是有可能比3、4更强或者更弱的，驱动力总和并不应该是1+1=2的情况，举例说明：</p>
+<p>某个人的性格较佛系，那么可能“3、弱正驱动力，弱负驱动力”对他来说效果最好，因为他不适应比较强的驱动，而更多靠一种自觉。</p>
 <hr>
-<h3 id="信仰"><a href="#信仰" class="headerlink" title="信仰"></a>信仰</h3><p>如果将信仰带来的驱动按照上面所介绍的进行分类，应当划为：“强拉力，弱推力”</p>
-<p>拉力：成就感、自我满足的需求</p>
-<p>推力：近乎没有推力，毕竟没有人和事能强迫你必须完成信仰，甚至不要求你必须有信仰</p>
+<h3 id="信仰"><a href="#信仰" class="headerlink" title="信仰"></a>信仰</h3><p>如果将信仰带来的驱动按照上面所介绍的进行分类，应当划为：“2、弱正驱动力，强负驱动力”</p>
+<p>可能你会想：能作为信仰的应当是一件非常伟大的事情吧？（至少作为信仰者来说应当是伟大的），那为什么正驱动力不强？</p>
+<p>答曰：正因为大部分人信仰的难以实现性，我想不会有人吧把“吃饭”、“睡觉”当作信仰吧？（不是开玩笑说的那种信仰）</p>
+<p>思考一下：诺贝尔奖作为愿景是否很激动人心？给人强烈的吸引力，甚至你可能都在幻想站在领奖台的样子，可是如果你把得到诺贝尔奖当作信仰，思考正驱动力和负驱动力：</p>
+<p>正驱动力：金钱（最直接的）、荣誉（自我实现的满足感）、地位（例如：某某大学名誉教授）</p>
+<p>负驱动力：生活的压力、困苦的处境、渴求被人理解的心情</p>
+<p>因为信仰的正驱动力太过理想化，负驱动力是赤裸的现实，所以我将信仰划分为“2、弱正驱动力，正负驱动力”</p>
 <hr>
-<h3 id="性"><a href="#性" class="headerlink" title="性"></a>性</h3><p>这里指的性并不特指狭义的性，也包括对异性的接触欲、倾诉欲以及爱情等等。</p>
-<p>性应该划分为：“ 强拉力，强推力”</p>
+<h3 id="性"><a href="#性" class="headerlink" title="性"></a>性</h3><p>这里指的性并不特指狭义的性，也包括对异性的接触欲、倾诉欲等等。</p>
+<p>性应该分作“ 1、强正驱动力，弱负驱动力”</p>
 <p>分析：</p>
-<p>拉力：生物需求、行为习惯、感情、等</p>
-<p>推力：孤独感、需求感、占有欲、控制欲</p>
+<p>正驱动力：多巴胺带来的快感、对脑子中幻想的未来的希望、性冲动等</p>
+<p>负驱动力：孤独、生理需求</p>
 <hr>
-<h3 id="时效"><a href="#时效" class="headerlink" title="时效"></a>时效</h3><p>信仰是长期驱动，一旦拉力明确下来，不会轻易被挫折消灭；</p>
-<p>性属于短期驱动，因为此种驱动本质上说依赖于激素和欲望，如果没有深层次的情感，迟早会失去驱动效果。</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h3><p>从信仰和性能看出一些驱动的长短期效应，也就是驱动的持续时间。</p>
+<p>信仰应该是长期驱动，很难被短期的挫折消灭；</p>
+<p>性属于短期驱动，因为此种驱动本质上说依赖于生理化学反应，如果没有思想改变，迟早会消散。</p>
 ]]></content>
       <categories>
-        <category>思考</category>
+        <category>胡思乱想</category>
       </categories>
       <tags>
-        <tag>激励</tag>
+        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
     <title>LeetCode674.最长连续递增序列</title>
     <url>/2021/01/24/LeetCode674-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>给定一个未经排序的整数数组，找到最长且 <strong>连续递增的子序列</strong>，并返回该序列的长度。</p>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>给定一个未经排序的整数数组，找到最长且 <strong>连续递增的子序列</strong>，并返回该序列的长度。</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>思路：贪心</p>
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>思路：贪心</p>
 <p>说明：连续说明不能跳越的得到数字。</p>
 <p>证明：</p>
 <ul>
@@ -2443,9 +3204,9 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>《陶哲轩实分析》读书笔记</title>
     <url>/2021/01/24/%E3%80%8A%E9%99%B6%E5%93%B2%E8%BD%A9%E5%AE%9E%E5%88%86%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>假期阅读，为复习微积分等课程做准备。</p>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>假期阅读，为复习微积分等课程做准备。</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[toc]</p>
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>[toc]</p>
 <h3 id="第二章-自然数"><a href="#第二章-自然数" class="headerlink" title="第二章 自然数"></a>第二章 自然数</h3><h4 id="Peano公理：公理化定义自然数系-0、1、2、……"><a href="#Peano公理：公理化定义自然数系-0、1、2、……" class="headerlink" title="Peano公理：公理化定义自然数系{0、1、2、……}"></a>Peano公理：公理化定义自然数系{0、1、2、……}</h4><ul>
 <li>0是一个自然数。</li>
 <li>若n是自然数，则n++也是自然数。</li>
@@ -2465,9 +3226,9 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>关于人之间关系的一些想法</title>
     <url>/2021/01/24/%E5%85%B3%E4%BA%8E%E4%BA%BA%E4%B9%8B%E9%97%B4%E5%85%B3%E7%B3%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>一些辗转反侧的痛苦</p>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>一些辗转反侧的痛苦</p>
 <span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><font size="3">
+<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><font size="3">
 
 [toc]
 
@@ -2486,22 +3247,23 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 
 更具体的例子：
 
-鲁迅和闰土（尽管小说是虚构的，但必定有一定的现实基础）
+鲁迅和闰土（尽管不一定对应真人，但必定有一定的现实基础）
 
- 一日是天气很冷的午后，我吃过午饭，坐着喝茶，觉得外面有人进来了，便回头去看。我看时，不由的非常出惊，慌忙站起身，迎着走去。
- 这来的便是闰土。虽然我一见便知道是闰土，但又不是我这记忆上的闰土了。他身材增加了一倍；先前的紫色的圆脸，已经变作灰黄，而且加上了很深的皱纹；眼睛也像他父亲一样，周围都肿得通红，这我知道，在海边种地的人，终日吹着海风，大抵是这样的。他头上是一顶破毡帽，身上只一件极薄的棉衣，浑身瑟索着；手里提着一个纸包和一支长烟管，那手也不是我所记得的红活圆实的手，却又粗又笨而且开裂，像是松树皮了。
-
- 我这时很兴奋，但不知道怎么说才好，只是说：
-
- “阿！闰土哥，——你来了？……”
-
- 我接着便有许多话，想要连珠一般涌出：角鸡，跳鱼儿，贝壳，猹，……但又总觉得被什么挡着似的，单在脑里面回旋，吐不出口外去。
-
- 他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声。他的态度终于恭敬起来了，分明的叫道：
-
- “老爷！……”
-
- 我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。我也说不出话。
+> 一日是天气很冷的午后，我吃过午饭，坐着喝茶，觉得外面有人进来了，便回头去看。我看时，不由的非常出惊，慌忙站起身，迎着走去。
+>
+> 这来的便是闰土。虽然我一见便知道是闰土，但又不是我这记忆上的闰土了。他身材增加了一倍；先前的紫色的圆脸，已经变作灰黄，而且加上了很深的皱纹；眼睛也像他父亲一样，周围都肿得通红，这我知道，在海边种地的人，终日吹着海风，大抵是这样的。他头上是一顶破毡帽，身上只一件极薄的棉衣，浑身瑟索着；手里提着一个纸包和一支长烟管，那手也不是我所记得的红活圆实的手，却又粗又笨而且开裂，像是松树皮了。
+>
+> 我这时很兴奋，但不知道怎么说才好，只是说：
+>
+> “阿！闰土哥，——你来了？……”
+>
+> 我接着便有许多话，想要连珠一般涌出：角鸡，跳鱼儿，贝壳，猹，……但又总觉得被什么挡着似的，单在脑里面回旋，吐不出口外去。
+>
+> 他站住了，脸上现出欢喜和凄凉的神情；动着嘴唇，却没有作声。他的态度终于恭敬起来了，分明的叫道：
+>
+> “老爷！……”
+>
+> 我似乎打了一个寒噤；我就知道，我们之间已经隔了一层可悲的厚障壁了。我也说不出话。
 
 
 
@@ -2843,7 +3605,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>《欢迎来到实力至上主义教室》摘抄</title>
     <url>/2020/01/28/%E3%80%8A%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%AE%9E%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E4%B9%89%E6%95%99%E5%AE%A4%E3%80%8B/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>句子摘抄</p>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>句子摘抄</p>
 <span id="more"></span>
 <font face="楷体" size="5">
 
@@ -3027,7 +3789,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
   <entry>
     <title>学习markdown基本语法</title>
     <url>/2020/01/15/%E5%AD%A6%E4%B9%A0markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>markdown语法的学习。<br>因为Typora是我写md文档时使用的编辑器，所以我也记录了一些个人常用的Typora快捷键。</p>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>markdown语法的学习。<br>Typora是我写md文档时使用的编辑器，因此我也记录了一些Typora的快捷键。</p>
 <span id="more"></span>
 <h2 id="学习内容总结"><a href="#学习内容总结" class="headerlink" title="学习内容总结"></a>学习内容总结</h2><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><hr>
 <ol>
@@ -3086,6 +3848,12 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <li><p>主题设置：Pixyll</p>
 </li>
 </ul>
+<h3 id="引用句子实例"><a href="#引用句子实例" class="headerlink" title="引用句子实例"></a>引用句子实例</h3><hr>
+<blockquote><p>草在结它的种子，风在摇它的叶子。</p>
+<p>我们站着，不说话，就十分美好。</p>
+<footer><strong>顾城</strong></footer></blockquote>
+<h3 id="插入图片实例"><a href="#插入图片实例" class="headerlink" title="插入图片实例"></a>插入图片实例</h3><hr>
+<p><img src="/2020/01/15/%E5%AD%A6%E4%B9%A0markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/maomi.jpg" style="zoom:33%;"></p>
 ]]></content>
       <categories>
         <category>学习记录</category>

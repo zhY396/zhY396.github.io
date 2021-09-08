@@ -1209,7 +1209,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #dfe93b;
+  background: #550eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2207,14 +2207,6 @@ ul.breadcrumb li + li:last-child {
 .tag-cloud a:hover {
   color: #222 !important;
 }
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: none;
-}
-.gt-container .gt-popup .gt-action.is--active::before {
-  top: 0.7em;
-}
 .search-pop-overlay {
   background: rgba(0,0,0,0.3);
   display: none;
@@ -2477,4 +2469,49 @@ embed {
 .sidebar {
   transition: all 0.4s;
   width: 320px;
+}
+body {
+  background: url("/images/personal/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+body #footer > div > div {
+  color: #fff;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  transition-duration: 0.4s;
+  opacity: 0.85;
+  border-radius: 10px 10px 10px 10px;
+}
+.post-block {
+  background: #fff;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.post-block + .post-block {
+  background: #fff;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  margin-top: 12px;
+}
+.popup {
+  background: #fff;
+  opacity: 0.9;
+}
+.post-toc .nav .nav-child {
+  display: block;
+}
+.post-toc ol {
+  font-size: 13px;
 }
