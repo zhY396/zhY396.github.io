@@ -1,6 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vscode使用</title>
+    <url>/2021/09/27/vscode%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录一些提高效率的编辑方法。</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="快捷键相关"><a href="#快捷键相关" class="headerlink" title="快捷键相关"></a>快捷键相关</h3><ol>
+<li>切换编辑焦点：<code>tab</code></li>
+<li></li>
+</ol>
+<h3 id="编辑器配置相关"><a href="#编辑器配置相关" class="headerlink" title="编辑器配置相关"></a>编辑器配置相关</h3>]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>编辑器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高数刷题</title>
+    <url>/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>刷题模糊点记录</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ol>
+<li><p>已知复合函数$f(g(x))表达式求f(x)$</p>
+<ul>
+<li>换元法：令$t=g(x),运算求出f(t)$</li>
+<li>拼凑法：在表达式中拼凑出$g(x)$</li>
+</ul>
+</li>
+<li><p>如果$\lim\limits_{n\to \infty}\frac{x_{n+1}}{x_n}\neq 1且x_n极限存在$，则$x_n=0$</p>
+<p>反证法：假设$x_n\neq 0 ，则\lim\limits_{n\to \infty}\frac{x_{n+1}}{x_n}=1$</p>
+</li>
+<li><script type="math/tex; mode=display">
+\lim\limits_{n\to \infty}(a^n+b^n)^{\frac{1}{n}}（0<a<b）=b.\\
+证明：令I=(a^n+b^n)^{\frac{1}{n}}，则：\\
+(b^n)^{\frac{1}{n}}<I <(b^n+b^n)^{\frac{1}{n}}\\
+b<I<2^{\frac{1}{n}}b=b\\
+由夹逼准则可知原极限为b.</script></li>
+<li><script type="math/tex; mode=display">
+a_1=\sqrt n\\
+a_n=\sqrt{n+a_{n-1}}=\sqrt{n+\sqrt{n+\sqrt{n+\sqrt{n+...}}}}< n(n\geq2)\\
+数学归纳法证明：\\
+(1)a_1=\sqrt{n}<n,a_2=\sqrt{n+\sqrt n}<\sqrt{n+n}=\sqrt{2n}.\\
+\sqrt{2n}\leq n \Rightarrow a2< n.\\
+(2)设a_k\leq n，则a_k+1=\sqrt{n+a_k}\leq \sqrt{n+n}=\sqrt{2n}.\\
+\sqrt{2n}\leq n \Rightarrow a_{k+1}<n.\\
+即该数列以n为上界。</script></li>
+<li><p>用数列极限定义证明极限时一个技巧</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923185520776.png" alt="image-20210923185520776"></p>
+</li>
+<li><p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923205550460.png" alt="image-20210923205550460"></p>
+</li>
+<li><p>当证明的等式中含有两个不确定的中值变量，例如$\eta,\xi$，考虑使用两个不同中值定理或者划分区间使用一个中值定理两次。</p>
+<p>例如：</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210924205941747.png" alt="image-20210924205941747"></p>
+<p>本题中由于出现两个中值变量，则考虑上面所述。由于$f(a)\neq f(b)$，所以不优先考虑罗尔定理。由于证明等式的两边没有明显对称，所以考虑使用不同的中值定理，最后选用拉氏定理和柯西中值定理即可求解。</p>
+</li>
+<li><p>证明中需要用到中值定理，而题目中给了一个常量等式，则考虑将常量变量化，构造辅助函数。</p>
+</li>
+<li><p>遇到三个点，尝试两次拉氏定理。若无三个点，尝试构造三个点。</p>
+</li>
+<li><p>使得一阶导数为0的方法：</p>
+<ul>
+<li>切线水平、斜率为0.</li>
+<li>原函数为偶函数，则0点处导数为0.</li>
+<li>罗尔定理（关键点：找辅助函数、找相等点）</li>
+<li>费马定理（关键点：证明端点不是最值）</li>
+<li>一阶导数为奇函数但不在0点处，对一阶导数求积分，利用奇函数对称区间积分为0的性质。</li>
+</ul>
+</li>
+<li><p>闭区间考虑介质定理</p>
+</li>
+<li><p>多阶导数考虑泰勒展开，展开点应该是某导数为0的点，方便凑结论。</p>
+</li>
+<li><p>一元二次方程最多两个实根</p>
+</li>
+<li><p>方程的根考虑零点问题</p>
+<ul>
+<li>零点定理</li>
+<li>至少有多少根用罗尔定理，构造要证明方程的原函数</li>
+<li>至多多少根用罗尔定理推论，对要证明的方程求导</li>
+</ul>
+</li>
+<li><p>遇到多个导数，想泰勒展开式</p>
+</li>
+<li><p>需要判断一个式子的正负，需要尽可能的提取公因式，这些公因式中某些是恒正或恒负的，最后聚焦于无法判断正负的因式上，这个因式应该满足：</p>
+<ul>
+<li>尽可能的将恒正/负的变量提取出去，对应拆项补项凑出想要使用的不等式</li>
+<li>不要提取非公因式的常量，因为没有简化作用</li>
+</ul>
+<p>满足这些条件以后，该因式的正负才容易判断。</p>
+<p>例如：</p>
+<script type="math/tex; mode=display">
+对于x\in(0,\frac{\pi}{2})\\
+(x^2+\sqrt{4+x^4})(\frac{2xcosx}{\sqrt{4+x^4}}-sinx)\\
+分析：左边的因式(x^2+\sqrt{4+x^4})恒正，考虑右方，右方的式子中存在恒正/负的变量xcosx、sinx\\
+考虑将他们提出去：\\
+(1)提xcosx:(x^2+\sqrt{4+x^4})xcosx(\frac{2}{\sqrt{4+x^4}}-\frac{tanx}{x})\\
+由于\frac{tanx}{x}>1，\frac{2}{\sqrt{4+x^4}}<1,所以原式为负；\\
+(2)提sinx:(x^2+\sqrt{4+x^4})sinx(\frac{2x}{tanx\sqrt{4+x^4}}-1)\\
+由于\frac{x}{tanx}<1,\frac{2}{\sqrt{4+x^4}}<1,所以原式为负;</script></li>
+<li><script type="math/tex; mode=display">
+F(x)=\int_0^xf(x)dx是f(x)的一个原函数，而不能代表所有原函数，因为下界已定。</script></li>
+<li><p>分母次数必分子次数大的积分考虑：</p>
+<ul>
+<li><p>分子进行等价替换然后拆分：</p>
+<p>例如:$1=sin^2x+cos^2x=\frac{(x^2+1)-(x^2-1)}{2}$</p>
+</li>
+<li>考虑凑反三角函数</li>
+<li>拆分有理函数</li>
+<li>倒代换</li>
+</ul>
+<p>如果变化后的式子仍然难以求解，尝试和原来的式子进行四则运算。</p>
+</li>
+<li><p>当使用换元法或者区间再现等公式获得原有积分的等价形式后积分仍然难以计算，尝试和原来的积分进行四则运算。</p>
+</li>
+<li><p>$cosa\theta的图像总是落后于sina\theta。\\在直角坐标系中A落后B代表A在B的左方，在极坐标系中A落后B代表A在B的顺时钟方向。$</p>
+<p>例如：</p>
+<script type="math/tex; mode=display">
+cos2\theta图像逆时针旋转\frac{\pi}{4}即可得到sin2\theta的图像。\\
+
+因为cos(2\theta-\frac{\pi}{2})=cos(2(\theta-\frac{\pi}{4}))=sin(2\theta)\\
+所谓左加右减，顺加逆减</script></li>
+<li><p>求旋转体体积：先求一条线旋转，再积分。</p>
+</li>
+<li><p>旋转轴不在x、y的图像只需要平移以后使得旋转轴处于x、y骤在计算即可。</p>
+</li>
+<li><p>解题</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&已知公式：a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+a^{n-1}b^2+...+ab^{n-2}+b^{n-1}),n属于正整数\\
+&所以有：(1-x^3)=(1^3-x^3)=(1-x)(1^2+1x+1^0x^2)=(1-x)(1+x+x^2)\\
+&\lim\limits_{x\to 1}(\frac{1}{1-x}-\frac{3}{1-x^2})\\
+&=\lim\limits_{x\to 1}\frac{1+x+x^2-3}{1-x^3}\\
+&=\lim\limits_{x\to 1}\frac{x^2+x-2}{1-x^3}\\
+&=\lim\limits_{x\to 1}\frac{(x-1)(x+2)}{(1-x)(1+x+x^2)}\\
+&=\lim\limits_{x\to 1}-\frac{(x+2)}{(1+x+x^2)}\\
+&将1代入即可得到答案=-1.
+还有一种方法是用洛必达法则.
+made\space by\space kyrry.
+\end{align*}</script></li>
+<li><p>算旋转体体积注意不能乱套公式</p>
+<ul>
+<li><p>仅仅位于x的正半轴或者x的负半轴且绕y轴旋转</p>
+<p>$正半轴：s=\int_a^b2\pi xf(x)dx\\负半轴:s=-\int_a^b2\pi xf(x)dx$</p>
+<p>原因：其中乘积有$x$，$x$在负半轴为负数。</p>
+<p>该公式由柱壳法得到，其中$2\pi x为长，f(x)为高，dx为宽$</p>
+</li>
+<li><p>如果要将一个图像沿着y轴翻折，则将$x都换为-x$即可，例如：$(x+2)^3和(-x+2)^3$</p>
+</li>
+<li><p>如果不沿着$x、y$轴旋转，则有两种方法处理</p>
+<ol>
+<li>平移、翻折使得旋转轴为$x、y$ 轴然后套公式计算。</li>
+<li>微元法表示出$ds$，然后积分。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>一个特殊的极限</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210927142035307.png" alt="image-20210927142035307" style="zoom: 25%;"></p>
+<script type="math/tex; mode=display">
+由区间再现公式可证(1)(2)，运用(2)可计算积分.\\
+另一个思路是直接对该积分运用区间变换公式。\\
+
+\begin{align*}
+    &\int_0^{\pi}\frac{xsinx}{1+cos^2x}dx\\
+    &=\frac{\pi}{2}\int_0^{\pi}\frac{sinx}{1+cos^2x}dx\\
+    &=-\frac{\pi}{2}\int_0^{\pi}\frac{dcosx}{1+cos^2x}\\
+    &=-\frac{\pi}{2}arctancosx\Big|_0^{\pi}\\
+\end{align*}</script></li>
+</ol>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数学概念的思考</title>
     <url>/2021/08/14/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5%E7%9A%84%E6%80%9D%E8%80%83/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>数学概念过程中的一些个人理解。</p>
@@ -38,6 +217,10 @@
 &而g变化dy会让y变化2dg，即dy=2dg.\\
 &则总的x对y的变化影响为：dy=2dg=2\cdot 2dx=4dx.\\
 \end{align*}</script><p>这就是链式法则最通俗的理解。</p>
+<h4 id="关于坐标系变化和换元"><a href="#关于坐标系变化和换元" class="headerlink" title="关于坐标系变化和换元"></a>关于坐标系变化和换元</h4><h5 id="联系"><a href="#联系" class="headerlink" title="联系"></a>联系</h5><p>所谓的坐标系变化就是例如将直角坐标系转变为极坐标系等的操作。</p>
+<p>而换元是例如$x=\varphi(t)$的操作。</p>
+<p>我突然意识到换元其实就是坐标系的变化，只不过不一定是由直角坐标系转换为极坐标系。例如$x=2t$，转换后的$t$为自变量的坐标系任然是直角坐标系，但横轴单位长度变为原来的$\frac{1}{2}$.这只是一种简单的变换，如果变化很复杂，那么坐标系可能变为很复杂的情况，这里我就想到了线性代数中矩阵的概念，其实矩阵也就是空间的线性变换，而空间的变换其实本质是坐标系的变换。</p>
+<h5 id="意义"><a href="#意义" class="headerlink" title="意义"></a>意义</h5><p>经过上面的思考我觉得变换坐标系和换元本质上是一个东西的两种表示，坐标系是几何表示，换元是代数表示，它们的共同目的都是转换观察问题的角度，以便求得更简单的解决问题的方法。</p>
 ]]></content>
       <categories>
         <category>思考</category>
@@ -49,8 +232,9 @@
   <entry>
     <title>LaTex语法</title>
     <url>/2021/08/11/LaTex%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录使用到的LaTex语法，方便复用。不直接保存整个表的原因是会保存许多使用不到的内容。</p>
-<p>TODO：内容多了以后会进行分类。</p>
+    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录遇到的LaTex语法，方便查找。</p>
+<p>不直接保存整个语法表的原因是许多冗余的内容使用不到。</p>
+<p>To-do：内容多到足以分类会进行归类。</p>
 <span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>摘自：<a href="https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols">https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols</a></p>
 <ul>
@@ -59,7 +243,7 @@
 <li><p>小于等于：<code>\leq</code></p>
 </li>
 <li><p>左对齐：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;align*&#125;</span><br><span class="line"></span><br><span class="line">&amp; some contents in one column...</span><br><span class="line"></span><br><span class="line">\end&#123;align*&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;align*&#125;</span><br><span class="line"></span><br><span class="line">	&amp; </span><br><span class="line">	&amp;</span><br><span class="line">	&amp;</span><br><span class="line">	&amp;</span><br><span class="line">	</span><br><span class="line">\end&#123;align*&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>存在：<code>\exists</code></p>
 </li>
@@ -71,13 +255,22 @@
 </li>
 <li><p>求和符号上下界限的标记：<code>\limits_&#123;upper&#125;^&#123;bottom&#125;</code></p>
 </li>
-<li><p>方程式：<code>\left\&#123; \begin&#123;array&#125;&#123;l&#125; content\\ content \end&#123;array&#125; \right.</code></p>
-</li>
+<li><p>方程式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\left\&#123; </span><br><span class="line">	\begin&#123;array&#125;&#123;l&#125; </span><br><span class="line">		contents\\ </span><br><span class="line">		contents\\ </span><br><span class="line">	\end&#123;array&#125; </span><br><span class="line">\right.</span><br></pre></td></tr></table></figure>
+<script type="math/tex; mode=display">
+\left\{ 
+    \begin{array}{l} 
+        contents\\ 
+        contents\\ 
+    \end{array} 
+\right.</script></li>
+</ul>
+<ul>
 <li><p>分式：<code>\frac&#123;&#125;&#123;&#125;</code></p>
 </li>
 <li><p>希腊字母$\epsilon$：<code>\epsilon</code></p>
 </li>
-<li><p>极限符号：<code>\to</code></p>
+<li><p>趋近于：<code>\to</code></p>
 </li>
 <li><p>无穷大$\infty$：<code>infty</code></p>
 </li>
@@ -85,9 +278,13 @@
 </li>
 <li><p>等价：<code>\leftrightarrow</code></p>
 </li>
-<li><p>字母上面加空心圆圈：<code>\mathring</code></p>
-</li>
+<li><p>字母上面加空心圆圈：<code>\mathring 字母</code></p>
+<script type="math/tex; mode=display">\mathring U(p,\theta)</script></li>
 <li><p>箭头上加文字：<code>\stackrel&#123;contents&#125;\Rightarrow</code></p>
+<p>$\stackrel{contents}\Rightarrow$</p>
+</li>
+<li><p>增大符号：<code>\Big</code>、<code>\bigg</code></p>
+<p>$普通：|\\放大：\bigg|$</p>
 </li>
 </ul>
 ]]></content>
@@ -310,8 +507,7 @@
 <li><p>主题风格</p>
 <p>Scheme：Mist</p>
 </li>
-<li><p>网页图标路径：themes\Next\source\images\personal</p>
-</li>
+<li>网页图标路径：themes\Next\source\images\personal</li>
 <li><p>背景图片设置：</p>
 <ul>
 <li>打开配置路径：主题配置文件中的custom_file_path，将style注释取消</li>
@@ -321,7 +517,7 @@
 </li>
 <li><p>背景音乐：</p>
 <ul>
-<li>插入音乐外链路径：<code>themes\next\layout\_macro\sidebar.swig</code>找到<code>sidebar-inner</code>，复制之前的代码粘贴到<code>&lt;div&gt;</code>标签后</li>
+<li>插入音乐外链路径：<code>themes\next\layout\_macro\sidebar.swig</code>找到 <code>sidebar-inner</code>，复制之前的代码粘贴到 <code>&lt;div&gt;</code>标签后</li>
 </ul>
 </li>
 <li><p>本地测试成功，但是hexo d部署网页失败</p>
@@ -334,12 +530,15 @@
 </li>
 <li><p>文章目录不显示、无法跳转</p>
 <p>目录显示：source\_data\styles.styl</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">//文章目录</span></span><br><span class="line">  <span class="selector-class">.post-toc</span> <span class="selector-class">.nav</span> <span class="selector-class">.nav-child</span> &#123; <span class="attribute">display</span>: block; &#125;</span><br><span class="line">  <span class="selector-class">.post-toc</span> <span class="selector-tag">ol</span> &#123;  </span><br><span class="line">    <span class="attribute">font-size</span> : <span class="number">13px</span>;     </span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">//文章目录</span></span><br><span class="line">  <span class="selector-class">.post-toc</span> <span class="selector-class">.nav</span> <span class="selector-class">.nav-child</span> &#123; <span class="attribute">display</span>: block; &#125;</span><br><span class="line">  <span class="selector-class">.post-toc</span> <span class="selector-tag">ol</span> &#123;  </span><br><span class="line">    <span class="attribute">font-size</span> : <span class="number">13px</span>;   </span><br><span class="line">  &#125; </span><br></pre></td></tr></table></figure>
 <p>目录跳转：</p>
 <p><a href="https://github.com/theme-next/hexo-theme-next/pull/1540/files#diff-1792ad8339d1eed2d547ed3d50641a26797c40e48aadd09521293105d88f158cR238-R239">https://github.com/theme-next/hexo-theme-next/pull/1540/files#diff-1792ad8339d1eed2d547ed3d50641a26797c40e48aadd09521293105d88f158cR238-R239</a></p>
 </li>
 <li><p>渲染数学公式：</p>
 <p><a href="https://www.jianshu.com/p/7ab21c7f0674">https://www.jianshu.com/p/7ab21c7f0674</a></p>
+</li>
+<li><p>本地代码仓库回滚过，少于远程仓库的版本，如何push:</p>
+<p><a href="https://www.cnblogs.com/xu-ux/p/13844977.html">https://www.cnblogs.com/xu-ux/p/13844977.html</a></p>
 </li>
 </ul>
 ]]></content>
@@ -1977,6 +2176,14 @@ SQL实现：Foreign Key
 <li><p>vscode扩展leetcode无法登录</p>
 <p>修改扩展设置里的Endpoint为leetcode-cn</p>
 </li>
+<li><p>无法打开微软商店</p>
+<p><code>win+i</code>打开<code>Windows设置</code></p>
+<p>选择<code>网络和Internet</code>，然后有两种方法：</p>
+<ol>
+<li>打开<code>代理</code>，关闭所有选项，若已关闭则先打开再关闭。</li>
+<li>打开<code>Wlan</code>，点击<code>选择能够使用你Wlan网络的应用</code>，然后找到微软商店并打开。</li>
+</ol>
+</li>
 <li><p>未完待续</p>
 </li>
 </ul>
@@ -2207,7 +2414,7 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>公众号外刊阅读笔记</p>
 <span id="more"></span>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="2021-3-15"><a href="#2021-3-15" class="headerlink" title="2021.3.15"></a>2021.3.15</h3><h4 id="单词短语"><a href="#单词短语" class="headerlink" title="单词短语"></a>单词短语</h4><ol>
-<li><p>stimulus payments</p>
+<li><p>(n.)stimulus payments</p>
 <p>刺激消费</p>
 </li>
 <li><p>tax benefits</p>
@@ -2232,9 +2439,9 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 <p>大约是两倍</p>
 </li>
 <li><p>fellow</p>
-<p>研究员</p>
+<p>研究员、小伙子</p>
 </li>
-<li><p>marking </p>
+<li><p>make</p>
 <p>形成，达到</p>
 </li>
 <li><p>alleviate poverty</p>
@@ -2248,16 +2455,573 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
 </li>
 </ol>
 <h4 id="句子"><a href="#句子" class="headerlink" title="句子"></a>句子</h4><ul>
-<li>An analysis by the Tax Policy Center published this week estimated that middle-income families, those making $51,000 to $91,000 per year, will see their after-tax income rise by 5.5 percent as a result of the tax changes and stimulus payments in the legislation. </li>
-</ul>
+<li><p>An analysis by the Tax Policy Center published this week estimated that middle-income families, those making 51,000 $to$91,000 per year, will see their after-tax income rise by 5.5 percent as a result of the tax changes and stimulus payments in the legislation. </p>
 <p>一项由TPC在这个星期公布的分析估计，中等收入家庭一年收入51000~91000美元，在税收优惠和立法方面的刺激消费以后，他们的税后收入将会提高5.5%。</p>
-<ul>
-<li>Targeting a relief package more narrowly to help those solidly in the middle class has been challenging, given the cost of living varies widely in different parts of the United States.</li>
-</ul>
+</li>
+<li><p>Targeting a relief package more narrowly to help those solidly in the middle class has been challenging, <strong>given</strong> the cost of living varies widely in different parts of the United States.</p>
+<p>考虑到美国不同地区的生活成本差异很大，将救助计划精准定位并帮助那些稳居中产阶级的人是一项挑战。</p>
 <p>结构: … has been challenging, given … varies widely in different parts of the ….</p>
 <p>鉴于…差异很大，…变得有挑战性</p>
 <p>例句: Finding a decent and comfortable job has been challenging, given the salary varies widely in different parts of the China.</p>
-]]></content>
+</li>
+</ul>
+<hr>
+<h3 id="10th-September-2021-twenty-twnenty-one-Friday"><a href="#10th-September-2021-twenty-twnenty-one-Friday" class="headerlink" title="10th September 2021(twenty twnenty-one) Friday"></a>10th September 2021(twenty twnenty-one) Friday</h3><p><strong>Title</strong>:The World Is Still Short Of Everything.Get Used to it.</p>
+<p><strong>Time</strong>:30.08.2021</p>
+<p><strong>From</strong>:The New York Times</p>
+<h4 id="words-or-phrases"><a href="#words-or-phrases" class="headerlink" title="words or phrases"></a>words or phrases</h4><ol>
+<li><p>pwC 普华永道</p>
+</li>
+<li><p>consultancy 咨询公司</p>
+</li>
+<li><p>VC(Venture capital) investment 风投</p>
+</li>
+<li><p>climate tech 气候科技</p>
+</li>
+<li><p>startup 初创企业</p>
+</li>
+<li><p>funding 资金</p>
+</li>
+<li><p>overall adj. adv. n.整体</p>
+</li>
+<li><p>funding overall 资金总额</p>
+</li>
+<li><p>The Great Supply Chain Disruption 供应链大混乱</p>
+</li>
+<li><p>extraordinary uncertainty 异常的不确定性</p>
+</li>
+<li><p>economic prospects 经济前景</p>
+</li>
+<li><p>a range of commodities 一系列的商品</p>
+</li>
+<li><p>debate 讨论(不是战斗，战斗是battle)</p>
+</li>
+<li><p>appopriate level of concern 适当的关心程度</p>
+</li>
+<li><p>inflation 通货膨胀</p>
+</li>
+<li><p>mishap 事故、问题</p>
+</li>
+<li><p>resumption of business 经济复苏</p>
+</li>
+<li><p>insidious 潜在的、隐患的</p>
+</li>
+<li><p>frame 设计、框架、使适合、有框架的</p>
+</li>
+<li><p>shipping 航运</p>
+</li>
+<li><p>spike adj.尖的 v.飙升 n.细高跟、稻穗</p>
+</li>
+<li><p>scarce adj.稀缺的</p>
+</li>
+<li><p>conventional wisdom 传统观念 convenient 方便的</p>
+</li>
+<li><p>surplus of orders 订单过剩</p>
+</li>
+<li><p>extraodinary shifts in demand 需求的异常变化</p>
+</li>
+<li><p>lockdown n.封锁、限制</p>
+</li>
+<li><p>impetus n.动力</p>
+</li>
+<li><p>gaming console 游戏机</p>
+</li>
+<li><p>swamp n.沼泽 v.使陷入困境 swarm n.蜂群，一群</p>
+</li>
+<li><p>cargo 货物</p>
+</li>
+<li><p>many assumed 许多人认为</p>
+</li>
+<li><p>backlog n.积压事物</p>
+</li>
+<li><p>economy 经济</p>
+<p>economical 便宜的</p>
+<p>economic 经济学的、有利可图的</p>
+<p>profitable 有利可图的</p>
+</li>
+<li><p>rip out 影响、蔓延</p>
+<p>rip 撕开</p>
+</li>
+<li><p>auto 汽车、自动</p>
+</li>
+<li><p>exacerbate 加剧、恶化</p>
+</li>
+<li><p>be in quarantine 隔离</p>
+<p>quarantine 检疫</p>
+<p>get isolated 隔离</p>
+</li>
+</ol>
+<h4 id="sentences"><a href="#sentences" class="headerlink" title="sentences"></a>sentences</h4><h5 id="Yesterday’s-answers"><a href="#Yesterday’s-answers" class="headerlink" title="Yesterday’s answers"></a>Yesterday’s answers</h5><p>pwC, a consultancy , estimates that betwwen 2013 and 2020 VC investments in climate tech grew at five times the rate of global startup funding overall.</p>
+<p>咨询公司普华永道估计在2013到2020年间气候科技风险投资的增长速度是全球初创公司融资总额增长速度的五倍。</p>
+<h5 id="Today’s-tasks"><a href="#Today’s-tasks" class="headerlink" title="Today’s tasks"></a>Today’s tasks</h5><p>A shipping container that cannot be unloaded in LosAngeles because too many dock workers are in quarantine is a container that connot be loaded with soybeans in lowa,leaving buyers in Indonesia waiting, and potentially triggering a shortage of animal feed in Southeast Asia.</p>
+<p>许多码头工人被疫情隔离导致集装箱不能在洛杉矶被卸货，同时爱尔兰大豆无法被装载，这导致许多印尼买家等待，同时可能引发东南亚动物饲料的短缺。</p>
+<h4 id="Other’s-summary"><a href="#Other’s-summary" class="headerlink" title="Other’s summary"></a>Other’s summary</h4><p>“Everybody should be assuming we are going to have an extended period of disruptions.”</p>
+<p>结构：Everybody shoule be assuming we are going to have …</p>
+<hr>
+<h3 id="11th-September-2021-Saturday"><a href="#11th-September-2021-Saturday" class="headerlink" title="11th September 2021 Saturday"></a>11th September 2021 Saturday</h3><p><strong>Title</strong>:Mastercard faces biggest UK class-action lawsuit</p>
+<p>Mastercard(万事达)面临英国最大的集体诉讼</p>
+<p><strong>Time</strong>:19.08.2021</p>
+<p><strong>From</strong>:The Telegraph</p>
+<h4 id="words-or-phrases-1"><a href="#words-or-phrases-1" class="headerlink" title="words or phrases"></a>words or phrases</h4><ol>
+<li><p>landmark n.标志性建筑、事件；重要事件；纪念碑</p>
+</li>
+<li><p>bn=billion 十亿、大量</p>
+</li>
+<li><p>￡ 英镑 pound</p>
+</li>
+<li><p>paves the way for … 为…开辟了道路</p>
+<p>pave 铺路</p>
+</li>
+<li><p>mass consumer claim 消费者集体索赔</p>
+</li>
+<li><p>million 百万 缩写为m</p>
+</li>
+<li><p>some 46m consumers 大约4600万消费者</p>
+</li>
+<li><p>payout n.支出、消费</p>
+</li>
+<li><p>action claim 诉讼索赔</p>
+<p>action 诉讼</p>
+<p>lawsuit 诉讼</p>
+</li>
+<li><p>ombudsman 监察专员</p>
+</li>
+<li><p>for years 多年来</p>
+</li>
+<li><p>allege 控诉</p>
+</li>
+<li><p>interchange  n. v. 交换、交易 </p>
+</li>
+<li><p>breach n. vt. 违反</p>
+</li>
+<li><p>businesses 企业（复数）</p>
+</li>
+<li><p>tribunal 法庭</p>
+</li>
+<li><p>rule 裁决</p>
+</li>
+<li><p>herald 预示着、先驱者</p>
+<p>hatred 仇恨</p>
+<p>pioneer 先驱者</p>
+</li>
+<li><p>class actions 集体诉讼</p>
+</li>
+<li><p>consumer-focused 消费者为中心的</p>
+</li>
+<li><p>really matter 真正重要</p>
+</li>
+<li><p>hold … to account 让…承担责任</p>
+</li>
+<li><p>throw everything at trying to 竭尽全力</p>
+</li>
+<li><p>deceased 已故的</p>
+</li>
+<li><p>backed by 受到支持</p>
+</li>
+<li><p>spurious 虚假的</p>
+</li>
+<li><p>35pc 35%</p>
+</li>
+<li><p>give the green light to 给人方便；批准做某事</p>
+</li>
+<li><p>go back 回去</p>
+</li>
+<li><p>under recent policies 在最近的政策中</p>
+<p>political 政治</p>
+<p>policies 政策</p>
+</li>
+<li><p>precedent-setting case 开创先例的案件</p>
+<p>precedent 例子、先例</p>
+<p>unprecendented 前所未有的</p>
+</li>
+</ol>
+<h5 id="yesterday’s-answers"><a href="#yesterday’s-answers" class="headerlink" title="yesterday’s answers"></a>yesterday’s answers</h5><p>A shipping container that cannot be unloaded in LosAngeles because too many dock workers are in quarantine is a container that cannot be loaded with soybeans in lowa, leaving buyers in Indonesia waiting, and potentially triggering a shortage of animal feed in Southeast Asia.</p>
+<p>由于太多的码头工人被隔离，运到洛杉矶的集装箱无法卸货，导致爱荷华州的大豆不能装箱，因此印度尼西亚的买家只能干等，于是可能引发东南亚动物饲料的短缺。</p>
+<h5 id="today’s-tasks"><a href="#today’s-tasks" class="headerlink" title="today’s tasks"></a>today’s tasks</h5><p>Class action lawsuits are rare in the UK, although interest has been increasing since the Supreme Court approved the precedent-setting case at the end of last year, before it went back to the CAT for approval.</p>
+<p>尽管自从最高法院去年批准了一项开创先例的案件起，人们已经对集体诉讼越来越感兴趣了， 集体诉讼在英国还是很少见。</p>
+<h4 id="other’s-summary"><a href="#other’s-summary" class="headerlink" title="other’s summary"></a>other’s summary</h4><p>Millions of British <strong>consumers</strong> have been given the green light to <strong>proceed with a landmark</strong> ￡14bn case against Mastercard over its fees in a decision that paves the way for the UK’s first mass consumer claim. The Competition Appeal Tribunal(CAT) ruled that <strong>Walter Merricks</strong>, the former financial ombudsman, <strong>can represent</strong> some 46m <strong>consumers</strong> <strong>in</strong> what will become the UK’s firstclass action claim of its kind and could see almost every adult in the UK land a ￡300 payout.</p>
+<p>结构： sb have been given the green light to do sth 获准做某事</p>
+<hr>
+<h3 id="Fifteenth-September-2021-Wednesday"><a href="#Fifteenth-September-2021-Wednesday" class="headerlink" title="Fifteenth September 2021 Wednesday"></a>Fifteenth September 2021 Wednesday</h3><p><strong>Title</strong> :Single-use(一次性使用) plastic plates and cutlery to be banned in England</p>
+<p><strong>Time</strong>:08.27.2021</p>
+<p><strong>From</strong>:The Guardian（卫报）</p>
+<h4 id="words-or-phrases-2"><a href="#words-or-phrases-2" class="headerlink" title="words or phrases"></a>words or phrases</h4><ol>
+<li><p>cutlery 餐具</p>
+</li>
+<li><p>polystyrene 聚苯乙烯</p>
+</li>
+<li><p>strew 散播</p>
+<p>scatter 散布</p>
+<p>diffuse 传播</p>
+</li>
+<li><p>contaminate 把…弄脏</p>
+<p>stain 弄脏</p>
+</li>
+<li><p>cotton bud 棉签</p>
+</li>
+<li><p>turn the tide 扭转形势</p>
+</li>
+<li><p>go a step further 更进一步</p>
+<p>further 更进一步</p>
+<p>farther 更进一步</p>
+</li>
+<li><p>deposit 押金</p>
+</li>
+<li><p>in place 实施</p>
+</li>
+</ol>
+<h4 id="other’s-summary-1"><a href="#other’s-summary-1" class="headerlink" title="other’s summary"></a>other’s summary</h4><p>This will charge ￡200 per toone(公吨) for plastic that has less than 30% recycled content, to encourage greater use of recycled material.</p>
+<p>结构：This will  charge xx for sb that xx to do sth.</p>
+<hr>
+<h3 id="Sixteenth-September-2021-Thursday"><a href="#Sixteenth-September-2021-Thursday" class="headerlink" title="Sixteenth September 2021 Thursday"></a>Sixteenth September 2021 Thursday</h3><p><strong>Title</strong>:Why Advancing Racial Equity Requires Fixing Our Broken Tax Code</p>
+<p><strong>Time</strong>:08.28.2021</p>
+<p><strong>From</strong>:Newsweek(新闻周刊)</p>
+<h4 id="words-and-phrases"><a href="#words-and-phrases" class="headerlink" title="words and phrases"></a>words and phrases</h4><ol>
+<li><p>philanthropy 慈善、仁慈</p>
+</li>
+<li><p>poll 投票、民意调查</p>
+</li>
+<li><p>tax code 税法</p>
+</li>
+<li><p>in tandem 同时地</p>
+</li>
+<li><p>a great place to start is…  …是一个很好的开始</p>
+</li>
+<li><p>favor a over b 为了a而不是b</p>
+</li>
+<li><p>barely 仅仅、几乎不</p>
+</li>
+<li><p>perpetuate 使永久 / 使不朽 / 保持</p>
+</li>
+<li><p>inheritance 遗产 </p>
+<p>estate 遗产、财产</p>
+</li>
+<li><p>expose n.曝光文章</p>
+</li>
+<li><p>loophole 漏洞</p>
+</li>
+<li><p>lobby for 游说(政客)为了…</p>
+</li>
+<li><p>make ends meet 使收支平衡（为生计挣扎）</p>
+<p>meet 遇见、达到</p>
+</li>
+<li><p>folk n.人</p>
+</li>
+<li><p>underpay v. 过于少地支付</p>
+</li>
+<li><p>underfunded 缺少资金的</p>
+<p>unfunded 无资金的</p>
+</li>
+<li><p>understaffed 缺少人员的</p>
+</li>
+<li><p>underscore 强调、划线于…下</p>
+</li>
+<li><p>IRS （美国）国税局</p>
+</li>
+<li><p>go after 针对；追逐</p>
+</li>
+<li><p>go after a disproportionate share of those 追究不成比例的那些人（即过分追究那些人）</p>
+</li>
+<li><p>earned income tax credit 劳动所得税减免</p>
+</li>
+<li><p>capital gain 资本收益</p>
+</li>
+<li><p>inextricably 不可分割地</p>
+</li>
+<li><p>budge 挪动；改变态度；服从</p>
+<p>budget 预算</p>
+</li>
+<li><p>heir 继承人</p>
+</li>
+<li><p>underscore 下划线、强调</p>
+</li>
+</ol>
+<h4 id="sentences-1"><a href="#sentences-1" class="headerlink" title="sentences"></a>sentences</h4><ul>
+<li><p>These preferences include a lower tax rate on capital gains than earned income, the carried-interest loophole and the stepped-up basis which allow heirs to avoid paying taxes on the gains of an inherited asset.</p>
+<p>这些偏袒包括在资本收入上施加相对于劳动收入更低的税收、附带利益的漏洞和使得继承人避免支付遗产所得税的更高税收门槛等。</p>
+<p><strong>answers:</strong></p>
+<p>这些优惠包括资本利得税率低于收入税率、附带利益循环漏洞以及允许继承人免于为继承资产收益纳税的累进基础。</p>
+</li>
+<li><p>This latest survey underscores how inextricably linked racial equity is with economic inequality.</p>
+<p>结构：Thie lastet survey underscores how inextricably linked…is with…</p>
+<p>最新调查强调了…和…之间不可分割的联系。</p>
+</li>
+</ul>
+<hr>
+<h3 id="Seventh-September-2021-Friday"><a href="#Seventh-September-2021-Friday" class="headerlink" title="Seventh September 2021 Friday"></a>Seventh September 2021 Friday</h3><p><strong>Title</strong>:When Activist Investors Should Slash(削减) R&amp;D — and When They Shouldn’t</p>
+<p><strong>Time</strong>:2021.08.19</p>
+<p><strong>From</strong>:Harvard Business Review（哈佛商业评论）</p>
+<h4 id="words-and-phrases-1"><a href="#words-and-phrases-1" class="headerlink" title="words and phrases"></a>words and phrases</h4><ol>
+<li><p>low-hanging fruit 唾手可得、轻易实现的目标</p>
+</li>
+<li><p>R&amp;D research and development 研发</p>
+</li>
+<li><p>taking care of  解决、照顾</p>
+</li>
+<li><p>practitioners<br>n. 实践者；开业者；实习者（practitioner的复数）</p>
+</li>
+<li><p>publicly available data 公开数据</p>
+</li>
+<li><p>link to… 和…有关</p>
+</li>
+<li><p>serve as 作为</p>
+</li>
+<li><p>hold across the entire economy 适用于整个经济体系</p>
+<p>hold</p>
+<p>v. 拘留 / 容纳 / 举行 / 拥有</p>
+<p>n. 支撑点 / 影响力 / 控制 / 保留</p>
+</li>
+<li><p>benchmark against …<br>以…为基准</p>
+</li>
+<li><p>more productive 更富成效</p>
+<p>productivity 生产力</p>
+</li>
+<li><p>division 部门</p>
+</li>
+<li><p>distinct<br>adj. 不同的，有区别的；清楚的，明显的；确切的</p>
+</li>
+<li><p>preclude<br>vt. 排除；妨碍；阻止</p>
+<p>pre 前面的</p>
+</li>
+<li><p>aside from<br>除…以外</p>
+</li>
+<li><p>reside<br>居住<br>存在</p>
+</li>
+<li><p>underpin<br>vt. 巩固；支持；从下面支撑；加强…的基础</p>
+</li>
+<li><p>keep sth very close to chests(心、胸)</p>
+<p>对sth保密</p>
+</li>
+<li><p>media accounts 媒体报道</p>
+<p>account 报道、承担、描述、账户</p>
+</li>
+<li><p>not to mention… 更不用说…</p>
+</li>
+</ol>
+<h4 id="sentences-2"><a href="#sentences-2" class="headerlink" title="sentences"></a>sentences</h4><ul>
+<li><p>The book serves as the final report for practitioners from two NSF funded studies linking companies’ R&amp;D practices to their RQs and documents the RQ impact of all practices for which there is publicly available data linked to firms.</p>
+<p>这本书来自两个NSF基金会的研究，作为从业者的最终报告。NSF的研究建立了公司的研发实践和研究系数RQ的关系，并记录有与公司相关的公开数据的所有实践的研究系数RQ的影响。</p>
+</li>
+<li><p>High RQs requires going beyond that to implementing practices whose value may be confined to your technologies or your industry.</p>
+<p>结构:sth.1 requires doing sth.2</p>
+<p>sth.1需要做sth.2</p>
+<p>例句:Pleasant ecology requires us starting from little things around ourselves.</p>
+</li>
+</ul>
+<hr>
+<h3 id="twenty-fourth-September-Friday"><a href="#twenty-fourth-September-Friday" class="headerlink" title="twenty-fourth September Friday"></a>twenty-fourth September Friday</h3><p><strong>Title</strong>:Apple exemplified an era of global capitalism(资本主义) that has passed</p>
+<p><strong>Time</strong>:2021.08.28</p>
+<p><strong>From</strong>:The Economist（经济学人）</p>
+<h4 id="words-and-phrases-2"><a href="#words-and-phrases-2" class="headerlink" title="words and phrases"></a>words and phrases</h4><ol>
+<li><p>most of all 最重要的是</p>
+</li>
+<li><p>exemplify<br>v. 是……的典范；举例说明</p>
+</li>
+<li><p>amplify 放大</p>
+<p>magnify 放大</p>
+</li>
+<li><p>worst off: If you are badly off, you do not have much money</p>
+</li>
+<li><p>insecure: a job, investment etc that is insecure does not give you a feeling of safety, because it might be taken away or lost at any time</p>
+</li>
+<li><p>outside its home market </p>
+<p>海外市场</p>
+</li>
+<li><p>immense</p>
+<p>巨大的</p>
+</li>
+<li><p>launch of the new iPhone 13 next month</p>
+<p>下月发布新的iPhone 13</p>
+</li>
+<li><p>unit sales</p>
+<p>销量</p>
+</li>
+<li><p>As well as<br>也；和…一样；不但…而且</p>
+</li>
+<li><p>roughly quintupled</p>
+<p>大约五倍</p>
+</li>
+<li><p>thrived in an era </p>
+<p>在一个时代蓬勃发展</p>
+</li>
+<li><p>handset sector</p>
+<p>手机行业</p>
+</li>
+<li><p>high end</p>
+<p>高端市场</p>
+</li>
+<li><p>ascendant</p>
+<p>方兴未艾、上升的、崛起的</p>
+</li>
+<li><p>beneficiary<br>n. 受益者，受惠人；遗嘱受益人；封臣<br>adj. 拥有封地的，受圣俸的</p>
+</li>
+<li><p>cartellish</p>
+<p>n. 垄断关系</p>
+<p>垄断利益集团、垄断联盟、企业联合、同业联盟（Cartel）也称卡特尔，是<a href="https://baike.baidu.com/item/垄断组织/6296642">垄断组织</a>形式之一</p>
+</li>
+<li><p>Thanks in part to</p>
+<p>一定程度上得益于</p>
+</li>
+<li><p>pre-tax profit</p>
+<p>税前收入</p>
+</li>
+<li><p>legal structures</p>
+<p>法律体系</p>
+</li>
+<li><p>favourable<br>adj. 有利的，顺利的；赞成的</p>
+</li>
+<li><p>Geopolitical tensions</p>
+<p>地缘政治紧张局势</p>
+</li>
+<li><p>turstbuster 反垄断者</p>
+<p>a person who seeks the dissolution of corporate trusts, esp a federal official who prosecutes trusts under the antitrust laws</p>
+</li>
+<li><p>Fortnite</p>
+<p>堡垒之夜</p>
+</li>
+<li><p>levy<br>征收</p>
+</li>
+<li><p>multinationals<br>n. 跨国公司（multinational的复数）</p>
+<p>multi 多重的</p>
+</li>
+<li><p>haven (heaven 天堂)</p>
+<p>英 /ˈheɪvən/ 美 /ˈheɪvən/</p>
+<p>n. 安全地，避难所; 港口，港湾</p>
+<p>v. 为…提供避难所</p>
+</li>
+<li><p>broker</p>
+<p>英 /ˈbrəʊkə/ 美 /ˈbrəʊkə/</p>
+<p>n. 经纪人，中间人</p>
+<p>v. 协调，安排</p>
+</li>
+<li><p>make a killing </p>
+<p>赚大钱；发财</p>
+<p>killing 杀死、发财</p>
+</li>
+<li><p>crank up </p>
+<p>启动；转动曲柄</p>
+<p>crank 曲柄</p>
+</li>
+<li><p>cheerful </p>
+<p>快乐的、高兴的（而不是受鼓舞的）</p>
+</li>
+<li><p>even less surprising</p>
+<p>更加司空见惯的是</p>
+</li>
+<li><p>rise and fall</p>
+<p>兴衰</p>
+</li>
+</ol>
+<h4 id="sentences-3"><a href="#sentences-3" class="headerlink" title="sentences"></a>sentences</h4><ol>
+<li><p>It is concerning but not surprising that many people are struggling to find reasons to be cheerful – and even less surprising that those who are worst off, and most insecure, are struggling most of all.</p>
+<p>很多人都在努力寻找快乐的理由，这似乎已经是司空见惯的事了，但它实际上非常令人担忧——更为司空见惯的是，那些生活最糟糕、最没有安全感的人也是最饱受挣扎的人。</p>
+</li>
+<li><p>One is global supply chains: it has built an immense production network with China at the centre and components coming from around the world.<br>其一是全球供应链:它建立了一个以中国为中心、由世界各地供应零部件的巨大生产网络。</p>
+</li>
+<li><p>While the handset sector used to be brutal (think of the rise and fall of BlackBerry), and is still very competitive for cheaper phones, at the high end Apple is <strong>ascendant</strong>, with a revenue market share of over 60% in America and a dominant position in operating systems there. </p>
+<p>在手机行业非常残酷的年代（想想黑莓的兴衰），苹果仍然在平价手机市场上有很强的竞争力，同时正在高端市场崛起，苹果在美国占有超过60%的市场份额并在操作系统方面占据主导地位。</p>
+</li>
+<li><p>Apple has also thrived in an era when governments were relaxed about firms with high market shares. </p>
+<p>结构: … has also thrived in an era when …. </p>
+<p>…蓬勃发展的时代，正是…的时代</p>
+<p>例句: Electronics technology has also thrived in an era when human rights developed.</p>
+<p>造句：People has also thrived in an era when disruptive technologyies appeared.</p>
+</li>
+</ol>
+<hr>
+<p>twenty-seventh September Monday</p>
+<p><strong>Title</strong>:Universal Music Shares Soar in Market Debut</p>
+<p><strong>Time</strong>:2021.09.21</p>
+<p><strong>From</strong>:The Wall Street Journal（华尔街日报）</p>
+<h4 id="words-and-phrases-3"><a href="#words-and-phrases-3" class="headerlink" title="words and phrases"></a>words and phrases</h4><ol>
+<li><p>shipping rates </p>
+<p>运费</p>
+</li>
+<li><p>FedEx Corp.<br>联邦快递</p>
+</li>
+<li><p>United Parcel Service Inc<br>联合包裹运送服务公司</p>
+</li>
+<li><p>stray: to move away from the place you should be 迷路</p>
+</li>
+<li><p>surged in their trading debut</p>
+<p>股价在上市首日大涨</p>
+<p>surge 飙升</p>
+<p>debut n. v.首次亮相</p>
+<p>(n.)trading debut 上市首日</p>
+</li>
+<li><p>Universal Music Group NV</p>
+<p>环球音乐集团</p>
+</li>
+<li><p>represent 表示</p>
+</li>
+<li><p>strong vote of confidence</p>
+<p>强有力的信任票</p>
+</li>
+<li><p>resurgent<br>adj. 复活的；复苏的<br>n. 复活者</p>
+</li>
+<li><p>Euronext exchange in Amsterdam</p>
+<p>阿姆斯特丹泛欧交易所</p>
+</li>
+<li><p>teased a spinoff of … 计划对…的分拆</p>
+<p>tease 取笑、挑逗，剥离</p>
+<p>spinoff<br>n. 续集（电视剧的）；副产品；附带的利益</p>
+<p>剥离副产品=拆分</p>
+</li>
+<li><p>Holdings Ltd </p>
+<p>控股有限公司</p>
+</li>
+<li><p>consortium<br>n. 财团；联合；合伙</p>
+</li>
+<li><p>take over<br>接管；接收</p>
+</li>
+<li><p>transactions</p>
+<p>交易</p>
+</li>
+<li><p>acquisition</p>
+<p>收购</p>
+</li>
+<li><p>stake</p>
+</li>
+<li><p>following the listing</p>
+<p>在上市以后</p>
+<p>listing 上市</p>
+</li>
+<li><p>JPMorgan</p>
+<p>摩根大通</p>
+<p>摩根大通集团，2000年12月由J．P．摩根公司和大通-曼哈顿公司合并而成，是美国主要的商业银行。业界称西摩或小摩，中国人习惯称之为“摩根银行（MogenBank）”，总部在美国<a href="https://baike.baidu.com/item/纽约/6230">纽约</a>，<a href="https://baike.baidu.com/item/总资产/9803630">总资产</a>2.5万亿美元，总存款高达1.5万亿美元，占美国<a href="https://baike.baidu.com/item/存款/943968">存款</a>总额的25%，分行6000多家，是美国最大<a href="https://baike.baidu.com/item/金融服务">金融服务</a>机构之一。 </p>
+</li>
+<li><p>base case value</p>
+<p>基础估值</p>
+</li>
+<li><p>conservative</p>
+<p>保守的</p>
+</li>
+<li><p>stake</p>
+<p>股份</p>
+</li>
+<li><p>disruptive techology</p>
+<p>颠覆性技术</p>
+</li>
+<li><p>booming valuation</p>
+<p>高估值</p>
+</li>
+</ol>
+<h4 id="sentences-4"><a href="#sentences-4" class="headerlink" title="sentences"></a>sentences</h4><ol>
+<li><p>He dropped that idea when the Securities and Exchange Commission said it wasn’t convinced the deal met the rules for such vehicles.</p>
+<p>当美国证券交易委员会说这次交易不符合这类交易的规定时他放弃了这个想法。</p>
+</li>
+<li><p>Despite Universal’s booming valuation—multiple times higher than just a few years ago—it is still below some of Wall Street’s highest estimates.</p>
+<p>结构: Despite … booming valuation—multiple times higher than just a few years ago—it is still below some of … highest estimates.</p>
+<p>尽管…估值很高——是几年前的数倍——但仍低于…的最高估值</p>
+<p>例句: Despite jewelry’s booming valuation—multiple times higher than just a few years ago—it is still below some of antiques’ highest estimates.</p>
+<p>造句：Despite AI’s booming valuation——multiple times higher than just a few years ago——it is still below some of  investor highest estimates.</p>
+</li>
+</ol>
+<hr>
+<p><strong>Title</strong>:</p>
+<p><strong>Time</strong>:</p>
+<p><strong>From</strong>:</p>
+<h4 id="words-and-phrases-4"><a href="#words-and-phrases-4" class="headerlink" title="words and phrases"></a>words and phrases</h4><h4 id="sentences-5"><a href="#sentences-5" class="headerlink" title="sentences"></a>sentences</h4>]]></content>
       <categories>
         <category>学习记录</category>
       </categories>
@@ -2667,935 +3431,6 @@ p=\sum\limits_{i=1}^{n}mivi=常矢量</script><h4 id="功-动能定理"><a href=
       </categories>
       <tags>
         <tag>管理学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学二高等数学</title>
-    <url>/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/</url>
-    <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>考研数学二高数笔记，只记录书中没有的内容。</p>
-<span id="more"></span>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>[toc]</p>
-<h3 id="预备知识-30讲"><a href="#预备知识-30讲" class="headerlink" title="预备知识(30讲)"></a>预备知识(30讲)</h3><h4 id="函数概念"><a href="#函数概念" class="headerlink" title="函数概念"></a>函数概念</h4><ol>
-<li>数集到数集的映射</li>
-<li>单值函数</li>
-</ol>
-<h4 id="反函数"><a href="#反函数" class="headerlink" title="反函数"></a>反函数</h4><ol>
-<li>反函数存在定理：严格单调</li>
-<li>不能破坏函数的单值性</li>
-<li>如果不更改反函数变量的字母，则函数图像不变；如果更改字母，则直接函数和反函数的图像关于y=x对称</li>
-</ol>
-<h5 id="例题总结："><a href="#例题总结：" class="headerlink" title="例题总结："></a>例题总结：</h5><ul>
-<li><p>求反函数</p>
-<ol>
-<li>首先用导数判断是否严格单调</li>
-<li>若严格单调，尝试将x和y分离并用y表示x</li>
-<li>如果第2步骤存在一些x的次方项或根式项无法合并，尝试对原函数两边取负号或其他变化得到另外一个函数，将原函数和得到的函数当作一个方程组解出x</li>
-</ol>
-</li>
-<li><p>一个特殊的函数：$y=ln(x+\sqrt{x^2+1})$(反双曲正弦函数)</p>
-<ul>
-<li><p>函数图像</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814143552029.png" alt="image-20210814143552029" style="zoom:33%;"></p>
-</li>
-<li><p>$y’=\frac{1}{\sqrt{x^2+1}}$</p>
-</li>
-<li><p>$f^{-1}(x)=\frac{e^x-e^{-x}}{2}$（双曲正弦函数）</p>
-<ul>
-<li><p>奇函数，对称区间积分为0</p>
-</li>
-<li><p>函数图像</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814144133224.png" alt="image-20210814144133224" style="zoom: 20%;"></p>
-</li>
-<li><p>共轭的另一个函数：$f(x)=\frac{e^x+e^{-x}}{2}$(伯努利发现的一种悬链线，双曲余弦）</p>
-<ul>
-<li><p>函数图像</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210814144837496.png" alt="image-20210814144837496" style="zoom:20%;"></p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>​    </p>
-<h4 id="复合函数"><a href="#复合函数" class="headerlink" title="复合函数"></a>复合函数</h4><h5 id="例题总结"><a href="#例题总结" class="headerlink" title="例题总结"></a>例题总结</h5><ul>
-<li><p>求复合函数</p>
-<p>解题流程：</p>
-<ol>
-<li>广义化：将中间变量u=g(x)带入表达式以及外层函数定义域</li>
-<li>画图：画自变量的图，注意这里的自变量是中间变量u=g(x)</li>
-<li>根据外层函数的定义域求得g(x)的取值范围，进一步求得内层x变量的取值范围，并将x对应范围的g(x)表达式代入外层函数即可</li>
-</ol>
-</li>
-<li><script type="math/tex; mode=display">
-ln(1+\frac{1}{x})=ln(\frac{x+1}{x})=ln(x+1)-lnx
-\\
-ln(x+1)-lnx 可以联想到拉格朗日中值定理</script></li>
-</ul>
-<h4 id="函数的四种特性"><a href="#函数的四种特性" class="headerlink" title="函数的四种特性"></a>函数的四种特性</h4><h5 id="有界性"><a href="#有界性" class="headerlink" title="有界性"></a>有界性</h5><h5 id="单调性"><a href="#单调性" class="headerlink" title="单调性"></a>单调性</h5><p>以下函数单调性一致，可用来简化求最值：</p>
-<ol>
-<li>$\sqrt{u}$和$\sqrt[3]{u}$，用u代替。</li>
-<li>|u|用$u^2$代替。</li>
-<li>$\frac1u（u&gt;0）$用u代替。</li>
-<li>$\prod\limits_{i=1}^nui$用$\sum\limits_{i=1}^n\ln{ui}$来代替。</li>
-</ol>
-<h5 id="奇偶性"><a href="#奇偶性" class="headerlink" title="奇偶性"></a>奇偶性</h5><ul>
-<li>奇函数$f(0)=0$，因此可以用$f(b)=f(b)-f(0)=f’(\xi)(b-0)构造拉格朗日中值定理$</li>
-<li>乘除法中1不体现，但可以用来构造定理需要的形式</li>
-<li>$f(x)=f(2T-x)或f(T-x)=f(T+x)\\关于x=T对称$</li>
-</ul>
-<h5 id="周期性"><a href="#周期性" class="headerlink" title="周期性"></a>周期性</h5><h5 id="重要结论"><a href="#重要结论" class="headerlink" title="重要结论"></a>重要结论</h5><ul>
-<li>函数求导，奇偶性互换</li>
-<li>周期函数求导，周期不变</li>
-<li>拉格朗日中值定理：用导数（变化率）控制函数。有限区间内导数有界，则函数有界。</li>
-</ul>
-<h4 id="基本初等函数"><a href="#基本初等函数" class="headerlink" title="基本初等函数"></a>基本初等函数</h4><ul>
-<li><p>常、反、对、幂、指、三</p>
-</li>
-<li><p>使用以下替换来研究最值：</p>
-<ul>
-<li>$用u代替研究\sqrt{u},\sqrt[3]{u}$</li>
-<li>$|u|=\sqrt{u^2}，用u^2代替研究|u|$</li>
-<li>$\frac{1}{u}用u代替研究，注意取反$</li>
-<li>$\sum\limits_{i=1}^nu_i用ln\sum\limits_{i=1}^nu_i代替研究$</li>
-</ul>
-</li>
-<li><p>幂指函数$u^v=e^{vlnu}$</p>
-</li>
-<li><p>$y=arc(sinx)$和$y=arc(cosx)$ </p>
-<p>$arc(sinx)+arc(cosx)=\frac{\pi}{2}$<br>$(arcsinx)’=\frac{1}{\sqrt{1-x^2}}\(arccosx)’=-\frac{1}{\sqrt{1-x^2}}$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817171954058.png" alt="image-20210817171954058" style="zoom:33%;"></p>
-</li>
-<li><p>$y=tanx和y=cotx$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172250534.png" alt="image-20210817172250534" style="zoom: 33%;"></p>
-</li>
-<li><p>$y=secx=\frac{1}{cosx}和y=cscx=\frac{1}{sinx}$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172552938.png" alt="image-20210817172552938" style="zoom:33%;"></p>
-</li>
-<li><p>$y=arc(tanx)和y=arc(cotx)$</p>
-<p>$arc(tanx)+arc(cotx)=\frac{\pi}{2}$<br>$(arctanx)’=\frac{1}{1+x^2}\(arccotx)’=-\frac{1}{1+x^2}$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210817172739072.png" alt="image-20210817172739072" style="zoom:33%;"></p>
-</li>
-<li><p>取整函数：$y=[x]$,不超过x的最大整数</p>
-<ul>
-<li>$x-1&lt;[x]\leq x(夹逼准则放缩)$</li>
-<li></li>
-</ul>
-</li>
-</ul>
-<h4 id="极坐标系下面的常见图像"><a href="#极坐标系下面的常见图像" class="headerlink" title="极坐标系下面的常见图像"></a>极坐标系下面的常见图像</h4><ul>
-<li>$r=a(1-cos\theta)$<ul>
-<li>心型线</li>
-<li>外摆线</li>
-</ul>
-</li>
-<li>$r=sin3\theta$<ul>
-<li>三叶玫瑰线，从第一象限开始逆时针画，两叶为一个周期。</li>
-</ul>
-</li>
-<li>$r=a\theta$<ul>
-<li>阿基米德螺线</li>
-</ul>
-</li>
-<li>$r^2=a^2sin2\theta或r^2=a^2cos2\theta$</li>
-</ul>
-<h4 id="参数方程"><a href="#参数方程" class="headerlink" title="参数方程"></a>参数方程</h4><ul>
-<li>摆线（平摆线）<ul>
-<li>表达式：$\left\{\begin{array}{l}x=r(t-sint)\\y=r(1-cost)\end{array}\right.$</li>
-<li>一拱（一个周期）</li>
-<li>t代表原摆点到现摆点之间的弧度</li>
-<li>当位于最高点，坐标为$(\pi r,2r)$；最低点坐标$(2\pi r,0)$</li>
-</ul>
-</li>
-<li>星型线（内摆线）<ul>
-<li>表达式：$\left\{ \begin{array}{l} x=r^3cost\\ y=r^3sint \end{array} \right.$</li>
-<li>R=4r</li>
-<li>t代表原摆点到现摆点之间的弧度</li>
-</ul>
-</li>
-<li>对数螺线<ul>
-<li>表达式：$r=ae^{k\theta}$</li>
-<li>$若\theta&gt;0，逆时针变大，若\theta&lt;=0，顺时针变小$</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h4 id="数列"><a href="#数列" class="headerlink" title="数列"></a>数列</h4><ol>
-<li><p>等差数列</p>
-</li>
-<li><p>等比数列</p>
-<ol>
-<li>$S_n=\left\{ \begin{array}{l} na_1,d=1\\ \frac{a_1\cdot (1-r^n)}{1-r},d\neq1 \end{array} \right.    $</li>
-<li>常用：$\sum\limits_{i=0}^{n-1}r^n=\frac{1-r^n}{1-r}\space(r\neq 1)$,注意r的取值导致的极限值。</li>
-</ol>
-</li>
-<li><p>常见数列的和</p>
-<ol>
-<li>$\sum\limits_{i=1}^{n}k^2=\frac{n(n+1)(2n+1)}{6}$</li>
-<li>$\sum\limits_{k=1}^{n} \frac{1}{k(k+1)}=\frac{n}{n+1}$</li>
-</ol>
-</li>
-<li><p>三角函数</p>
-<p><img src="https://pic3.zhimg.com/v2-0b05585be95e728226424719a44de882_r.jpg" alt="preview"></p>
-</li>
-<li><p>诱导公式：</p>
-<p>奇变偶不变，符号看象限。</p>
-<p>例如：$sin(\frac{\pi}{2}-\theta)$</p>
-<p>分析：</p>
-<script type="math/tex; mode=display">
-\frac{\pi}{2}是\frac{\pi}{2}的奇数倍，因此sin变换为cos；\\
-(\frac{\pi}{2}-\theta)位于第一象限，\theta位于第一象限，\\
-cos和sin在第一象限都是正数，符号相同，不需要变号。\\
-综上分析结果为cos\theta。</script></li>
-</ol>
-<p>   又如：$cos(\frac{\pi}{2}+\theta)$</p>
-<p>   分析：</p>
-<script type="math/tex; mode=display">
-   \frac{\pi}{2}是\frac{\pi}{2}的奇数倍，因此cos变换为sin;\\
-   (\frac{\pi}{2}+\theta)位于第二象限，\theta位于第一象限，\\
-   cos在第二象限为负数，sin在第一象限为正数，符号不同，需要变号。\\
-   综上分析结果为-sin\theta。</script><ol>
-<li><p>倍角公式、降幂公式</p>
-</li>
-<li><p>和差化积，积化和差</p>
-</li>
-<li><p>多项相乘、相除、乘方、开方，考虑用对数简化运算；注意用绝对值。</p>
-</li>
-<li><p>二项式定理</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818153128267.png" alt="image-20210818153128267"></p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818153301351.png" alt="image-20210818153301351"></p>
-</li>
-<li><p>重要的因式分解公式：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&1.a^3+b^3=(a+b)(a^2-ab+b^2)\\
-&2.a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+a^{n-3}b^2...+ab^{n-2}+b^n-1)
-\end{align*}</script></li>
-<li><p>阶乘和双阶乘、华理士公式</p>
-</li>
-<li><p>常用不等式</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&1.|a\pm b|\leq|a|\pm |b|\\
-&2.||a|-|b||\leq|a-b|\\
-&3.\sqrt{ab}\leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}(a>0,b>0)\\
-&4.sinx<x(x>0)\\
-&5.e^x\geq x+1\\
-&6.x-1\geq lnx\\\\
-&注：\\
-&2.左边表示a和b到0点的距离的差，右边表示a、b的距离，a、b同号相等
-
-\end{align*}</script></li>
-</ol>
-<hr>
-<h4 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h4><ol>
-<li><p>定义证明极限</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210818163914280.png" alt="image-20210818163914280"></p>
-</li>
-<li><script type="math/tex; mode=display">
-\epsilon-N语言描述数列极限：\\
-\lim_{n\to \infty}x_n=a\\ 
-\Leftrightarrow
-\forall \epsilon>0,\exists 正整数N,当n>N时有,|x_n-a|<\epsilon</script></li>
-<li><p>重要结论：$\lim\limits_{n\to \infty}x_n=a,则\lim\limits_{n\to \infty}|x_n|=|a|$</p>
-<p>当$a\neq 0时，充要条件；当a=0，充要条件.$</p>
-</li>
-<li><p>数列收敛和子数列收敛：</p>
-<ol>
-<li>数列收敛-&gt;所有子数列收敛于同值</li>
-<li>子数列不收敛或者子数列收敛值不同-&gt;数列不收敛</li>
-</ol>
-</li>
-<li><p>收敛数列的性质</p>
-<ol>
-<li><p>极限值唯一</p>
-<p>理解：极限值不可能同时趋于两个或以上的值，由定义可得知：假设存在两个值，</p>
-<p>则其中一个值必定在n&gt;N时不能被$\epsilon包围$。</p>
-</li>
-<li><p>有界</p>
-<p>理解：由于n是正整数，所以极限一般考虑的是$n\to \infty$的情况，$n无穷大时数列$</p>
-<p>趋于一个值；而n最小为1，不可能产生函数中x=0时候的f(x)趋于无穷大的情况；</p>
-<p>综上收敛数列有界。</p>
-</li>
-<li><p>保号性（脱帽）</p>
-<p>理解：极限为0，数列值有可能是在0的附近摇摆的，不一定是恒正，因此没有不等式中没有等于0。</p>
-<p>例如：$\frac{sin\space n}{n}$.</p>
-</li>
-<li><p>3.的推论（戴帽）</p>
-<p>理解：数列大于0，极限有可能为0，例如$\frac{1}{n}。$</p>
-<p>而等数列等于0，极限为0。</p>
-</li>
-<li><p>极限四则运算规则</p>
-<p>只有极限值分别存在才可能推出运算结果极限存在。</p>
-</li>
-</ol>
-</li>
-<li><p>夹逼准则</p>
-</li>
-<li><p>单调有界准则*（维尔斯特拉斯）</p>
-<ol>
-<li><p>递推式考虑单调有界准则</p>
-</li>
-<li><p>考虑常用不等式</p>
-</li>
-<li><p>类似裂项相消形式，借用放缩法转换为裂项相消：</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820005305105.png" alt="image-20210820005305105"></p>
-</li>
-<li><p>二阶递推转换为一阶递推、逆用裂项相消</p>
-</li>
-</ol>
-</li>
-</ol>
-<h4 id="函数极限和连续性"><a href="#函数极限和连续性" class="headerlink" title="函数极限和连续性"></a>函数极限和连续性</h4><h5 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h5><ol>
-<li><p>邻域$U(x_0)、U(x_0,\delta)$、去心邻域$\mathring{U}(x_0)、\mathring{U}(x_0,\delta)$</p>
-</li>
-<li><p>函数极限定义</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&1.\epsilon-\delta语言：\\
-&\lim\limits_{x\to x0}f(x)=A \leftrightarrow \\
-&\forall \epsilon>0，\exists \delta>0，当x在U(x_0,\delta)内有定义，且0<|x-x_0|<\delta时，|f(x)-A|<\epsilon成立。\\ 
-\\
-&2.\epsilon-X语言:\\
-&\lim\limits_{x\to \infty}f(x)=A \leftrightarrow \\
-&\forall \epsilon>0，\exists X>0，当|x|>X时，|f(x)-A|<\epsilon
-&
-
-\end{align*}</script></li>
-<li><p>单侧极限</p>
-</li>
-<li><p>转换：</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820185308002.png" alt="image-20210820185308002"></p>
-</li>
-<li><p>局部保号性：脱帽法</p>
-<ol>
-<li><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820200210472.png" alt="image-20210820200210472"></p>
-<p>说明：$图中的式子：A-\epsilon<f(x)<A+\epsilon并不是f(x)的取值范围，\\而是表明了函数的上界和下界。当\epsilon很大的时候，上界和下界会增大，导致不满足f(x)>0，\\但是我们要求的是逼近x_0的情况，也就是\epsilon很小的情况，目的是为了缩小上下界，得到局部保号性。\\即局部保号不是全局保号，这个保号只在逼近0时候成立。$</f(x)<A+\epsilon并不是f(x)的取值范围，\\而是表明了函数的上界和下界。当\epsilon很大的时候，上界和下界会增大，导致不满足f(x)></p>
-</li>
-</ol>
-</li>
-</ol>
-<ol>
-<li><h6 id="推论：戴帽法"><a href="#推论：戴帽法" class="headerlink" title="推论：戴帽法"></a>推论：戴帽法</h6></li>
-</ol>
-<ol>
-<li><p>函数极限的重要性质：</p>
-<ol>
-<li><p>极限的双向性</p>
-<p>遇到$arctanx、[x]、e^x、\frac{sinx}{|x|}$分左右极限讨论</p>
-</li>
-<li><p>和的极限存在，虽然我们不能直接推出部分的极限存在，但是我们可以去计算部分的极限，</p>
-<p>以此验证部分极限的存在性。</p>
-</li>
-<li><p>函数有界：</p>
-<ol>
-<li><p>闭区间连续</p>
-</li>
-<li><p>有限区间导数有界（变b为x）</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820213552532.png" alt="image-20210820213552532"></p>
-</li>
-<li><p>极限存在（包含左右极限），局部有界</p>
-</li>
-<li><p>开区间有界：局部有界+闭区间连续</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210820212132874.png" alt="image-20210820212132874"></p>
-</li>
-</ol>
-</li>
-<li><p>极限运算性质</p>
-</li>
-<li><p>夹逼准则：注意若$g(x)\leq f(x) \leq h(x)，且\lim\limits_{x\to x_0}h(x)-g(x)=0的时候，不能确保h(x)和g(x)极限分别存在，也就不能确定f(x)存在$</p>
-</li>
-<li><p>洛必达法则：</p>
-<ol>
-<li>若导数的极限不存在（这个不存在不包括无穷大），那么洛必达失效，原式极限可能存在也可能不存在。</li>
-<li>可以连续使用洛必达法则。</li>
-<li>洛必达以后变复杂，尝试将复杂的项放在分子，简单项放在分母<ol>
-<li>简单：$e^x、x^n$</li>
-<li>复杂：$sinx、cosx、lnx$</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p>常见的泰勒公式（注意$x$可被替代为$f(x)$）</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821171716317.png" alt="image-20210821171716317"></p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821173231546.png" alt="image-20210821173231546"></p>
-</li>
-<li><p>无穷小运算规则</p>
-<script type="math/tex; mode=display">
-O(f(x))表示f(x)的高阶无穷小：\\
-1.O(x^m)+O(x^n)=O(x^l)\space\space l=min\{m,n\}\\
-2.O(x^m)*O(x^n)=O(x^{m+n})\\
-3.x^m\cdot O(x^n)=O(x^{m+n})</script></li>
-<li><p>未定式计算</p>
-<ol>
-<li><p>7种不定式：</p>
-<ol>
-<li><p>基本情况：$\frac{0}{0}、\frac{\infty}{\infty}$</p>
-</li>
-<li><p>$\infty-\infty，和差化积$</p>
-<ol>
-<li><p>有分式则通分</p>
-<ol>
-<li><p>一种例题：分子x次方比分母的x次方低，但是分子具有可以连续求导而不化为0的项，就可以借用洛必达法则不断求导，让分子和分母的幂次趋于相同，从而求导极限。</p>
-<p>如图：分母存在$x^2，分母存在x^4，但是由于有sin^2xcos^x可以不断求导，最终可以使得分子分母次方一样$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210821205815652.png" alt="image-20210821205815652" style="zoom:50%;"></p>
-</li>
-</ol>
-</li>
-<li><p>没有分式</p>
-<ol>
-<li>思路：创造分式，然后通分化简</li>
-<li>方法：<ol>
-<li>提取公因式，出现分式</li>
-<li>倒带换，出现分时</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p>$\infty^0、0^0、1^{\infty}$</p>
-<ol>
-<li>幂指函数</li>
-<li></li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<pre><code>  2. 提出常数项或等于常数的函数：
-
-     $x\to 0:e^&#123;tanx&#125;-e^x=e^x(e^&#123;tanx-x&#125;-1)=1\cdot (tanx-x)=\frac&#123;x^3&#125;&#123;3&#125;$
-
-     所以：$x\to 0:e^&#123;f(x)&#125;-e^&#123;g(x)&#125;\sim f(x)-g(x)$
-
-  3. 等价无穷小
-     $$
-     \begin&#123;align*&#125;
-     &amp;x\to 0,ln(x+1)、sinx、tanx、arcsinx、arccosx\sim x\\
-     &amp;x\to0,(1+x)^a-1\sim ax\\
-     &amp;x\to 0,cosx-1、x-ln(x+1)\sim x^2\\
-     &amp;x\to 0,x-sinx、arcsinx-x、tanx-x、x-arctanx\sim x^3
-     \end&#123;align*&#125;
-     $$
-
-  4. 变换
-
-     1. 提取公因式
-     2. 拆项
-     3. 合并
-     4. 换元
-        1. 负代换
-        2. 倒代换：
-           1. 例如遇到求导项包含$\frac&#123;1&#125;&#123;x^n&#125;$求导以后变复杂，尝试倒代换$\frac&#123;1&#125;&#123;x^n&#125;=t$
-           2. 当$x\to \infty，e^x&gt;&gt;x^n$
-</code></pre><hr>
-<h5 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h5><ol>
-<li><p>连续点的概念：</p>
-<p>某点的极限值=该点的函数值</p>
-<p>$\lim\limits_{x\to x_0}f(x)=f(x_0)\leftrightarrow\\ \lim\limits_{\triangle x\to 0}f(x_0+\triangle x)=f(x_0)$</p>
-</li>
-<li><p>间断点类型：前提（在该点某去心领域有定义）</p>
-<ol>
-<li>第一类：可去间断点、跳越间断点</li>
-<li>第二类：无穷间断点（点的两侧都趋于无穷大）、振荡间断点</li>
-</ol>
-</li>
-<li><p>讨论间断：</p>
-<ol>
-<li>分段函数的分段点</li>
-<li>无定义点</li>
-</ol>
-</li>
-</ol>
-<h4 id="导数和微分"><a href="#导数和微分" class="headerlink" title="导数和微分"></a>导数和微分</h4><ol>
-<li><p>导数（拉格朗日的叫法）</p>
-<ol>
-<li><p>定义：$\lim\limits_{\triangle x\to 0}\frac{f(x+\triangle x)-f(x)}{\triangle x}$</p>
-<p>注意：$\triangle x可以广义化为趋于0的其他变量或函数$</p>
-</li>
-<li><p>单侧导数</p>
-<p>$\triangle x\to 0^+或0^-，记位f’_{-}(x)和f’_{+}{(x)}$</p>
-<p>导数不存在：</p>
-<ol>
-<li>左右导数不相等，比如$x\to -,|x|$（角点）</li>
-<li>左右导数有一方不存在或者两方都不存在（包含无穷大），比如$x\to 0,x^{\frac{1}{3}}$（不光滑也不可导）</li>
-</ol>
-</li>
-<li><p>利用导数定义证明：</p>
-<ol>
-<li>求导后奇偶性互换（写$f^{‘}(-x)表达式，利用原函数奇偶性代换其中的项得到f^{‘}(x)$）</li>
-<li>求导后周期相同</li>
-<li>乘法求导公式（中间添项减项）</li>
-</ol>
-</li>
-<li><p>利用连续性和导数定义证明一些结论</p>
-<ol>
-<li><p>利用连续性把函数值变为极限值或把极限值变为函数值</p>
-<p>$f(x_0)=\lim\limits_{x\to x_0}f(x)$</p>
-</li>
-<li><p>利用恒等变形去掉分母，方便代入极限值</p>
-<ol>
-<li><p>例如</p>
-<script type="math/tex; mode=display">
-\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}存在，要取得分母，则可用\\
-\lim\limits_{x\to x_0}f(x)-f(x_0)=\lim\limits_{x\to x_0}\frac{f(x)-f(0)}{x-x_0}\cdot (x-x_0)=0</script></li>
-<li><p>一些结论</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823170218109.png" alt="image-20210823170218109"></p>
-<p>应用举例：</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823170544654.png" alt="image-20210823170544654"></p>
-</li>
-<li><p>尝试用$|x|或x^{1/3}$等在0处连续但极限不存在的例子举反例</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p>导数几何意义</p>
-<ol>
-<li>斜率</li>
-<li>法线斜率*斜率=-1</li>
-</ol>
-</li>
-<li><p>高阶导数定义</p>
-</li>
-</ol>
-</li>
-<li><p>微分(一元函数可导必可微)</p>
-<p>$\triangle y=f(x)-f(x_0)=A\cdot \triangle x+o(\triangle x),\triangle x\to 0$</p>
-<p>$由于在一元函数中自变量x可看作f(x)=x，所以\\\triangle x=x’\cdot dx+o(dx)=dx$</p>
-<p>$将\triangle x=dx代入:\\\triangle y=y’(x)\cdot dx+o(dx)\\ A\cdot \triangle x叫线性主部记作dy，A=y’(x)$</p>
-<p>注意：$y’(x)不一定等于f’(x)，当y是复合函数,y’(x)=f’(u)\cdot u’(x)$</p>
-</li>
-</ol>
-<ol>
-<li><p>微分的几何意义（直线代替曲线）</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823175242764.png" alt="image-20210823175242764" style="zoom:50%;"></p>
-</li>
-<li><p>计算</p>
-</li>
-</ol>
-<ol>
-<li><p>求导和求微分的基本公式（四则运算和复合函数）</p>
-</li>
-<li><p>一阶微分形式不变性：</p>
-<p>$d(f(x))=f’(x)dx\\d(f(u))=f’(u)du=f’(u)u’(x)dx\\d(f(..))=f’(..)d..$</p>
-</li>
-<li><p>绝对值不影响的求导：</p>
-<p>$ln|x|=\frac{1}{x}\\ln|u(x)|=\frac{u’(x)}{u(x)}$</p>
-</li>
-<li><p>分段函数分段点的导数要用定义求解双向极限</p>
-</li>
-<li><p>$(ln(x+\sqrt{(x^2+a^2)})’=\frac{1}{x^2+a^2}$</p>
-</li>
-<li><p>导数存在且不为0，则恒正或恒负，因此原函数严格单调，存在反函数。</p>
-</li>
-<li><p>反函数的导数</p>
-<p>设$y=f(x),x=\varphi (y)$</p>
-<ol>
-<li><p>一阶</p>
-<p>$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}\leftrightarrow y’_x=\frac{1}{x’_y}$</p>
-</li>
-<li><p>二阶</p>
-<p>$y’’_x=-\frac{x’’_y}{(x’_y)^3}$</p>
-<ol>
-<li>变限积分求导</li>
-<li>二阶导数的细节：</li>
-</ol>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210823220214346.png" alt="image-20210823220214346"></p>
-</li>
-</ol>
-</li>
-<li><p>参数方程的导数</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824175750643.png" alt="image-20210824175750643"></p>
-</li>
-<li><p>隐函数求导</p>
-<script type="math/tex; mode=display">
-F(x,y)=0，y=f(x)，F(x,y)两边对x求导：\\
-F'_x+F'_y\cdot y'_x=0\\
-y'_x=-\frac{F'_x}{F'_y}\\
-注意:要确保是y=f(x)单值函数不能出现铅垂线作为切线</script></li>
-<li><p>幂指函数</p>
-<ol>
-<li>变化后求导即可，幂指函数是初等函数</li>
-<li><p>常见幂指函数的图像</p>
-<ol>
-<li><p>$x^x(x&gt;0)$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824201510823.png" alt="image-20210824201510823" style="zoom: 15%;"></p>
-</li>
-<li><p>$x^{\frac{1}{x}}(x&gt;0)$</p>
-</li>
-</ol>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824201657069.png" alt="image-20210824201657069" style="zoom:15%;"></p>
-</li>
-</ol>
-</li>
-<li><p>高阶导数</p>
-<ol>
-<li>递推</li>
-<li>莱布尼兹公式<br>$(uv)^{(n)}=\sum\limits_{k=0}^{n}C_{n}^{k}u^{(n-k)}v^{(k)}$</li>
-<li>泰勒公式<br>抽象展开=实际展开 <img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210824212302962.png" alt="image-20210824212302962"></li>
-</ol>
-</li>
-</ol>
-<hr>
-<h4 id="一元函数微分几何应用"><a href="#一元函数微分几何应用" class="headerlink" title="一元函数微分几何应用"></a>一元函数微分几何应用</h4><p><strong>三点、两性、一线</strong></p>
-<ol>
-<li><p>极值</p>
-<ul>
-<li>范围：某个邻域（双向性）</li>
-<li>广义极值：含有等号</li>
-<li>严格极值：不含等号</li>
-</ul>
-</li>
-<li><p>最值</p>
-<ul>
-<li>范围：整个定义域</li>
-<li>广义</li>
-<li>严格</li>
-</ul>
-</li>
-<li><p>极值与最值的关系</p>
-<ul>
-<li><p>最值存在不一定有极值</p>
-<p>例：$f(x)=e^x\space(x&gt;=0)$</p>
-</li>
-<li><p>极值存在不一定有最值</p>
-<p>$f(x)=3x-x^3$</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210825161720093.png" alt="image-20210825161720093"></p>
-</li>
-<li><p>各种间断点都有可能是极值点</p>
-</li>
-</ul>
-</li>
-<li><p>单调性</p>
-<ul>
-<li><p>判别：导数值</p>
-</li>
-<li><p>费马定理：(极值存在的必要条件)</p>
-<p>设函数为$f(x)$，已知$f’(x_0)$存在，且$x_0$是极值点，则$f’(x_0)=0.$</p>
-<p>逆命题不成立：导数为0不一定是极值点，例如$f(x)=x^3,f’(0)=0但x=0不是极值点.$</p>
-</li>
-<li><p>极值存在的第一充分条件</p>
-<p>设函数$f(x)$连续，且在$x_0$的某个去心邻域内可导；</p>
-<p>若在该邻域两侧：$(x_0-\delta,x0),(x_0,x_0+\delta)$内$f’(x)$变号，则$x_0$是极值点，否则$x_0$不是极值点.</p>
-</li>
-<li><p>极值存在的第二充分条件</p>
-<p>设函数$f(x)$二阶可导，且$f’(x_0)=0,f’’(x_0)\neq 0$，</p>
-<p>则当$f’’(x_0)<0，x_0为极大值点；f''(x_0)>0，x_0为极小值点。$</0，x_0为极大值点；f''(x_0)></p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210825165155552.png" alt="image-20210825165155552"></p>
-</li>
-<li><p>极值存在的第三充分条件</p>
-<p>设函数$f(x)的n阶导数存在且n为偶数，若f^{(k)}(x_0)(k=0,1,2..n-1)=0,f^{(n)}(x_0)\neq 0，\\则x_0为极值点$</p>
-</li>
-<li><p>联系导数和原函数的桥梁：拉氏中值定理</p>
-</li>
-</ul>
-</li>
-<li><p>凹凸性</p>
-</li>
-<li><p>拐点：凹凸分界点</p>
-<ol>
-<li><p>连续曲线，极值点不要求连续。</p>
-</li>
-<li><p>拐点在曲线上，写作$(x_0,f(x_0))$，而极值点只是$x_0$。</p>
-</li>
-<li><p>拐点存在的必要条件</p>
-</li>
-<li><p>拐点存在的第一充分条件、第二充分条件、第三充分条件</p>
-</li>
-<li><p>例题思路<br>$y=(x-1)(x-2)^2(x-3)^3(x-4)^4的拐点$</p>
-<p>拐点要求二阶导数为0，三阶导数不为0.</p>
-<p>按照下面的规律：</p>
-</li>
-</ol>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210826172716782.png" alt="image-20210826172716782" style="zoom:25%;"></p>
-<p>​           我们还知道，乘法求导规则可以导致下面的规律：</p>
-<p>​           例如：$(x-2)^2g(x)$在求一阶导数以后为：$2(x-2)g(x)+(x-2)^2g’(x)$</p>
-<p>​           可见，式子中出现了$(x-2)和(x-2)^2$，二次方并没有因为求导而消失，这是乘法</p>
-<p>​           规则所导致的。合理的外推还可以得到下面的结论：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&(x-x_0)^ng(x)求n阶导数后，\\
-&结果中包含了(x-x_0)^k (k=0、1、2...n)的因式，\\
-&这个时候如果x=x_0，那么包含(x-x_0)的因式都变为0，只剩下n!g(x)这个没有(x-x_0)的式子
-\end{align*}</script></li>
-</ol>
-<p>​                     所以这个题目我们可以令$y=(x-3)^3g(x)$，求二阶导数以后可以保证所以式子都含有(x-3)</p>
-<p>​                     的次方项，所以二阶导数为0；而三阶导数以后可以保证存在一项不含有(x-3)的次方，这样三阶</p>
-<p>​                     导数就不为0，满足拐点的第一充分条件。</p>
-<ol>
-<li><p>函数图像分析</p>
-<ul>
-<li>$f(x)$无定义点（分析铅垂渐近线或间断点）</li>
-<li>$f’(x)=0或f’(x)无定义点$（分析可能的驻点）</li>
-<li>$f’’(x)=0或f’’(x)$无定义点（分析可能的拐点）</li>
-<li>根据这些点划分不同的区间，确定是否为极值点或者拐点，并得出函数的图像。</li>
-</ul>
-</li>
-<li><p>渐近线</p>
-<ul>
-<li><p>铅垂渐近线：$\lim\limits_{x\to x_0}f(x)=\infty$，则$x=x_0$叫做铅垂渐近线。注意间断点需要考虑双侧，而渐近线只用考虑单侧，即渐近线不一定位于间断点处。</p>
-</li>
-<li><p>水平渐近线：$\lim\limits_{x\to \infty}f(x)=y_0$，则$y=y_0$叫做水平渐近线。</p>
-</li>
-<li><p>斜渐近线：当水平渐近线存在就不需要考虑了；有斜渐近线有可能另一个方向存在水平渐近线。</p>
-<p>当$\lim\limits_{x\to \infty}f(x)=\infty$，则可能出现斜渐近线。</p>
-<p>求斜渐近线(无穷有正有负，可能有两条渐近线）：</p>
-<p>$k=\lim\limits_{x\to \infty}\frac{f(x)}{x}\neq 0$</p>
-<p>$b=\lim\limits_{x\to \infty }f(x)-kx$</p>
-<p>如果k、b有一个不存在，斜渐近线都不存在：可见，$f(x)与x$是同阶无穷大；当k=0变为水平渐近线。</p>
-</li>
-</ul>
-</li>
-<li><p>求区间最值</p>
-<ol>
-<li>求一阶导数不存在或为0的点</li>
-<li>列出区间端点（若为闭区间为端点值，若为开区间为端点的极限值，开区间可以为无穷）函数值和1.所求点的函数值，比较大小即可获得区间最值。</li>
-</ol>
-</li>
-<li><p>画函数图像</p>
-<ol>
-<li>确定奇偶性、定义域、无定义点</li>
-<li>求各类点，列表划分定义域区间</li>
-<li>划分单调性和凹凸性，确定极值点，间断点位置处不能确定拐点，连续位置确定拐点。</li>
-<li>求渐近线</li>
-</ol>
-<p>画图：</p>
-<ol>
-<li>画渐近线</li>
-<li>依据划分区间，依据表格内的走势和渐近线画出图像，注意无定义点用空心圆标注</li>
-</ol>
-</li>
-</ol>
-<hr>
-<h4 id="中值定理"><a href="#中值定理" class="headerlink" title="中值定理"></a>中值定理</h4><ol>
-<li><p>最值定理（闭区间连续函数）</p>
-<p>闭区间连续函数必有界，且存在最大值M、最小值m。</p>
-</li>
-<li><p>介值定理（闭区间）</p>
-<p>闭区间$[a,b]$内的连续函数$f(x)$在$[a,b]必存在点f(\xi)满足m\leq f(\xi)\leq M.$</p>
-</li>
-<li><p>平均值定理、积分中值定理（介值定理证明）</p>
-<ul>
-<li><script type="math/tex; mode=display">
-闭区间[a,b]内的连续函数f(x)，设a<x_1<x_2<...<x_n<b\Rightarrow \\ 存在\xi \in[x_1,x_n],f(\xi)=\frac{f(x_1)+f(x_2)+...+f(x_n)}{n}</script></li>
-</ul>
-</li>
-</ol>
-<ul>
-<li><script type="math/tex; mode=display">
-闭区间[a,b]内的连续函数f(x)\Rightarrow
-存在\xi \in [a,b]使得：f(\xi)=\frac{\int_{a}^{b}f(x)dx}{b-a}</script><p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210829173112725.png" alt="image-20210829173112725" style="zoom:25%;"></p>
-</li>
-</ul>
-<ol>
-<li><p>零点定理</p>
-<script type="math/tex; mode=display">
-闭区间[a,b]内的连续函数f(x)，f(a)\cdot f(b)<0\Rightarrow 存在\xi \in (a,b),f(\xi)=0.</script></li>
-<li><p>费马定理（可能考证明）</p>
-<p>$f(x)在x_0处可导且取极值，则f’(x_0)=0.$</p>
-<p>使用条件：可导、取极值</p>
-<p>取极值证明：最值在区间内部取到就是极值，端点没有两侧不讨论极值。</p>
-<p>证明：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&可导\Rightarrow 左极限等于右极限\Rightarrow 极限定义式\\
-&极值\Rightarrow 存在邻域U(x_0,\delta),任给x属于该邻域，有f(x)\leq f(x_0)或f(x_0)\leq f(x).\\
-&不妨设取极大值，根据极限定义、极值定义以及保号性：\\
-&\lim\limits_{x\to x_0^+}\frac{f(x)-f(x_0)}{x-x_0}\geq 0,(1)\\
-& \lim\limits_{x\to x_0^-}\frac{f(x)-f(x_0)}{x-x_0}\leq 0,(2)\\
-&由于(1)=(2)，所以\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=f'(x_0)=0
-\end{align*}</script></li>
-<li><p>导数零点定理(达布定理)</p>
-<p>$f(x)在[a,b]上可导，且f’(a)\cdot f’(b)&lt;0，则存在\xi \in (a,b)使得f’(\xi)=0.$</p>
-<p>证明：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&不妨设f'(a)>0,f'(b)<0.由导数定义和极限的保号性：\\
-&f'(a)=\lim\limits_{x\to a^+}\frac{f(x)-f(a)}{x-a}>0 \Rightarrow \exists x\in(a,a+\delta),f(x)>f(a).(1)\\
-&同理可得：\exists x\in(b-\delta,b),f(x)>f(b).(2)\\
-&f(x)在闭区间[a,b]可导\Rightarrow f(x)在闭区间[a,b]连续\\
-&由最值定理可知f(x)在[a,b]存在最小值，又由(1)(2)可知最大值点不在端点处，所以最大值点必在(a,b)内。\\
-&非端点处的最值点必为极值点，由费马定理可知：\exists \xi \in (a,b),使得f'(\xi)=0.
-\end{align*}</script><p>推论：$f’(x)\neq 0 \Rightarrow f’(x)保号 \Rightarrow f(x)严格单调 \Rightarrow f(x)存在反函数$</p>
-</li>
-<li><p>罗尔定理</p>
-<p>$f(x)在闭区间[a,b]连续，开区间(a,b)可导，且f(a)=f(b)\Rightarrow \exists \xi \in (a,b),f’(\xi)=0.$</p>
-<p>证明思路：证明开区间内有极值，然后用费马定理。</p>
-<p>使用定理的重点是寻找端点值相同，考试的时候$f(x)$可能需要自己构造，构造$f(x)$主流的方法是逆用</p>
-<p>乘法求导规则$(uv)’=u’v+uv’.$</p>
-</li>
-</ol>
-<script type="math/tex; mode=display">
-\begin{align*}
-   &由于罗尔定理使得f'(\xi)=0.那么题目给的条件g(x)=0中，g(x)可能不等于F'(x)，\\
-   &而是F'(x)除以或乘以某个不为0的函数的结果，即g(x)=F'(x)\cdot \varphi(x).\\
-   &辅助函数可能为F(x)=f(x)\cdot e^{\varphi(x)}的形式，F'(x)=e^{\varphi(x)}(f'(x)+f(x)\varphi'(x))\\
-   &由于e^{\varphi(x)}\neq 0不影响F'(x)是否为0，所以题目给出的g(x)=f'(x)+f(x)\varphi'(x)\neq F'(x)\\
-   &构造F(x)的时候要注意有e^{\varphi(x)}乘积项。
-   \end{align*}</script><ol>
-<li><p>推广的罗尔定理</p>
-<p>不需要闭区间连续，只要两个端点处的极限值相等即可。（包含无穷）</p>
-</li>
-<li><p>拉格朗日中值定理</p>
-<script type="math/tex; mode=display">
-设f(x)在[a,b]连续，(a,b)可导，则f(b)-f(a)=f'(\xi)(b-a)\space (\xi \in (a,b))\\
-当f(b)=f(a)，该定理变为罗尔定理。</script></li>
-<li><p>柯西中值定理</p>
-<script type="math/tex; mode=display">
-设f(x)、g(x)在[a,b]连续，(a,b)可导，且g'(x)\neq 0.\\
-则\frac{f(b)-f(a)}{g(b)-b(a)}=\frac{f'(\xi)}{g'(\xi)},\xi \in (a,b)</script><p>注：柯西中值定理不能通过单独对$f(x)、g(x)$运用拉氏定理得到，因为$\xi$是一个数而不是两个.</p>
-<p>证明方法：将式子整理为:$(f(b)-f(a))\cdot g’(\xi) -(g(b)-g(a))\cdot f’(\xi)=0$，然后构造辅助函数$F(x)$使得$F(a)=F(b)，同时F’(x)等于上式左边的部分，再用罗尔定理即可。$</p>
-<p>说明：柯西中值定理当$g(x)=x$时，弱化为拉格朗日中值定理。</p>
-</li>
-<li><p>泰勒公式</p>
-<ul>
-<li><p>拉格朗日余项（某个区间，要求n+1阶导数）</p>
-</li>
-<li><p>佩亚诺余项（某个点，n阶导数）</p>
-</li>
-<li><p>去除$f’(0)$的项的办法：</p>
-<ul>
-<li>$f(x)为偶函数$</li>
-<li>$f(x)在0处切线水平$</li>
-<li>$\int_{-a}^{a}f’(0)x =0、\int_{0}^{2x_0}f’(0)(x-x_0)=0.$</li>
-</ul>
-</li>
-<li><p>$中值\xi 是端点的函数$</p>
-</li>
-<li><p>联系函数与一阶导数：拉格朗日中值定理</p>
-<p>联系函数与高阶导数：泰勒公式</p>
-<p>联系函数与原函数：积分</p>
-</li>
-<li><p>对导数利用介值定理，将含有中值的项单独放在一边，想办法将另一边放缩到最值[m,M]之间即可。</p>
-</li>
-</ul>
-</li>
-<li><p>导数介值定理</p>
-<p>导数存在只有两种可能：导数连续或者导数振荡间断</p>
-</li>
-</ol>
-<hr>
-<h4 id="零点问题和微分不等式"><a href="#零点问题和微分不等式" class="headerlink" title="零点问题和微分不等式"></a>零点问题和微分不等式</h4><ol>
-<li><p>零点定理：严格闭区间</p>
-</li>
-<li><p>推广的零点定理（开区间）：端点不能取到则取极限值</p>
-</li>
-<li><p>罗尔定理推论</p>
-<p>$若f^{(n)}(x)=0至多k个根，则f(x)至多k+n个根$</p>
-<p>有且仅有n个根：证明至多有n个根，然后找出n个根即可，找根过程就是求至少的过程。</p>
-</li>
-<li><p>实系数奇数次多项式至少有一根</p>
-</li>
-<li><p>含参数的方程求根和不含参数方程根</p>
-</li>
-<li><p>不等式问题（令辅助函数）</p>
-<ol>
-<li><p>求导得单调性，比大小，辅助函数可能需要一定的恒等变换</p>
-</li>
-<li><p>求导得凹凸性，端点相等得区间内大小</p>
-</li>
-<li><p>求导得唯一极值点，比大小</p>
-</li>
-<li><p>常数转变量</p>
-</li>
-<li><p>拉格朗日中值定理和泰勒公式的利用</p>
-</li>
-<li><p>重要结论</p>
-<p><img src="/2021/02/22/%E6%95%B0%E5%AD%A6%E4%BA%8C/image-20210830181943282.png" alt="image-20210830181943282"></p>
-</li>
-</ol>
-</li>
-</ol>
-<hr>
-<h4 id="一元函数积分学概念和计算"><a href="#一元函数积分学概念和计算" class="headerlink" title="一元函数积分学概念和计算"></a>一元函数积分学概念和计算</h4><ol>
-<li><p>重要结论</p>
-<ul>
-<li><p>奇函数的原函数都是偶函数，偶函数的原函数只有一个是奇函数</p>
-</li>
-<li><p>周期函数的原函数在相同周期间隔内的积分值相同</p>
-<p>$\int_a^{a+T}f(x)dx=\int_0^{T}f(x)dx$</p>
-<p>证明：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-&\int_a^{a+T}f(x)dx=\int_a^{0}f(x)dx+\int_0^Tf(x)dx+\int_T^{a+T}f(x)dx\\
-&观察式子可知，当\int_a^{0}f(x)dx+\int_T^{a+T}f(x)dx=0时结论得证\\
-&又已知\int_a^0f(x)dx=-\int_0^af(x)dx，积分与积分变量表示无关。\\
-&猜测\int_T^{a+T}f(x)d=\int_0^af(x)dx.\\
-&观察积分上下限可知，令t=x-T可以使得还原后得到\int_0^a:\\
-&\int_T^{a+T}f(x)dx\stackrel{令x=t+T}\Rightarrow\int_0^af(t)dt
-\end{align*}</script></li>
-</ul>
-</li>
-<li><p>原函数存在定理（不定积分）</p>
-<ul>
-<li>函数连续</li>
-<li>函数只有振荡间断点</li>
-</ul>
-</li>
-<li><p>定积分定义（黎曼积分）</p>
-<p>$\int_a^bf(x)dx=\lim\limits_{n\to \infty}\sum_{i=1}^{n}f(a+\frac{(b-a)i}{n})\frac{b-a}{n}$</p>
-<p>特别地，当$a=0，b=1$：</p>
-<p>$\int_0^1f(x)dx=\lim\limits_{n\to \infty} \sum\limits_{i=1}^{n}f(a+\frac{i}{n})\frac{1}{n}$</p>
-</li>
-<li><p>定积分存在</p>
-<p>前提：有限区间</p>
-<ul>
-<li>充分条件：<ul>
-<li>函数连续</li>
-<li>函数单调</li>
-<li>函数只有有限个可去、振荡、跳跃间断点</li>
-</ul>
-</li>
-<li>必要条件<ul>
-<li>函数在该区间有界</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>定积分的性质</p>
-<ul>
-<li><p>保号性</p>
-<script type="math/tex; mode=display">
-区间[a,b]上，若f(x)\leq g(x)，则\int_a^bf(x)dx\leq \int_a^bg(x)dx\\
-注：等号当且仅当f(x)\equiv g(x)时成立</script><p>推论：</p>
-<script type="math/tex; mode=display">
-区间[a,b]上，若f(x)\leq 0，则\int_a^bf(x)dx\leq 0.\\
-注：等号当且仅当f(x)\equiv g(x)时成立</script></li>
-<li><p>估值定理</p>
-</li>
-<li><p>中值定理：开区间、闭区间都可以。</p>
-</li>
-</ul>
-</li>
-<li><p>变限积分求导公式</p>
-<p>$(\int_{\varphi (x)}^{g(x)}f(t)dt)’=f’(\varphi (x))\varphi ‘(x)-f’(g(x))g’(x)$</p>
-</li>
-<li><p>反常积分</p>
-<ul>
-<li><p>无穷区间</p>
-</li>
-<li><p>无界函数</p>
-<p>当$x=b时候f(x)无穷大，则x=b为瑕点$</p>
-</li>
-</ul>
-</li>
-<li><p>基本积分法</p>
-</li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>高数</tag>
       </tags>
   </entry>
   <entry>

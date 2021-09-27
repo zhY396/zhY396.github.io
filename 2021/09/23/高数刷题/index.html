@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!--pjax：防止跳转页面音乐暂停-->
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/personal/capsule32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/personal/capsule16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://zhY396.github.io').hostname,
+    root: '/',
+    scheme: 'Mist',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"hide","padding":18,"offset":12,"onmobile":true},
+    copycode: {"enable":true,"show_result":true,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="引言刷题模糊点记录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="高数刷题">
+<meta property="og:url" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/index.html">
+<meta property="og:site_name" content="时光胶囊">
+<meta property="og:description" content="引言刷题模糊点记录">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923185520776.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923205550460.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210924205941747.png">
+<meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210927142035307.png">
+<meta property="article:published_time" content="2021-09-23T09:41:41.000Z">
+<meta property="article:modified_time" content="2021-09-27T07:14:44.147Z">
+<meta property="article:author" content="Hui">
+<meta property="article:tag" content="数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923185520776.png">
+
+<link rel="canonical" href="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>高数刷题 | 时光胶囊</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  
+  <!-- 爆炸效果 -->
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/firework.js"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">时光胶囊</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Hui">
+      <meta itemprop="description" content="Hui的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="时光胶囊">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          高数刷题
+        </h1>
+
+        <div class="post-meta">
+			
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-09-23 17:41:41" itemprop="dateCreated datePublished" datetime="2021-09-23T17:41:41+08:00">2021-09-23</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-09-27 15:14:44" itemprop="dateModified" datetime="2021-09-27T15:14:44+08:00">2021-09-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%80%83%E7%A0%94/" itemprop="url" rel="index">
+                    <span itemprop="name">考研</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>255</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>刷题模糊点记录</p>
+<span id="more"></span>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><ol>
+<li><p>已知复合函数$f(g(x))表达式求f(x)$</p>
+<ul>
+<li>换元法：令$t=g(x),运算求出f(t)$</li>
+<li>拼凑法：在表达式中拼凑出$g(x)$</li>
+</ul>
+</li>
+<li><p>如果$\lim\limits_{n\to \infty}\frac{x_{n+1}}{x_n}\neq 1且x_n极限存在$，则$x_n=0$</p>
+<p>反证法：假设$x_n\neq 0 ，则\lim\limits_{n\to \infty}\frac{x_{n+1}}{x_n}=1$</p>
+</li>
+<li><script type="math/tex; mode=display">
+\lim\limits_{n\to \infty}(a^n+b^n)^{\frac{1}{n}}（0<a<b）=b.\\
+证明：令I=(a^n+b^n)^{\frac{1}{n}}，则：\\
+(b^n)^{\frac{1}{n}}<I <(b^n+b^n)^{\frac{1}{n}}\\
+b<I<2^{\frac{1}{n}}b=b\\
+由夹逼准则可知原极限为b.</script></li>
+<li><script type="math/tex; mode=display">
+a_1=\sqrt n\\
+a_n=\sqrt{n+a_{n-1}}=\sqrt{n+\sqrt{n+\sqrt{n+\sqrt{n+...}}}}< n(n\geq2)\\
+数学归纳法证明：\\
+(1)a_1=\sqrt{n}<n,a_2=\sqrt{n+\sqrt n}<\sqrt{n+n}=\sqrt{2n}.\\
+\sqrt{2n}\leq n \Rightarrow a2< n.\\
+(2)设a_k\leq n，则a_k+1=\sqrt{n+a_k}\leq \sqrt{n+n}=\sqrt{2n}.\\
+\sqrt{2n}\leq n \Rightarrow a_{k+1}<n.\\
+即该数列以n为上界。</script></li>
+<li><p>用数列极限定义证明极限时一个技巧</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923185520776.png" alt="image-20210923185520776"></p>
+</li>
+<li><p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210923205550460.png" alt="image-20210923205550460"></p>
+</li>
+<li><p>当证明的等式中含有两个不确定的中值变量，例如$\eta,\xi$，考虑使用两个不同中值定理或者划分区间使用一个中值定理两次。</p>
+<p>例如：</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210924205941747.png" alt="image-20210924205941747"></p>
+<p>本题中由于出现两个中值变量，则考虑上面所述。由于$f(a)\neq f(b)$，所以不优先考虑罗尔定理。由于证明等式的两边没有明显对称，所以考虑使用不同的中值定理，最后选用拉氏定理和柯西中值定理即可求解。</p>
+</li>
+<li><p>证明中需要用到中值定理，而题目中给了一个常量等式，则考虑将常量变量化，构造辅助函数。</p>
+</li>
+<li><p>遇到三个点，尝试两次拉氏定理。若无三个点，尝试构造三个点。</p>
+</li>
+<li><p>使得一阶导数为0的方法：</p>
+<ul>
+<li>切线水平、斜率为0.</li>
+<li>原函数为偶函数，则0点处导数为0.</li>
+<li>罗尔定理（关键点：找辅助函数、找相等点）</li>
+<li>费马定理（关键点：证明端点不是最值）</li>
+<li>一阶导数为奇函数但不在0点处，对一阶导数求积分，利用奇函数对称区间积分为0的性质。</li>
+</ul>
+</li>
+<li><p>闭区间考虑介质定理</p>
+</li>
+<li><p>多阶导数考虑泰勒展开，展开点应该是某导数为0的点，方便凑结论。</p>
+</li>
+<li><p>一元二次方程最多两个实根</p>
+</li>
+<li><p>方程的根考虑零点问题</p>
+<ul>
+<li>零点定理</li>
+<li>至少有多少根用罗尔定理，构造要证明方程的原函数</li>
+<li>至多多少根用罗尔定理推论，对要证明的方程求导</li>
+</ul>
+</li>
+<li><p>遇到多个导数，想泰勒展开式</p>
+</li>
+<li><p>需要判断一个式子的正负，需要尽可能的提取公因式，这些公因式中某些是恒正或恒负的，最后聚焦于无法判断正负的因式上，这个因式应该满足：</p>
+<ul>
+<li>尽可能的将恒正/负的变量提取出去，对应拆项补项凑出想要使用的不等式</li>
+<li>不要提取非公因式的常量，因为没有简化作用</li>
+</ul>
+<p>满足这些条件以后，该因式的正负才容易判断。</p>
+<p>例如：</p>
+<script type="math/tex; mode=display">
+对于x\in(0,\frac{\pi}{2})\\
+(x^2+\sqrt{4+x^4})(\frac{2xcosx}{\sqrt{4+x^4}}-sinx)\\
+分析：左边的因式(x^2+\sqrt{4+x^4})恒正，考虑右方，右方的式子中存在恒正/负的变量xcosx、sinx\\
+考虑将他们提出去：\\
+(1)提xcosx:(x^2+\sqrt{4+x^4})xcosx(\frac{2}{\sqrt{4+x^4}}-\frac{tanx}{x})\\
+由于\frac{tanx}{x}>1，\frac{2}{\sqrt{4+x^4}}<1,所以原式为负；\\
+(2)提sinx:(x^2+\sqrt{4+x^4})sinx(\frac{2x}{tanx\sqrt{4+x^4}}-1)\\
+由于\frac{x}{tanx}<1,\frac{2}{\sqrt{4+x^4}}<1,所以原式为负;</script></li>
+<li><script type="math/tex; mode=display">
+F(x)=\int_0^xf(x)dx是f(x)的一个原函数，而不能代表所有原函数，因为下界已定。</script></li>
+<li><p>分母次数必分子次数大的积分考虑：</p>
+<ul>
+<li><p>分子进行等价替换然后拆分：</p>
+<p>例如:$1=sin^2x+cos^2x=\frac{(x^2+1)-(x^2-1)}{2}$</p>
+</li>
+<li>考虑凑反三角函数</li>
+<li>拆分有理函数</li>
+<li>倒代换</li>
+</ul>
+<p>如果变化后的式子仍然难以求解，尝试和原来的式子进行四则运算。</p>
+</li>
+<li><p>当使用换元法或者区间再现等公式获得原有积分的等价形式后积分仍然难以计算，尝试和原来的积分进行四则运算。</p>
+</li>
+<li><p>$cosa\theta的图像总是落后于sina\theta。\\在直角坐标系中A落后B代表A在B的左方，在极坐标系中A落后B代表A在B的顺时钟方向。$</p>
+<p>例如：</p>
+<script type="math/tex; mode=display">
+cos2\theta图像逆时针旋转\frac{\pi}{4}即可得到sin2\theta的图像。\\
+
+因为cos(2\theta-\frac{\pi}{2})=cos(2(\theta-\frac{\pi}{4}))=sin(2\theta)\\
+所谓左加右减，顺加逆减</script></li>
+<li><p>求旋转体体积：先求一条线旋转，再积分。</p>
+</li>
+<li><p>旋转轴不在x、y的图像只需要平移以后使得旋转轴处于x、y骤在计算即可。</p>
+</li>
+<li><p>解题</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+&已知公式：a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+a^{n-1}b^2+...+ab^{n-2}+b^{n-1}),n属于正整数\\
+&所以有：(1-x^3)=(1^3-x^3)=(1-x)(1^2+1x+1^0x^2)=(1-x)(1+x+x^2)\\
+&\lim\limits_{x\to 1}(\frac{1}{1-x}-\frac{3}{1-x^2})\\
+&=\lim\limits_{x\to 1}\frac{1+x+x^2-3}{1-x^3}\\
+&=\lim\limits_{x\to 1}\frac{x^2+x-2}{1-x^3}\\
+&=\lim\limits_{x\to 1}\frac{(x-1)(x+2)}{(1-x)(1+x+x^2)}\\
+&=\lim\limits_{x\to 1}-\frac{(x+2)}{(1+x+x^2)}\\
+&将1代入即可得到答案=-1.
+还有一种方法是用洛必达法则.
+made\space by\space kyrry.
+\end{align*}</script></li>
+<li><p>算旋转体体积注意不能乱套公式</p>
+<ul>
+<li><p>仅仅位于x的正半轴或者x的负半轴且绕y轴旋转</p>
+<p>$正半轴：s=\int_a^b2\pi xf(x)dx\\负半轴:s=-\int_a^b2\pi xf(x)dx$</p>
+<p>原因：其中乘积有$x$，$x$在负半轴为负数。</p>
+<p>该公式由柱壳法得到，其中$2\pi x为长，f(x)为高，dx为宽$</p>
+</li>
+<li><p>如果要将一个图像沿着y轴翻折，则将$x都换为-x$即可，例如：$(x+2)^3和(-x+2)^3$</p>
+</li>
+<li><p>如果不沿着$x、y$轴旋转，则有两种方法处理</p>
+<ol>
+<li>平移、翻折使得旋转轴为$x、y$ 轴然后套公式计算。</li>
+<li>微元法表示出$ds$，然后积分。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>一个特殊的极限</p>
+<p><img src="/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210927142035307.png" alt="image-20210927142035307" style="zoom: 25%;"></p>
+<script type="math/tex; mode=display">
+由区间再现公式可证(1)(2)，运用(2)可计算积分.\\
+另一个思路是直接对该积分运用区间变换公式。\\
+
+\begin{align*}
+    &\int_0^{\pi}\frac{xsinx}{1+cos^2x}dx\\
+    &=\frac{\pi}{2}\int_0^{\pi}\frac{sinx}{1+cos^2x}dx\\
+    &=-\frac{\pi}{2}\int_0^{\pi}\frac{dcosx}{1+cos^2x}\\
+    &=-\frac{\pi}{2}arctancosx\Big|_0^{\pi}\\
+\end{align*}</script></li>
+</ol>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Hui
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/" title="高数刷题">https://zhy396.github.io/2021/09/23/高数刷题/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag"># 数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/14/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5%E7%9A%84%E6%80%9D%E8%80%83/" rel="prev" title="数学概念的思考">
+      <i class="fa fa-chevron-left"></i> 数学概念的思考
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/09/27/vscode%E4%BD%BF%E7%94%A8/" rel="next" title="vscode使用">
+      vscode使用 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%85%E5%AE%B9"><span class="nav-number">2.</span> <span class="nav-text">内容</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Hui"
+      src="/images/avatar.jpeg">
+  <p class="site-author-name" itemprop="name">Hui</p>
+  <div class="site-description" itemprop="description">Hui的博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/zhY396" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;zhY396" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:zhy396@foxmail.com" title="E-Mail → mailto:zhy396@foxmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1422955304&auto=0&height=66"></iframe>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hui</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">49k</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      element.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+<script type="text/x-mathjax-config">
+    MathJax.Ajax.config.path['mhchem'] = '//cdn.jsdelivr.net/npm/mathjax-mhchem@3';
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        extensions: ['[mhchem]/mhchem.js'],
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
+
+  
+
+    </div>
+</body>
+</html>
