@@ -62,7 +62,7 @@
 <meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210924205941747.png">
 <meta property="og:image" content="https://zhy396.github.io/2021/09/23/%E9%AB%98%E6%95%B0%E5%88%B7%E9%A2%98/image-20210927142035307.png">
 <meta property="article:published_time" content="2021-09-23T09:41:41.000Z">
-<meta property="article:modified_time" content="2021-09-27T07:14:44.147Z">
+<meta property="article:modified_time" content="2021-09-28T13:47:10.371Z">
 <meta property="article:author" content="Hui">
 <meta property="article:tag" content="数学">
 <meta name="twitter:card" content="summary">
@@ -252,7 +252,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-27 15:14:44" itemprop="dateModified" datetime="2021-09-27T15:14:44+08:00">2021-09-27</time>
+                <time title="修改时间：2021-09-28 21:47:10" itemprop="dateModified" datetime="2021-09-28T21:47:10+08:00">2021-09-28</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -331,6 +331,8 @@ a_n=\sqrt{n+a_{n-1}}=\sqrt{n+\sqrt{n+\sqrt{n+\sqrt{n+...}}}}< n(n\geq2)\\
 <li><p>证明中需要用到中值定理，而题目中给了一个常量等式，则考虑将常量变量化，构造辅助函数。</p>
 </li>
 <li><p>遇到三个点，尝试两次拉氏定理。若无三个点，尝试构造三个点。</p>
+</li>
+<li><p>遇到证明中值的问题且题目包含积分，尝试积分中值定理。</p>
 </li>
 <li><p>使得一阶导数为0的方法：</p>
 <ul>
@@ -442,7 +444,86 @@ made\space by\space kyrry.
     &=-\frac{\pi}{2}arctancosx\Big|_0^{\pi}\\
 \end{align*}</script></li>
 </ol>
+<ol>
+<li><p>去除$f’(0)$的项的办法：</p>
+<ul>
+<li>$f(x)为偶函数$</li>
+<li>$f(x)在0处切线水平$</li>
+<li>$\int_{-a}^{a}f’(0)x =0、\int_{0}^{2x_0}f’(0)(x-x_0)=0.（奇函数对称区间抵消）$</li>
+</ul>
+</li>
+<li><p>一个逻辑链：</p>
+<p>区间$[a,b]$的$f(x)$定积分等于0，则$\exist \xi\in(a,b)，f(\xi)=0$</p>
+<p>证明：</p>
+<script type="math/tex; mode=display">
+\int_a^bf(x)dx\neq 0 \Rightarrow f(x)在[a,b]不恒正或恒负.\\
+\Rightarrow\exist f(\xi_1)>0,f(\xi_2)<0,\xi_1,\xi_2 \in(a,b)\\
+由零点定理，\exist \xi\in(\xi_1,\xi_2)\sub(a,b),f(\xi)=0,</script></li>
+<li><p>找两个不同点的思路</p>
+<script type="math/tex; mode=display">
+如果要证明两个不同点f'(\xi_1)=f'(\xi_2)=0.\\
+则需要找三个不同点使得f(a)=f(b)=f(c).\\
+一般f(a)、f(b)是端点，需要证第三个点f(c)。\\</script></li>
+<li><p>函数的条件中是$F(x)=\int f(x)dx$，但是证明过程中跑出$\int xf(x)dx$的处理方法</p>
+<script type="math/tex; mode=display">
+1.分部积分\\
+\int xf(x)dx=xF(x)-\int F(x)dx\\
+2.区间再现</script></li>
+<li><p>三个点可以联想：拉氏定理、罗尔定理</p>
+</li>
+<li><p>证明某函数等于0或者某个等式的方法</p>
+<p>注意变量$\xi或\eta$的取值范围，一般闭区间每个都可以考虑，开区间不考虑介值定理。</p>
+<ul>
+<li><p>一阶导数</p>
+<ol>
+<li>介值定理：出现原函数</li>
+<li>零点定理：出现原函数</li>
+<li>拉氏定理：出现一阶导数</li>
+<li>罗尔定理：出现一阶导数</li>
+<li>费马定理：出现一阶导数</li>
+<li>积分中值定理、中间值定理：出现一重积分</li>
+</ol>
+</li>
+<li><p>当遇到二阶导数时可能有下面的情况：</p>
+<ol>
+<li>两次拉氏定理，三个点</li>
+<li>两次罗尔定理，三个点</li>
+<li>泰勒公式，某些项可能为0.</li>
+</ol>
+</li>
+<li>遇到多个函数的情况<ol>
+<li>柯西中值定理</li>
+<li>令一个辅助函数为多个函数的四则运算，然后用其他中值定理</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>证不等式</p>
+<ul>
+<li>令辅助函数，求单调性，然后证明最值如何，从而等到整个区间如何。</li>
+<li>令辅助函数，根据辅助函数的恒正或恒负，再依据保号性得到不等式。</li>
+<li>用拉氏定理，根据分母和分子的正负性得到式子的正负性。</li>
+<li>用泰勒公式，根据某些项为0，某些恒正恒负得到不等式。</li>
+</ul>
+</li>
+<li><p>多元函数微积分极限证明要用夹逼法、等价替换或者无穷小乘以有界等规律，因为极限有无穷多路径；证伪只需一个反例。</p>
+</li>
+<li><p>多元函数极限</p>
+<ol>
+<li><p>无穷小和有界</p>
+<script type="math/tex; mode=display">
+\lim\limits_{(x,y)\to (0,0)}\frac{sin(x^2y)}{x^2+y^2}\\
 
+=\lim\limits_{(x,y)\to (0,0)}\frac{x^2y}{x^2+y^2}\\
+
+因为0\leq \frac{x^2}{x^2+y^2}<1有界，原极限=0.</script></li>
+</ol>
+</li>
+</ol>
+<pre><code>2. 不存在
+
+   $\lim\limits_&#123;(x,y)\to (0,0)&#125;\frac&#123;x+y^2&#125;&#123;x^2y^4&#125;$
+</code></pre>
     </div>
 
     
